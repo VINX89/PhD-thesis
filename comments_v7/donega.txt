@@ -1,0 +1,17 @@
+pg 15 typically at the end of the theory introductions there is a quick recap of the present status of the experimental knowledge. You could add here the results from Babar/Belle
+
+pg 22 "they are cooled to 0C in order to minimise the damage.”  The damage has already happened. The silicon are kept cold to reduce the effects of (reverse) annealing
+
+pg 26 "The SPD is installed upstream the ECAL to separate electrons from photons”  not sure I understand. Maybe you wanted to write neutral pions instead of electrons ?
+
+Fig 3.2: as we said during the defence it would be nice to add why large mistags have larger stat at large stats at large times
+
+fig 80: typo: "In order to check the robustness of the method and evaluate a —> the systematic uncertainties,"
+ 
+Fig 4.16 the ratio at the bottom is not the plot of the residual but of the pull (same in other figs)
+
+pg 96: a couple of lines just to introduce the idea of the method would help. You start straight with how you get the ingredients of the fit before talking about the fit itself
+
+Fig 5.9 the overlap with Babar/Belle results would be great
+
+pg 125: "a fully software-implemented software will thus be adopted” :-)
