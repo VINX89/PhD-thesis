@@ -1,0 +1,148 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% highlight text
+% Function to highlight text
+\newcommand{\AlertR}[1]{\textcolor{red}{#1}} 
+\newcommand{\AlertP}[1]{\textcolor{pink}{#1}} 
+\newcommand{\AlertY}[1]{\textcolor{yellow}{#1}} 
+\newcommand{\AlertB}[1]{\textcolor{blue}{#1}} 
+\newcommand{\AlertG}[1]{\textcolor{green}{#1}} 
+\newcommand{\AlertM}[1]{\textcolor{magenta}{#1}} 
+\newcommand{\AlertO}[1]{\textcolor{orange}{#1}} 
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Vincenzo}{Battista}
+\title{Ph.D. in Physics}                               % optional, remove / comment the line if not wanted
+\address{Rue du Lac 132}{1815 Clarens}{Switzerland}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+41 77 46 44315}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{vincenzo.battista@cern.ch}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{Phd student at EPFL, Lausanne}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{photo}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Personal details}
+\cvitem{Date of birth}{December 14, 1989}
+\cvitem{Place of birth}{Larino (Campobasso), Italy}
+\cvitem{Citizenship}{Italian}
+
+%\section{Current position}
+%\cvitem{2014-present}{Phd student at EPFL, Lausanne}
+
+\section{Education}
+\cventry{2014-2018}{Ph.D. in Physics}{EPFL}{Lausanne}{}{Thesis: "Measurement of time--dependent $CP$ violation in $B^{0}\to D^{\mp}\pi^{\pm}$ decays and optimisation of flavour tagging algorithms at LHCb" \\ Supervisors: Prof. O Schneider (EPFL), Dr. C. Fitzpatrick (EPFL)}  % arguments 3 to 6 can be left empty
+\cventry{2011-2014}{MS.c. in Physics}{University of Ferrara}{Italy}{\textit{Grade: 110/110 cum laude}}{Thesis: "A Study of Semileptonic $B$ Decays in Orbitally Excited $D$ Mesons at LHCb" \\ Supervisor: Dr. C. Bozzi (INFN Ferrara)}
+\cventry{2008-2011}{BS.c. in Physics}{University of Ferrara}{Italy}{\textit{Grade: 110/110 cum laude}}{Thesis: "Studio dei parametri caratteristici di dispositivi optoelettronici per il rivelatore di muoni dell'esperimento SuperB" \\ Supervisors: Prof. R. Calabrese (University of Ferrara), Dr. W. Baldini (INFN Ferrara), Dr. G. Cibinetto (INFN Ferrara)}
+
+\section{Selected publications}
+\cvitem{}{LHCb collaboration, R. Aaij \emph{et al.}, \emph{Measurement of $CP$ violation in $B^0\to D^{\mp}\pi^{\pm}$ decays}, to appear in JHEP (2018), \href{https://arxiv.org/abs/1805.03448}{arXiv:1805.03448 [hep-ex]}}
+\cvitem{}{LHCb collaboration, R. Aaij \emph{et al.}, \emph{Measurement of $CP$ asymmetry in $B_s^0\to D_s^{\mp}K^{\pm}$ decays}, JHEP \textbf{03} (2018) 059, \href{https://arxiv.org/abs/1712.07428}{arXiv:1712.07428 [hep-ex]}}
+\cvitem{}{V. Battista, \emph{$b$-flavour tagging in $pp$ collisions at LHCb}, Il Nuovo Cimento \textbf{C4} (2016), 10.1393/ncc/i2016-16335-5}
+\cvitem{}{V. Battista \emph{et al.}, \emph{A study of spillover clusters and ghost tracks in the Silicon Tracker with $25$ ns bunch spacing}, CERN-LHCb-INT-2016-010 (2016)}
+
+\section{Teaching assistantship}
+\cvitem{2014-2017}{Laboratory of nuclear physics, exercises on nuclear and particle physics (EPFL)}
+\cvitem{2012}{Exercises on general physics, data analysis and programming (University of Ferrara)}
+
+\section{Scholarships}
+\cvitem{Summer 2012}{CERN Summer Student Programme \newline{} Calibration of silicon-based sensors for the monitoring of the radiation field in the LHCb cavern \newline{} Supervisors: Dr. G. Corti (CERN), Dr. M. Karacson (CERN)}
+\cvitem{Summer 2011}{DOE/INFN Summer Exchange Program, SLAC \newline{} Optimisation of the selection of $D_{s}^{+*}\to D_{s}^{+}(\to \mu^+ \nu_\mu) \gamma$ decays using simulated events for the BaBar experiment \newline{} Supervisor: Dr. M. Convery (SLAC)}
+
+\section{Research activity}
+
+\subsection{$CP$ violation measurements with $B^0$ and $B^0_s$ decays}
+\cvitem{}{I performed measurements of the CKM angle $\gamma$ with time-dependent analyses of $B^0\to D^{\mp}\pi^{\pm}$ and $B_s^0\to D_s^{\mp}K^{\pm}$ using
+data collected with the LHCb detector. The result obtained with $B^0\to D^{\mp}\pi^{\pm}$ is more precise than previous measurements from BaBar and Belle collaborations.
+The analysis of $B_s^0\to D_s^{\mp}K^{\pm}$ is the first measurement of $\gamma$ using $B^0_s$ decays.}
+
+\subsection{Flavour tagging algorithms}
+\cvitem{}{I implemented and optimised flavour tagging algorithms used by the LHCb collaboration to infer the flavour of neutral $B$ mesons for time-dependent analyses.}
+
+\subsection{Silicon Tracker}
+\cvitem{}{I was responsible for the calibration and the maintenance of the Silicon Tracker detector of LHCb.}
+
+\section{Talks at conferences}
+\cvitem{Apr 2018}{\emph{Incontri di Fisica delle Alte Energie}, Milano, \newline{} "Misure di violazione di $CP$ in decadimenti  $B^0\to D^{\mp}\pi^{\pm}$ a LHCb"}
+\cvitem{Aug 2017}{\emph{CHIPP \& Swiss Physical Society Meeting}, Geneva \newline{} "Flavour tagging in $pp$ collisions at LHCb"}
+\cvitem{May 2017}{\emph{Technology and Instrumentation in Particle Physics}, Beijing \newline{} "Operation of the LHCb silicon tracking and vertexing systems in LHC Run-2"}
+\cvitem{Feb 2017}{\emph{Lake Louise Winter Institute}, Lake Louise \newline{} "$CP$ violation in $B$ decays at LHCb"}
+\cvitem{Aug 2016}{\emph{CHIPP Annual Plenary Meeting}, Lugano \newline{} "Time-dependent measurement of $CP$ violation in $B^0\to D^-\pi^+$ decays at LHCb"}
+\cvitem{Mar 2016}{\emph{Les Rencontres de Physique de la Vallee d'Aoste}, La Thuile \newline{} "$b$-flavour tagging in $pp$ collisions at LHCb"}
+\cvitem{Apr 2015}{\emph{Incontri di Fisica delle Alte Energie}, Roma, \newline{} "Violazione di $CP$ e misura di $|V_{ub} |$ tramite decadimenti semileptonici di adroni $B$ a LHCb"}
+
+\section{Software skills}
+\cvitem{}{C, C++, Python, Linux shell, ROOT, RooFit, TMVA, Matlab, Mathematica, Keras, scikit-learn, MySQL, Tableau, \LaTeX}
+
+\section{Languages}
+\cvitem{}{English (fluent, C2), French (advanced, B2) and Italian (mother tongue)}
+
+\section{Science outreach}
+\cvitem{2016}{Collaboration to the organisation of the "EPFL Open Days". An exhibit of simple experiments was organised for the general public in order to explain the principles of particle physics and detectors.}
+\cvitem{2015-2016}{Collaboration with an italian science popularisation journal (\emph{Quaderni di scienza e scienziati molisani}).}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template.tex'.

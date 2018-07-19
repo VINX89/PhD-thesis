@@ -1,0 +1,62 @@
+%!TEX root = ../my_thesis.tex
+\section{Signal PDF for the decay-time fit}
+\label{app:timepdf}
+
+The PDF $P(t | d_{\rm OS}, d_{\rm SS}, \eta_{\rm OS}, \eta_{\rm SS}, q)$ describing the $\Bz$ decay time distribution is proportional, in the most general case, to
+
+\begin{equation}
+\label{eq:gentimepdf}
+    e^{-\frac{t}{\tau}} \Big[ C^{\rm eff}_{\cosh}\cosh\left(\frac{\DG t}{2}\right) + C^{\rm eff}_{\sinh}\sinh\left(\frac{\DG t}{2}\right) 
+    + C^{\rm eff}_{\cos}\cos\left(\Delta m\, t\right) + C^{\rm eff}_{\sin}\sin\left(\Delta m\, t\right) \Big]\,. 
+\end{equation}
+
+The four ``effective'' \CP~coefficients inside Eq.~\ref{eq:gentimepdf} depend on the final state ($q=f=\Dm\pip$ or $q=\bar f=\Dp\pim$), the tagging decision ($d_{i}=-1,0,+1$, for $i=\rm OS, \rm SS$), the mistag and the tagging efficiency of the OS and SS taggers, and the asymmetries (production, detection and tagging efficiency). In the ideal case (no asymmetries, zero mistag, $100\%$ tagging efficiency), these effective coefficients become the \CP~coefficients already introduced in Sec.~\ref{sec:neutral_meson_decays}.
+
+The OS and SS taggers are combined on the fly during the time fit. All the steps to build the final PDF are described in details below.
+
+The tagging efficiency $\varepsilon_{\rm tag}^{i}$ of the $i$th tagger ($i=\rm OS,\rm SS$) is corrected for the tagging efficiency difference $\Delta\varepsilon^{i}$ as follows:
+\begin{align}
+        \varepsilon_{B}^{i} &= \varepsilon_{\rm tag}^{i} - \frac{1}{2} \Delta\varepsilon^{i}\,, \\
+        \varepsilon_{\bar B}^{i} &= \varepsilon_{\rm tag}^{i} + \frac{1}{2} \Delta\varepsilon^{i}\,,
+\end{align} 
+where $\varepsilon_{B}^{i}$ and $\varepsilon_{\bar B}^{i}$ are the two different tagging efficiencies for $\Bz$ and $\Bzb$, respectively. Moreover, the OS and SS mistag are calibrated taking into account asymmetries between $\Bz$ and $\Bzb$ according to Eq.~\ref{eq:FTcalibrationSplit}. We will refer to them here as $\omega_{B}^{i}$ and $\omega_{\bar B}^{i}$ (for $i=\rm OS,\rm SS$).
+It's now convenient to define the quantity $\Delta^{\pm}(d_{\rm OS}, d_{\rm SS})$ in the following way according to the OS and SS tagging decisions.
+\begin{itemize}[noitemsep,topsep=0pt]
+        \item If $d_{\rm OS}=d_{\rm SS}=0$ (untagged $\Bz$ candidate):
+        \begin{equation}
+        \Delta^{\pm} = (1-\varepsilon_{B}^{\rm OS}-\varepsilon_{B}^{\rm SS}+\varepsilon_{B}^{\rm OS}\varepsilon_{B}^{\rm SS})\pm(1-\varepsilon_{\bar B}^{\rm OS}-\varepsilon_{\bar B}^{\rm SS}+\varepsilon_{\bar B}^{\rm OS}\varepsilon_{\bar B}^{\rm SS})\,. 
+        \end{equation}
+        \item If $d_{i}=0$, $d_{j}\neq 0$ and $i\neq j$ ($\Bz$ candidate tagged by one tagger):
+        \begin{equation}
+        \begin{split}
+        \Delta^{\pm} &= \frac{1}{2}\varepsilon_{B}^{j}\Big[1-\varepsilon_{B}^{i}+d_{j}\Big(1-\varepsilon_{B}^{i}-2\omega_{B}^{j}+2\omega_{B}^{j}\varepsilon_{B}^{i}\Big)\Big] \\
+        & \pm \frac{1}{2}\varepsilon_{\bar B}^{j}\Big[1-\varepsilon_{\bar B}^{i}+d_{j}\Big(1-\varepsilon_{\bar B}^{i}-2\omega_{\bar B}^{j}+2\omega_{\bar B}^{j}\varepsilon_{\bar B}^{i}\Big)\Big]\,. 
+        \end{split}
+        \end{equation}
+        \item If $d_{\rm OS}=d_{\rm SS}=1$ ($\Bz$ candidate tagged by both taggers):
+        \begin{equation}
+        \begin{split}
+        \Delta^{\pm} &= \frac{1}{4} \varepsilon_{B}^{\rm SS} \varepsilon_{B}^{\rm OS} \Big[1+d_{\rm SS}\Big(1-2\omega_{B}^{\rm SS}\Big)+d_{\rm OS}\Big(1-2\omega_{B}^{\rm OS}\Big)\\
+        & +d_{\rm OS}d_{\rm SS}\Big(1-2\omega_{B}^{\rm SS}-2\omega_{B}^{\rm OS}+4\omega_{B}^{\rm SS}\omega_{B}^{\rm OS}\Big)\Big] \\
+        & \pm\frac{1}{4}\varepsilon_{\bar B}^{\rm SS}\varepsilon_{\bar B}^{\rm OS}\Big[1+d_{\rm SS}\Big(1-2\omega_{\bar B}^{\rm SS}\Big)+d_{\rm OS}\Big(1-2\omega_{\bar B}^{\rm OS}\Big)\\
+        & +d_{\rm OS}d_{\rm SS}\Big(1-2\omega_{\bar B}^{\rm SS}-2\omega_{\bar B}^{\rm OS}+4\omega_{\bar B}^{\rm SS}\omega_{\bar B}^{\rm OS}\Big)\Big]\,.
+        \end{split}
+        \end{equation} 
+\end{itemize}
+
+Finally, the effective \CP~coefficients can be written as
+\begin{equation}
+        C^{\rm eff}_{\sin,\cos} = 
+        \begin{cases}
+        (1+A_{\mathrm D})C^{\rm phys}_{\sin,\cos}(\Delta^{-}-A_{\mathrm P}\Delta^{+}) & \text{for } q=f=\Dm\pip, \\
+        -(1-A_{\mathrm D})C^{\rm phys}_{\sin,\cos}(\Delta^{-}-A_{\mathrm P}\Delta^{+}) & \text{for } q=\bar f=\Dp\pim, \\
+        \end{cases}
+\end{equation}
+\begin{equation}
+        C^{\rm eff}_{\sinh,\cosh} =
+        \begin{cases}
+        (1+A_{\mathrm D})C^{\rm phys}_{\sinh}(\Delta^{+}-A_{\mathrm P}\Delta^{-}) & \text{for } q=f=\Dm\pip, \\
+        (1-A_{\mathrm D})C^{\rm phys}_{\sinh}(\Delta^{+}-A_{\mathrm P}\Delta^{-}) & \text{for } q=\bar f=\Dp\pim, \\
+        \end{cases}
+\end{equation}
+where $A_{\mathrm D}$ and $A_{\mathrm P}$ are the production and detection asymmetries defined in Eqs.~\ref{eq:adet} and~\ref{eq:aprod}, respectively.

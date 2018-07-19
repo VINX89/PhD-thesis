@@ -1,0 +1,307 @@
+General: Very good. There are a lot of figures/tables that 'pile up' on otherwise blank pages or break the text. Not a problem now as this is a draft in progress but make sure you arrange them in the final draft. For the introductions to some of the chapters the motivation comes after a description of the work you did specifically. I wonder if these can be merged, as otherwise the first paragraph to each of these chapters is very sudden and misses context that comes later. 
+
+footnote p3: intended -> denoted or stated perhaps
+
+> Fixed
+
+39: exists
+
+> Fixed
+
+58: although
+
+> Fixed
+
+62: = should be identically equal I think (three lines) 
+
+> Fixed
+
+63: Here I think 'complex phase' rather than weak phase 
+
+> Fixed
+
+bottom p5: 'rewritten as a series expansion *in* powers
+
+> Fixed
+
+So far: no mention as yet of the scale of CPV in the SM, eg: via the Jarlskog invariant. I think it's worth mentioning that it isn't just deviation from unitarity that can signal NP, you might want to mention that we know from measurements of CPV that the amount we observe is insufficient to account for the amount of matter in the universe. This motivates measuring the UT. 
+
+> Added
+
+line 98: Up to now there hasn't been any motivation for measuring gamma. It's good to interest the reader by explaining that gamma is the least well measured angle, and theoretically the cleanest CKM angle: In order to look for NP in the UT we need to measure the apex cleanly and gamma is an important part of that. 
+
+> Added
+
+Line 115: I think 'lack of sensitivity' needs expanded, eg: This analysis is not sensitive to Cf /Cfbar because... and so they are fixed to +/-1. 
+
+> Rephrased
+
+Line 119: Rather than stating the expected yield I'd compare the BRs and production rates. 
+
+> Added
+
+Line 123: You are an author of the DsK analysis- I think you should mention this somewhere if you don't already. 
+
+> Added
+
+Line 125: Do you mention what Run 1 dataset means? I'd say using data collected at LHCb over the period 2010-2012. 
+
+> I report in brackets the section where the datasets are defined.
+
+Line 147: made up with -> consisting of 
+
+> Fixed
+
+Line 161 broken ref
+
+> Fixed
+
+162: of b- and c- quark pairs in pp collisions
+
+> Fixed
+
+line 165: where the positive z direction extends into the LHCb detector
+
+> Fixed
+
+197: composed of
+
+> Fixed
+
+202: unit missing (0^{\circ}C 
+
+> Fixed
+
+Sec 2.2.1 general: Perhaps some performance plots/discussion should be included here? ie: What is the purpose of the tracking system, and is it good at it?  Things like momentum resolution, vertex and IP resolution would be interesting to include. This can be motivated by stating that the decay time resolution and rejection of prompt D+track are important for this analysis. 
+
+> Small introduction and plots added.
+
+265: There is a nice diagram that shows how different types of particle are separated by the PS, SPD, ECAL + HCAL. It helps non-experimentalists understand why we have these detectors. 
+
+> Since the calorimeters are not really used neither for the Dpi analysis nor the flavour tagging (except for the Hlt1AllL0Decision trigger, maybe?), I would prefer to keep this section as small as possible.
+
+284: detectors (plural) 
+
+> Fixed
+
+311: it's not all of the rest of the event necessarily, only some of it. Maybe reword to indicate that TIS means another signature in the event caused a trigger to accept it. 
+
+> Rephrased
+
+315: I'd change reconstructed to 'decays are reconstructed at higher quality than was possible in the strict timing requirements of the trigger, and further selections are applied' 
+
+> Added
+
+317: I'd motivate the existence of the L0 more here: The LHCb readout electronics is limited to 1MHz, and so a fixed-latency hardware stage is required. This must make fast decisions and so uses simple criteria that does not require reconstruction of the event. 
+
+> Rephrased
+
+Fig. 2.10: As this analysis is Run 1 only I think you can drop the 2nd figure. 
+
+> The FT reoptimisation is actually performed on Run 2 data, so I prefer to leave the Run 2 trigger scheme as well.
+
+329: decay products
+
+> Fixed
+
+384: and time-dependent CP asymmetries maybe? Not all CP asymmetries need FT. 
+
+> In fact, the sentence is "time-dependent analysis aiming at the measurement of oscillations and CP asymmetries".
+
+para below eq 3.2: and its CP conjugate are
+
+> Fixed
+
+428: occurrs 
+
+> Fixed
+
+445: you may want to motivate why the GLMs were adopted (and mention your involvement) 
+
+> Added
+
+450: cite or describe the Gram-Schmidt method
+
+> Reference added
+
+543: No need for big paragraph breaks here
+
+> Fixed
+
+Fig 3.4: There is a black point hiding under the error bands that may need removed in case people mistake it for a data point
+
+> Fixed
+
+554: This sentence is a bit confusing: The true flavor in data is known in MC? 
+
+> Rephrased
+
+Fig 3.5 same issue as 3.4
+
+> Fixed
+
+573: I'd drop considerably and state the yield. General: I was told when writing scientific literature to never use words ending in 'y': very, greatly, considerably, etc
+
+> Rephrased
+
+596: Despite this test... I would say 'Even thought this test...' 
+
+> Rephrased
+
+601: consistent with the OS tagger treatment
+
+> Fixed
+
+649: these preliminary requirements
+
+> Fixed
+
+669: for hyperparameter tuning (do you define hyperparameter?) 
+
+> Added
+
+675: rightly/wrongly -> correctly/incorrectly. 
+
+> Fixed
+
+Tab. 3.9 should come before Tab 3.7 so the reader knows what the variables mean
+
+> I kept this order for consistency (selection comes before BDT), but I defined the variables never defined before in the captions of Tab 3.7
+
+Fig 3.15: Do you describe the criteria for the KS test? I think it's useful to explain what criteria would make you reject or accept the compatibility. 
+
+> Added in the caption
+
+720: splitted -> split randomly into two...
+
+> Fixed
+
+722: the obtained calibrations 
+
+> Fixed
+
+769: in detail in refs
+
+> Fixed
+
+Tab 4.1: chi2/ndof should be 'track chi2/ndof'
+
+> Fixed
+
+774: mass distribution features
+
+> Fixed
+
+794: paragraphs broken (probably by the decay) 
+
+> Fixed
+
+845: are causing -> cause
+
+> Fixed
+
+894: 18-20 (double minus)
+
+> Fixed
+
+924: the simulated samples used are listed
+
+> Fixed
+
+967: where relevant
+
+> Fixed
+
+997 function (singular) 
+
+> Fixed
+
+1003: 'constant function' needs described. I'd say 'and a zeroth-order function' or 'a constant offset' and use this through the text
+
+> Chose 'constant offset'
+
+Tab 4.15: The second column reports... while the third column
+
+> Fixed
+
+1077: twice as much
+
+> Fixed
+
+1078 by a factor of ~8/7 (it's approximate) 
+
+> Fixed
+
+1127: reconstruction effects -> at high decay times due to the acceptance of the VELO reconstruction
+
+> Rephrased
+
+Fig 5.6: The points with error bars
+
+> Fixed
+
+1172: the central value obtained from the fit to... are in agreement
+
+> Fixed
+
+1177: drop ballpark 
+
+> Dropped
+
+Fig 5.8: the D+/- in the x axis title needs tweaked 
+
+> Chosen "Decay time" (as in the DPi paper) to avoid ambiguities
+
+Fig 5.10 and similar figures: caption: Describe the black line as well 
+
+> Added
+
+1212: for this test or these tests
+
+> "these tests" (fixed)
+
+1397 are very small 
+
+> I think that I should use "is", since the subject (The amount) is singular
+
+Fig 5.26: update with the ones where the CLs are shifted so they don't interfere with the lines
+
+> Updated
+
+1427: two-step
+
+> Fixed
+
+1469: would result in very low statistics...
+
+> Fixed
+
+1509: in order to reduce complexity
+
+> Fixed
+
+Fig 32 and others: You don't provide a z axis 'temperature' scale
+
+> Added
+
+The headings of the Appendices is a bit odd: 'Appendix . Appendices' 
+
+> Removed
+
+1559: There are some text formatting boxes in the axis labels. Also, the fit from which this is determined should be stated: (data, with constraints...)
+
+> I would prefer as it is (the title is quite self-explanatory)
+
+1569: perhaps 'driven by the uncertainty on deltam'
+
+> Fixed
+
+Figs 47-50: I'd make it clear in the caption that the Gauss fit to the error is essentially meaningless unless the error is gaussian distributed. 
+
+> Added
+
+References: 
+
+1607: Where you provide a URL it is good practice to state the date at which the URL was accessed and give a title describing its content (so that if the contents are changed/updated the reader knows when you accessed it and what it originally contained)
+
+> Added

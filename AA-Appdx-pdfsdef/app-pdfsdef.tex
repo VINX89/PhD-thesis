@@ -1,0 +1,73 @@
+%!TEX root = ../my_thesis.tex
+\section{PDF definitions}
+\label{app:pdfsdef}
+
+Throughout this section, each parameter $p$ defined inside a PDF used for the mass fit is labelled as $p^{s}_{c}$, where $s = \pi,K$ indicates the sample and $c = \Bz\to\Dmp\pipm,\Bz\to\Dmp\rho^\pm\dots$ indicates the component. For sake of clarity, the $s$ and $c$ labels are dropped in the equations that follow. The mass \emph{observable} is alway indicated as $m$. The $\propto$ symbol indicates that all PDFs are defined up to a normalisation constant, which depends on the interval chosen for $m$.
+\begin{itemize}[noitemsep,topsep=0pt]
+\item{\textbf{Exponential function}}
+\begin{equation*}
+E(m,c) \hspace{1mm}\propto\hspace{1mm} e^{-cm}.
+\end{equation*}
+\item{\textbf{Gaussian function}} \\
+\begin{equation*}
+G(m,\mu,\sigma) \hspace{1mm}\propto\hspace{1mm} e^{-\frac{(m-\mu)^{2}}{2\sigma^{2}}}.
+\end{equation*}
+\item{\textbf{Double Gaussian function}} \\
+\begin{equation*}
+DG(m,\mu,\sigma_{1},\sigma_{2},f) \hspace{1mm}\propto\hspace{1mm} \frac{f}{\sigma_1} e^{-\frac{(m-\mu)^{2}}{2\sigma_{1}^{2}}} + \frac{(1-f)}{\sigma_2}e^{-\frac{(m-\mu)^{2}}{2\sigma_{2}^{2}}}.
+\end{equation*}
+\item{\textbf{Single-sided Crystal ball function}} \\
+Having defined
+\begin{align*}
+A &= \left(\frac{n}{|\alpha|}\right)^{n} e^{-\frac{|\alpha|^{2}}{2}}, & B &= \frac{n}{|\alpha|}-|\alpha|,
+\end{align*}
+and
+\begin{equation*}
+t = 
+\begin{cases}
+  \frac{m-\mu}{\sigma}, & \mbox{ if } \alpha\geq0, \\
+  -\frac{m-\mu}{\sigma}, & \mbox{ if } \alpha<0, \\
+\end{cases}  
+\end{equation*}
+the single-sided Crystal Ball function~\cite{Skwarnicki:1986xj} is expressed as follows:
+\begin{equation*}
+CB(m,\mu,\sigma,\alpha,n) \hspace{1mm}\propto\hspace{1mm}
+\begin{cases}
+e^{-\frac{1}{2}t^2(m,\mu,\sigma)}, & \mbox{ if } t\geq-|\alpha|, \\
+A(\alpha,n)\left[B(\alpha,n)-t(m,\mu,\sigma)\right]^{-n}, & \mbox{ if } t<-|\alpha|.
+\end{cases}
+\end{equation*}
+\item{\textbf{Double-sided Hypatia function}} \\
+Having defined
+\begin{equation*}
+h(m,\mu,\sigma,\lambda,\zeta,\beta) \hspace{1mm}\propto\hspace{1mm} \left(\left(m-\mu\right)^{2}+A_{\lambda}^{2}(\zeta)\sigma^{2}\right)^{\frac{1}{2}\lambda-\frac{1}{4}}e^{\beta\left(m-\mu\right)}K_{\lambda-\frac{1}{2}}\left(\zeta\sqrt{1+\left(\frac{m-\mu}{A_{\lambda}(\zeta)\sigma}\right)^{2}}\right),
+\end{equation*}
+and its first derivative with respect to $m$, $h'$, then the double-sided Hypatia function $H$~\cite{Hypatia} is expressed as
+\begin{multline*}
+H(m,\mu,\sigma,\lambda,\zeta,\beta,a_{1},n_{1},a_{2},n_{2}) \hspace{1mm}\propto\hspace{1mm} \\
+\begin{cases}
+h(m,\mu,\sigma,\lambda,\zeta,\beta) & \mbox{ if } \frac{m-\mu}{\sigma}>-a_{1} \mbox{ and } \frac{m-\mu}{\sigma}<a_{2}, \\
+\frac{h(\mu-a_{1}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{\left(1-m/\left(n\frac{h(\mu-a_{1}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{h'(\mu-a_{1}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}-a_{1}\sigma\right)\right)^{n_{1}}} & \mbox{ if } \frac{m-\mu}{\sigma}\leq-a_{1}, \\
+\frac{h(\mu-a_{2}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{\left(1-m/\left(n\frac{h(\mu-a_{2}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{h'(\mu-a_{2}\sigma,\mu,\sigma,\lambda,\zeta,\beta)}-a_{2}\sigma\right)\right)^{n_{2}}} & \mbox{ if } \frac{m-\mu}{\sigma}\geq a_{2}.
+\end{cases}
+\end{multline*}
+The $K_{\lambda}$ functions are special Bessel functions of the third kind, whereas $A_{\lambda}$ is defined as
+\begin{equation*}
+A^{2}_{\lambda}=\frac{\zeta K_{\lambda}(\zeta)}{K_{\lambda+1}(\zeta)}.
+\end{equation*}
+\item{\textbf{Single-sided Hypatia function}} \\
+A single-sided Hypatia function is obtained from a double-sided Hypatia function in the limit $a_{2}\to +\infty$, $n_{2}=0$ (and by labelling $a_{1}$ and $n_{1}$ as $a$ and $n$, respectively).
+\item{\textbf{Johnson SU function}} \\
+Having defined the parameters
+\begin{align*}
+w &= e^{\tau^{2}}, \\ 
+\omega &= -\nu\tau, \\
+c &= \frac{1}{\sqrt{\frac{1}{2}(w-1)\left(w\cosh 2\omega+1\right)}}, \\
+z &= \frac{m-\left(\mu+c+\sigma\sqrt{w}\sinh{\omega}\right)}{c\sigma}, \\
+r &= -\nu + \frac{\sinh^{-1}z}{\tau},
+\end{align*}
+the Johnson SU function~\cite{JohnsonSU} is expressed as
+\begin{equation*}
+J(m,\mu,\sigma,\nu,\tau) \hspace{1mm}\propto\hspace{1mm} \frac{1}{2\pi c(\nu,\tau)\sigma}e^{-\frac{1}{2}r(m,\mu,\sigma,\nu,\tau)^{2}}\frac{1}{\tau\sqrt{z(m,\mu,\sigma,\nu,\tau)^{2}+1}}.
+\end{equation*}
+\end{itemize}

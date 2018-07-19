@@ -1,0 +1,228 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%		My Thesis
+%
+%		EDOC Template
+%		2011
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\input{head/settings_epfl_template.tex}
+\input{head/settings_custom.tex}  % place your custom packages, etc... in this file!
+
+\usepackage{enumitem} 
+\setlist{nolistsep}
+
+\usepackage{afterpage}
+\newlength{\oldtextfloatsep}\setlength{\oldtextfloatsep}{\textfloatsep}
+
+\usepackage{ifthen} 
+\newboolean{pdflatex}
+\setboolean{pdflatex}{true} 
+
+\newboolean{articletitles}
+\setboolean{articletitles}{true} 
+
+\newboolean{inbibliography}
+\setboolean{inbibliography}{false}
+
+\usepackage{siunitx} 
+
+\renewcommand{\floatpagefraction}{0.7} % allows pages of floats which are 70% filled only
+%\newcommand{\Lagr}{\mathop{\mathcal{L}}}
+\newcommand{\Lagr}{\mathrm{\mathcal{L}}}
+\usepackage{dcolumn}
+\usepackage{bigints}
+\usepackage{url}
+\usepackage{hyperref}    % Hyperlinks in references
+\usepackage[all]{hypcap} % Internal hyperlinks to floats.
+\usepackage{mciteplus}
+%\usepackage{lineno}
+\usepackage{pifont}
+\usepackage{chngcntr}
+\usepackage[toc,page]{appendix}
+\usepackage{spverbatim}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}
+
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% HEAD: Book-Begin
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frontmatter
+\input{head/titlepage.tex}
+\input{lhcb-symbols-def.tex}
+\include{head/dedication}
+%\setcounter{page}{0}
+
+%\include{head/preface}
+\include{head/abstracts}
+\input{head/acknowledgements}
+
+\tableofcontents
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{List of figures} % adds an entry to the table of contents
+%\listoffigures
+\cleardoublepage
+\phantomsection
+%\addcontentsline{toc}{chapter}{List of tables} % adds an entry to the table of contents
+%\listoftables
+% your list of symbols here, if needed.
+
+
+% space before each new paragraph according to the template guidelines.
+%(needs to be after titlepage and frontmatter to keep the table of contents lists short)
+\setlength{\parskip}{1em}
+
+
+%remove before final version
+%\linenumbers
+
+\newcommand{\xxx}{\ensuremath{\textcolor{green}{XXX}}\xspace}
+\newcommand{\SSpi}{\ensuremath{{\rm SS}\pion}\xspace}
+\newcommand{\SSp}{\ensuremath{{\rm SS}\proton}\xspace}
+\newcommand{\SSK}{\ensuremath{{\rm SS}\kaon}\xspace}
+
+\newcommand{\SSKbf}{\ensuremath{\mathbf{SS\textbf{\textit{K}}}}\xspace}
+
+\newcommand{\OSe}{\ensuremath{{\rm OS}e}\xspace}
+\newcommand{\OSmu}{\ensuremath{{\rm OS}\mu}\xspace}
+\newcommand{\OSK}{\ensuremath{{\rm OS}K}\xspace}
+\newcommand{\OSc}{\ensuremath{{\rm OS Charm}}\xspace}
+\newcommand{\OSvtx}{\ensuremath{{\rm OS Vtx}}\xspace}
+
+\newcommand{\avg}[1]{\left< #1 \right>}
+\newcommand{\Mod}[1]{\ (\mathrm{mod}\ #1)}
+
+\newcommand{\Sf}{\mbox{\ensuremath{S_f}}\xspace}
+\newcommand{\Sfb}{\mbox{\ensuremath{S_{\bar{f}}}}\xspace}
+
+\newcommand{\Cf}{\mbox{\ensuremath{C_f}}\xspace}
+\newcommand{\Cfb}{\mbox{\ensuremath{C_{\bar{f}}}}\xspace}
+
+
+\newcommand{\Sfval}{\mbox{\ensuremath{0.058}}\xspace}
+\newcommand{\Sfstat}{\mbox{\ensuremath{0.020}}\xspace} %0.0198
+\newcommand{\Sfsyst}{\mbox{\ensuremath{0.011}}\xspace} %0.0110
+
+\newcommand{\Sfbval}{\mbox{\ensuremath{0.038}}\xspace}
+\newcommand{\Sfbstat}{\mbox{\ensuremath{0.020}}\xspace} %0.0199
+\newcommand{\Sfbsyst}{\mbox{\ensuremath{0.007}}\xspace} %0.0071
+
+\newcommand{\gammaLO}{\mbox{\ensuremath{[5,86]}}\xspace}
+\newcommand{\gammaHi}{\mbox{\ensuremath{[185,266]}}\xspace}
+\newcommand{\gammaCL}{\mbox{\ensuremath{\gammaLO\degrees \cup \gammaHi\degrees}}\xspace}
+
+\newcommand{\deltaLO}{\mbox{\ensuremath{[-41,41]}}\xspace}
+\newcommand{\deltaHi}{\mbox{\ensuremath{[140,220]}}\xspace}
+\newcommand{\deltaCL}{\mbox{\ensuremath{\deltaLO\degrees \cup \deltaHi \degrees}}\xspace}
+
+\newcommand{\magSinTwoBplusGCL}{\mbox{\ensuremath{[0.77,1.0]}}\xspace}
+
+
+\newcommand{\f}{\mbox{\ensuremath{D^{-}\pi^{+}}}\xspace}
+\newcommand{\fbar}{\mbox{\ensuremath{D^{+}\pi^{-}}}\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% MAIN: The chapters of the thesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+\chapter{Introduction}
+\clearpage
+\input{01StandardModel/standardmodel}
+\input{02CKM/ckm}
+\input{03BPhysics/Bphysics}
+\input{01Introduction/strategy}
+\input{01Introduction/personal_contribution}
+
+\chapter{Experimental setup}
+\clearpage
+\input{01LHC/lhc}
+\input{02LHCb/lhcb}
+
+\chapter{Flavour tagging}
+\clearpage
+\input{04FlavourTagging/flavourtagging}
+
+\chapter{Selection of \boldmath{$B^0\to D^{\mp}\pi^{\pm}$} decays}
+\clearpage
+\input{02Selection/selection}
+\input{03Massfit/massfit}
+
+\chapter{Measurement of \boldmath{$CP$} violation in \boldmath{$B^0\to D^{\mp}\pi^{\pm}$} decays}
+\clearpage
+\input{05DecaytimeFit/decaytimefit}
+\input{06Systematics/systematics}
+
+\chapter{Summary and interpretation of the results}
+\clearpage
+\input{07Results/results}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% TAIL: Bibliography, Appendix, CV
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\backmatter
+\appendix
+%\addcontentsline{toc}{chapter}{\textbf{Appendices}}
+
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\counterwithin{equation}{section}
+
+\chapter{Appendices}
+\renewcommand{\thesection}{\Alph{section}}
+
+%\pagestyle{fancy}
+%\fancyhf{}
+\fancyhead[LE]{\bfseries Appendices}
+\fancyhead[RO]{\bfseries \nouppercase{\rightmark}}
+
+\include{AA-Appdx-OSTaggers/app-OSTaggers}
+\newpage
+\include{AA-Appdx-OSeOpt/app-OSeOpt}
+\newpage
+\include{AA-Appdx-selection/app-selection}
+\newpage
+\include{AA-Appdx-pid/app-pid}
+\newpage
+\include{AA-Appdx-massfit/app-massfit}
+\newpage
+\include{AA-Appdx-pdfsdef/app-pdfsdef}
+\newpage
+\include{AA-Appdx-timepdf/app-timepdf}
+\newpage
+\include{AA-Appdx-corrMatrix/app-corrMatrix}
+\newpage
+\include{AA-Appdx-timesplits/app-timesplits}
+\newpage
+\include{AA-Appdx-mcbootstrap/app-mcbootstrap}
+\newpage
+\include{AA-Appdx-toytagger/app-toytagger}
+\newpage
+\include{AA-Appdx-corrSyst/app-corrSyst}
+\newpage
+\include{AA-Appdx-MCGeneration/app-mcgeneration}
+
+%\end{appendices}
+
+\addcontentsline{toc}{chapter}{\textbf{References}}
+\setboolean{inbibliography}{true}
+\fancyhead[LE]{\bfseries Bibliography}
+\fancyhead[RO]{\bfseries Bibliography}
+\bibliographystyle{lhcb}
+\bibliography{LHCb-PAPER,LHCb-CONF,LHCb-TDR,LHCb-DP,external,main}
+
+
+% Add your glossary here
+% Add your index here
+% Photographic credits (list of pictures&images that have been used with names of the person holding the copyright for them)
+
+\end{document}

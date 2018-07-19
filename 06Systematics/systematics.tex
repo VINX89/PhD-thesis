@@ -1,0 +1,59 @@
+%!TEX root = ../my_thesis.tex
+\section{Systematics}
+\label{sec:systematics}
+
+The identified systematic uncertainties are listed in
+Table~\ref{tab:summarySyst} in decreasing order of their size.
+Their quadratic sum is \Sfsyst~and \Sfbsyst~for $S_{f}$ and $S_{\bar f}$, respectively.
+A description of each systematic effect  is given in the following subsections.
+The ``fit biases'' are the residuals observed in the Monte Carlo bootstrap study discussed
+in Sec.~\ref{sec:mcbootstrap}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Systematic uncertainties on the \CP~parameters $S_{f}$ and
+	$S_{\bar f}$.}
+	\begin{tabular}{lcc}
+		\toprule
+		Source & $S_{f}$ & $S_{\bar f}$ \\
+		\midrule
+		uncertainty of $\Delta m$ & \num{0.0073} & \num{0.0061} \\
+        fit biases & \num{0.0068} & \num{0.0018} \\
+        background subtraction  & \num{0.0042} & \num{0.0023} \\
+        flavour tagging calibration models & \num{0.0011} & \num{0.0015} \\
+        flavour tagging efficiency asymmetries & \num{0.0012} & \num{0.0015} \\
+        PIDK efficiencies & \num{0.0008} & \num{0.0008} \\
+        acceptance model & \num{0.0007} & \num{0.0007} \\
+        assumption $\DG=0$ & \num{0.0007} & \num{0.0007} \\
+        assumption $C_f=-C_{\bar f}=1$ & \num{0.0006} & \num{0.0006} \\
+        decay time resolution & \num{0.0012} & \num{0.0008} \\
+		\midrule
+		total systematic uncertainty & 0.0111 & 0.0073 \\
+		\midrule
+		statistical uncertainties & 0.0198 & 0.0199 \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:summarySyst}
+\end{table}
+
+\subsection{Systematic uncertainties from Gaussian constraints}
+\label{sec:systFromConsts}
+Systematic uncertainties due to external measurements used in the PDF
+are accounted for through Gaussian constraints in the likelihood. These parameters are
+the mixing frequency, $\Delta m$, and the \Bz~lifetime, $\tau$.
+The fit has been repeated by fixing the Gaussian-constrained parameters to their central values,
+in order to not propagate the uncertainty of these parameters to the statistical uncertainties of the fit.
+The statistical uncertainties of $S_{f}$ and $S_{\bar f}$ with $\Delta m$ fixed are $0.0198$ and $0.0199$, respectively, whereas the statistical correlation is $0.6$.
+Considering the difference in quadrature between the uncertainty from the nominal fit and that from this fit,
+the systematic uncertainty due to $\Delta m$ are $0.0073$ and $0.0061$ for $S_{f}$ and $S_{\bar f}$, respectively.
+The correlation between the systematic uncertainties due to $\Delta m$ on $S_{f}$ and $S_{\bar f}$ is $-1$, as described in Appendix~\ref{app:corrSyst}.
+The fit with $\tau$ fixed shows that the systematics uncertainty due to this parameter is negligible.
+
+Systematic uncertainty associated with the $\PIDK$ efficiencies (Table~\ref{tab:pideff})
+are taken into account
+in the mass fit by means of Gaussian constraints on these parameters (Sec.~\ref{sec:DataMassFit}).  The mass fit is repeated by neglecting these uncertainties in the Gaussian constraints.
+Then, the time fit is performed with this new set of \emph{sWeights}. The difference
+in quadrature between the uncertainty from this fit and that from the nominal fit gives the systematic due to the binning scheme in the
+$\PIDK$ resampling, which is $0.0008$ for both $S_{f}$ and $S_{\bar f}$.
+\input{06Systematics/fromToys}
+\input{06Systematics/fromDataFits}

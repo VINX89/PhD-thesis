@@ -1,0 +1,610 @@
+READING CONFIGURATION FROM EPM_Apply_Bd2DPi_2016_DevTaggers.py
+ *** String property RootFile_1                             changed to /eos/lhcb/wg/FlavourTagging/tuples/development/data/B2OC/TaggingOptSummer2017/sWeights/Bd2DPi/DTT_2016_Reco16Strip28_BHADRONCOMPLETEEVENT_merged_sW.root
+ *** String property TupleName                              changed to DecayTree
+ *** String property Selection                              changed to eventNumber%2==0 && lab0_TAU>0
+ *** Numeric property DoCalibrations                        changed to 1
+ *** String property CalibrationModel                       changed to NSPLINE
+ *** String property CalibrationLink                        changed to LOGIT
+ *** String property CalibrationMode                        changed to Bd
+ *** Numeric property UseNewtonRaphson                      changed to 0
+ *** Numeric property SaveCalibrationsToXML                 changed to 1
+ *** Numeric property PerformOfflineCombination_OS          changed to 1
+ *** Numeric property DrawOscillationPlots                  changed to 1
+ *** Numeric property OscillationPlotsMaximum               changed to 0.012
+ *** String property WeightFormula                          changed to nSig_both_kpipi_2016_Bd2DPiHypo_Evts_sw
+ *** String property BranchID                               changed to lab0_ID
+ *** String property BranchTau                              changed to lab0_TAU
+ *** String property TauUnits                               changed to ns
+ *** Numeric property UseWeight                             changed to 1
+ *** Numeric property UseTau                                changed to 1
+ *** String property PlotLabel                              changed to LHCb
+ *** String property PlotExtension                          changed to .pdf
+ *** Numeric property PlotTitle                             changed to 0
+ *** Numeric property PlotStatBox                           changed to 0
+ *** Numeric property OS_Muon_Use                           changed to 1
+ *** String property OS_Muon_BranchDec                      changed to lab0_OSMuon_TAGDEC
+ *** String property OS_Muon_BranchProb                     changed to lab0_OSMuon_TAGETA
+ *** String property OS_Muon_CalibrationArchive             changed to ../calib/OS_Muon_Calibration.xml
+ *** Numeric property OS_Muon_InOSComb                      changed to 1
+ *** Numeric property OS_Electron_Use                       changed to 1
+ *** String property OS_Electron_BranchDec                  changed to lab0_OSElectron_TAGDEC
+ *** String property OS_Electron_BranchProb                 changed to lab0_OSElectron_TAGETA
+ *** String property OS_Electron_CalibrationArchive         changed to ../calib/OS_Electron_Calibration.xml
+ *** Numeric property OS_Electron_InOSComb                  changed to 1
+ *** Numeric property OS_Kaon_Use                           changed to 1
+ *** String property OS_Kaon_BranchDec                      changed to lab0_OSKaon_TAGDEC
+ *** String property OS_Kaon_BranchProb                     changed to lab0_OSKaon_TAGETA
+ *** String property OS_Kaon_CalibrationArchive             changed to ../calib/OS_Kaon_Calibration.xml
+ *** Numeric property OS_Kaon_InOSComb                      changed to 1
+ *** Numeric property VtxCharge_Use                         changed to 1
+ *** String property VtxCharge_BranchDec                    changed to lab0_OSVtxCh_TAGDEC
+ *** String property VtxCharge_BranchProb                   changed to lab0_OSVtxCh_TAGETA
+ *** String property VtxCharge_CalibrationArchive           changed to ../calib/VtxCharge_Calibration.xml
+ *** Numeric property VtxCharge_InOSComb                    changed to 1
+ *** Numeric property OS_Charm_Use                          changed to 1
+ *** String property OS_Charm_BranchDec                     changed to lab0_OSCharm_TAGDEC
+ *** String property OS_Charm_BranchProb                    changed to lab0_OSCharm_TAGETA
+ *** String property OS_Charm_CalibrationArchive            changed to ../calib/OS_Charm_Calibration.xml
+ *** Numeric property OS_Charm_InOSComb                     changed to 1
+
+------------------------------
+----- BEGINNING ANALYSIS -----
+------------------------------
+
+Reading file /eos/lhcb/wg/FlavourTagging/tuples/development/data/B2OC/TaggingOptSummer2017/sWeights/Bd2DPi/DTT_2016_Reco16Strip28_BHADRONCOMPLETEEVENT_merged_sW.root
+
+Cut eventNumber%2==0 && lab0_TAU>0 keeps 354660 out of 710358 events (weighted).
+Corresponding efficiency: 0.4993 (+ 0.0006495, -0.0006495).
+SETING EXPECTED NUMBER OF EVENTS = 425374
+Loading ID branch
+Loading Weight branch
+Loading Tau branch
+Loading OS_Muon branches
+Loading OS_Electron branches
+Loading OS_Kaon branches
+Loading VtxCharge branches
+Loading OS_Charm branches
+ON EVENT 0
+ON EVENT 10000
+ON EVENT 20000
+ON EVENT 30000
+ON EVENT 40000
+ON EVENT 50000
+ON EVENT 60000
+ON EVENT 70000
+ON EVENT 80000
+ON EVENT 90000
+ON EVENT 100000
+ON EVENT 110000
+ON EVENT 120000
+ON EVENT 130000
+ON EVENT 140000
+ON EVENT 150000
+ON EVENT 160000
+ON EVENT 170000
+ON EVENT 180000
+ON EVENT 190000
+ON EVENT 200000
+ON EVENT 210000
+ON EVENT 220000
+ON EVENT 230000
+ON EVENT 240000
+ON EVENT 250000
+ON EVENT 260000
+ON EVENT 270000
+ON EVENT 280000
+ON EVENT 290000
+ON EVENT 300000
+ON EVENT 310000
+ON EVENT 320000
+ON EVENT 330000
+ON EVENT 340000
+ON EVENT 350000
+ON EVENT 360000
+ON EVENT 370000
+ON EVENT 380000
+ON EVENT 390000
+ON EVENT 400000
+ON EVENT 410000
+ON EVENT 420000
+[1m--------------------------------------------------
+----- ESPRESSO PERFORMANCE MONITOR STATISTICS ----
+--------------------------------------------------
+[m3.544e+05 events selected.
+
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger Fire Correlations [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Muon        OS_Electron    OS_Kaon        VtxCharge      OS_Charm       OS_Combination [m
+[1mOS_Muon        [m100.0000%      -0.5364%       2.5216%        11.0368%       2.7353%        38.6611%       
+[1mOS_Electron    [m-0.5364%       100.0000%      3.0104%        8.1431%        2.5343%        17.9730%       
+[1mOS_Kaon        [m2.5216%        3.0104%        100.0000%      23.0290%       28.7907%       57.3249%       
+[1mVtxCharge      [m11.0368%       8.1431%        23.0290%       100.0000%      16.5034%       68.0475%       
+[1mOS_Charm       [m2.7353%        2.5343%        28.7907%       16.5034%       100.0000%      30.5120%       
+[1mOS_Combination [m38.6611%       17.9730%       57.3249%       68.0475%       30.5120%       100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Muon        OS_Electron    OS_Kaon        VtxCharge      OS_Charm       OS_Combination [m
+[1mOS_Muon        [m100.0000%      -1.1969%       1.2397%        12.6301%       0.2131%        40.7286%       
+[1mOS_Electron    [m-1.1969%       100.0000%      0.5274%        7.9058%        0.9880%        17.0587%       
+[1mOS_Kaon        [m1.2397%        0.5274%        100.0000%      18.4448%       23.5163%       55.4541%       
+[1mVtxCharge      [m12.6301%       7.9058%        18.4448%       100.0000%      5.1716%        64.5806%       
+[1mOS_Charm       [m0.2131%        0.9880%        23.5163%       5.1716%        100.0000%      29.8052%       
+[1mOS_Combination [m40.7286%       17.0587%       55.4541%       64.5806%       29.8052%       100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations (dilution weighted) [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Muon        OS_Electron    OS_Kaon        VtxCharge      OS_Charm       OS_Combination [m
+[1mOS_Muon        [m100.0000%      -1.1578%       1.8789%        18.2271%       0.6234%        53.8456%       
+[1mOS_Electron    [m-1.1578%       100.0000%      0.8945%        10.9787%       1.1066%        21.3354%       
+[1mOS_Kaon        [m1.8789%        0.8945%        100.0000%      26.4378%       29.3309%       63.4199%       
+[1mVtxCharge      [m18.2271%       10.9787%       26.4378%       100.0000%      6.7385%        70.2266%       
+[1mOS_Charm       [m0.6234%        1.1066%        29.3309%       6.7385%        100.0000%      41.3539%       
+[1mOS_Combination [m53.8456%       21.3354%       63.4199%       70.2266%       41.3539%       100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations (when both fire) [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Muon        OS_Electron    OS_Kaon        VtxCharge      OS_Charm       OS_Combination [m
+[1mOS_Muon        [m100.0000%      -31.7020%      8.7751%        54.6668%       2.2846%        85.6285%       
+[1mOS_Electron    [m-31.7020%      100.0000%      6.1800%        57.8432%       17.4006%       74.9820%       
+[1mOS_Kaon        [m8.7751%        6.1800%        100.0000%      49.9582%       67.8764%       84.1484%       
+[1mVtxCharge      [m54.6668%       57.8432%       49.9582%       100.0000%      21.0711%       85.1721%       
+[1mOS_Charm       [m2.2846%        17.4006%       67.8764%       21.0711%       100.0000%      80.0382%       
+[1mOS_Combination [m85.6285%       74.9820%       84.1484%       85.1721%       80.0382%       100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+[m
+
+[1m--------------------------------------------------
+-------------- TAGGING PERFORMANCES --------------
+--------------------------------------------------
+[m
+[1m[32m         Tagger            Tagging Rate              Raw Mistag                                 Eff Mistag                              Tagging Power[m[2m
+[1m[32m        OS_Muon[m[2m      (8.3429 ± 0.0508)%     (39.9799 ± 0.2849)%    (30.3569 ± 0.0421(stat) ± 0.4658(cal))%     (1.2876 ± 0.0096(stat) ± 0.0611(cal))%
+[1m[32m    OS_Electron[m[2m      (1.8676 ± 0.0249)%     (40.8230 ± 0.6041)%    (34.2996 ± 0.0961(stat) ± 0.9411(cal))%     (0.1842 ± 0.0033(stat) ± 0.0221(cal))%
+[1m[32m        OS_Kaon[m[2m     (15.7375 ± 0.0669)%     (42.9327 ± 0.2096)%    (35.9022 ± 0.0300(stat) ± 0.3567(cal))%     (1.2511 ± 0.0075(stat) ± 0.0633(cal))%
+[1m[32m      VtxCharge[m[2m     (20.8342 ± 0.0746)%     (43.0359 ± 0.1822)%    (36.1392 ± 0.0291(stat) ± 0.3014(cal))%     (1.6011 ± 0.0088(stat) ± 0.0696(cal))%
+[1m[32m       OS_Charm[m[2m      (5.0253 ± 0.0402)%     (40.4796 ± 0.3678)%    (33.8752 ± 0.0408(stat) ± 0.6243(cal))%     (0.5227 ± 0.0049(stat) ± 0.0405(cal))%
+[1m[32m OS_Combination[m[2m     (36.2386 ± 0.0883)%     (42.5088 ± 0.1379)%    (30.7510 ± 0.0331(stat) ± 0.0000(cal))%     (5.3709 ± 0.0226(stat) ± 0.0000(cal))%
+
+[1m--------------------------------------------------
+----------------- ETA PERCENTILES ----------------
+--------------------------------------------------
+[m
+[1m[32m         Tagger             0%            18%            50%            82%           100%[m[2m
+[1m[32m        OS_Muon[m[2m          0.110          0.193          0.275          0.389          0.500
+[1m[32m    OS_Electron[m[2m          0.119          0.253          0.317          0.387          0.500
+[1m[32m        OS_Kaon[m[2m          0.249          0.326          0.416          0.477          0.500
+[1m[32m      VtxCharge[m[2m          0.216          0.324          0.394          0.457          0.500
+[1m[32m       OS_Charm[m[2m          0.196          0.313          0.366          0.424          0.450
+[1m[32m OS_Combination[m[2m          0.007          0.235          0.366          0.453          0.500
+
+[1m---------------------------------------------------------
+-------------- OS COMBINATION PERFORMANCES --------------
+---------------------------------------------------------
+[m
+[1m[32m         Tagger            Tagging Rate              Raw Mistag                                 Eff Mistag                              Tagging Power[m[2m
+[1m[32m              M[m[2m      (4.4732 ± 0.0380)%     (40.8449 ± 0.3904)%    (31.1148 ± 0.0592(stat) ± 0.0000(cal))%     (0.6381 ± 0.0067(stat) ± 0.0000(cal))%
+[1m[32m              E[m[2m      (0.7763 ± 0.0161)%     (40.5001 ± 0.9359)%    (34.7706 ± 0.1498(stat) ± 0.0000(cal))%     (0.0720 ± 0.0021(stat) ± 0.0000(cal))%
+[1m[32m            M+E[m[2m      (0.0499 ± 0.0041)%     (48.7280 ± 3.7598)%    (33.0797 ± 0.8085(stat) ± 0.0000(cal))%     (0.0057 ± 0.0007(stat) ± 0.0000(cal))%
+[1m[32m              K[m[2m      (6.8847 ± 0.0465)%     (45.4940 ± 0.3188)%    (37.5613 ± 0.0459(stat) ± 0.0000(cal))%     (0.4261 ± 0.0043(stat) ± 0.0000(cal))%
+[1m[32m            M+K[m[2m      (0.5671 ± 0.0138)%     (40.0312 ± 1.0929)%    (29.3516 ± 0.2371(stat) ± 0.0000(cal))%     (0.0967 ± 0.0032(stat) ± 0.0000(cal))%
+[1m[32m            E+K[m[2m      (0.1318 ± 0.0067)%     (37.4997 ± 2.2396)%    (33.3531 ± 0.5028(stat) ± 0.0000(cal))%     (0.0146 ± 0.0012(stat) ± 0.0000(cal))%
+[1m[32m          M+E+K[m[2m      (0.0074 ± 0.0016)%     (50.8721 ± 9.7710)%    (30.1484 ± 1.7009(stat) ± 0.0000(cal))%     (0.0012 ± 0.0003(stat) ± 0.0000(cal))%
+[1m[32m              V[m[2m     (10.6979 ± 0.0568)%     (45.6057 ± 0.2558)%    (37.4502 ± 0.0402(stat) ± 0.0000(cal))%     (0.6740 ± 0.0056(stat) ± 0.0000(cal))%
+[1m[32m            M+V[m[2m      (2.0148 ± 0.0258)%     (36.7890 ± 0.5707)%    (20.7186 ± 0.1115(stat) ± 0.0000(cal))%     (0.6910 ± 0.0103(stat) ± 0.0000(cal))%
+[1m[32m            E+V[m[2m      (0.5047 ± 0.0130)%     (37.4146 ± 1.1441)%    (23.9281 ± 0.2450(stat) ± 0.0000(cal))%     (0.1372 ± 0.0044(stat) ± 0.0000(cal))%
+[1m[32m          M+E+V[m[2m      (0.0404 ± 0.0037)%     (43.8318 ± 4.1465)%    (23.9146 ± 1.0105(stat) ± 0.0000(cal))%     (0.0110 ± 0.0013(stat) ± 0.0000(cal))%
+[1m[32m            K+V[m[2m      (4.2801 ± 0.0372)%     (40.1561 ± 0.3980)%    (26.7071 ± 0.0861(stat) ± 0.0000(cal))%     (0.9289 ± 0.0106(stat) ± 0.0000(cal))%
+[1m[32m          M+K+V[m[2m      (0.5927 ± 0.0141)%     (35.8257 ± 1.0462)%    (18.0067 ± 0.2471(stat) ± 0.0000(cal))%     (0.2427 ± 0.0069(stat) ± 0.0000(cal))%
+[1m[32m          E+K+V[m[2m      (0.1743 ± 0.0077)%     (34.9226 ± 1.9181)%    (19.2879 ± 0.4658(stat) ± 0.0000(cal))%     (0.0658 ± 0.0035(stat) ± 0.0000(cal))%
+[1m[32m        M+E+K+V[m[2m      (0.0181 ± 0.0025)%     (26.7931 ± 5.5333)%    (21.6240 ± 1.5091(stat) ± 0.0000(cal))%     (0.0058 ± 0.0010(stat) ± 0.0000(cal))%
+[1m[32m              C[m[2m      (0.9291 ± 0.0176)%     (42.2267 ± 0.8607)%    (35.7826 ± 0.0982(stat) ± 0.0000(cal))%     (0.0751 ± 0.0018(stat) ± 0.0000(cal))%
+[1m[32m            M+C[m[2m      (0.0974 ± 0.0057)%     (44.1531 ± 2.6732)%    (27.6147 ± 0.6128(stat) ± 0.0000(cal))%     (0.0195 ± 0.0016(stat) ± 0.0000(cal))%
+[1m[32m            E+C[m[2m      (0.0232 ± 0.0028)%     (34.7501 ± 5.2569)%    (30.1367 ± 1.2180(stat) ± 0.0000(cal))%     (0.0037 ± 0.0006(stat) ± 0.0000(cal))%
+[1m[32m          M+E+C[m[2m      (0.0025 ± 0.0009)%    (15.0017 ± 11.8929)%    (30.8829 ± 3.8786(stat) ± 0.0000(cal))%     (0.0004 ± 0.0002(stat) ± 0.0000(cal))%
+[1m[32m            K+C[m[2m      (1.2693 ± 0.0206)%     (40.0733 ± 0.7306)%    (22.8800 ± 0.1267(stat) ± 0.0000(cal))%     (0.3734 ± 0.0070(stat) ± 0.0000(cal))%
+[1m[32m          M+K+C[m[2m      (0.1525 ± 0.0072)%     (38.6176 ± 2.0946)%    (22.8402 ± 0.5182(stat) ± 0.0000(cal))%     (0.0450 ± 0.0027(stat) ± 0.0000(cal))%
+[1m[32m          E+K+C[m[2m      (0.0373 ± 0.0036)%     (37.1836 ± 4.2014)%    (22.0994 ± 0.9258(stat) ± 0.0000(cal))%     (0.0116 ± 0.0013(stat) ± 0.0000(cal))%
+[1m[32m        M+E+K+C[m[2m      (0.0028 ± 0.0010)%    (57.5019 ± 15.7965)%    (19.3722 ± 2.8356(stat) ± 0.0000(cal))%     (0.0010 ± 0.0004(stat) ± 0.0000(cal))%
+[1m[32m            V+C[m[2m      (0.7402 ± 0.0158)%     (39.5756 ± 0.9548)%    (31.5306 ± 0.1906(stat) ± 0.0000(cal))%     (0.1010 ± 0.0030(stat) ± 0.0000(cal))%
+[1m[32m          M+V+C[m[2m      (0.1167 ± 0.0063)%     (40.9165 ± 2.4177)%    (20.5559 ± 0.5612(stat) ± 0.0000(cal))%     (0.0405 ± 0.0027(stat) ± 0.0000(cal))%
+[1m[32m          E+V+C[m[2m      (0.0325 ± 0.0033)%     (47.4072 ± 4.6495)%    (21.1848 ± 1.1162(stat) ± 0.0000(cal))%     (0.0108 ± 0.0014(stat) ± 0.0000(cal))%
+[1m[32m        M+E+V+C[m[2m      (0.0024 ± 0.0009)%    (33.0983 ± 16.2204)%    (19.3192 ± 2.3764(stat) ± 0.0000(cal))%     (0.0009 ± 0.0004(stat) ± 0.0000(cal))%
+[1m[32m          K+V+C[m[2m      (1.3540 ± 0.0212)%     (38.1937 ± 0.7014)%    (18.4221 ± 0.1495(stat) ± 0.0000(cal))%     (0.5401 ± 0.0099(stat) ± 0.0000(cal))%
+[1m[32m        M+K+V+C[m[2m      (0.2014 ± 0.0082)%     (37.5494 ± 1.8126)%    (14.2499 ± 0.4394(stat) ± 0.0000(cal))%     (0.1030 ± 0.0049(stat) ± 0.0000(cal))%
+[1m[32m        E+K+V+C[m[2m      (0.0603 ± 0.0045)%     (40.6686 ± 3.3603)%    (13.5367 ± 0.7859(stat) ± 0.0000(cal))%     (0.0321 ± 0.0028(stat) ± 0.0000(cal))%
+[1m[32m      M+E+K+V+C[m[2m      (0.0038 ± 0.0011)%    (57.5212 ± 13.5088)%    (12.0144 ± 2.9235(stat) ± 0.0000(cal))%     (0.0022 ± 0.0007(stat) ± 0.0000(cal))%
+
+
+[1m-----------------------------------------------------------
+--------------- TAGGER CALIBRATION METRICS ----------------
+-----------------------------------------------------------
+[m[1m[94m---------------
+--- OS_Muon ---
+---------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 35426.19
+Brier Score     = 7870.79
+PEARSON X2 test = 1.718
+DEVIANCE G2 test = 2.01
+CRESSIE-READ test = 1.834
+lCvHCH S test   = 2.142
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+18.7 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:6.1e-05, 0.971, 2.09
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.865
+P_2(x) = n2(x) -1.17x +0.4736
+
+ -- PARAMETER VALUES -- 
+p0 = -0.27145 +-0.020917
+p1 = -0.11229 +-0.047793
+p2 = 0.389 +-0.098893
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.057703 +-0.027653
+Δp1 = -0.063034 +-0.062749
+Δp2 = -0.049457 +-0.12951
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1        0.060833         0.10633       -0.037701       -0.018749       -0.011269
+   p1  ---               1          0.1375       -0.018645        -0.04614       -0.029277
+   p2  ---             ---               1       -0.011239       -0.028953       -0.064128
+  Δp0  ---             ---             ---               1         0.04401        0.094644
+  Δp1  ---             ---             ---             ---               1         0.10621
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 35396.46
+AIC             = 35402.46
+BIC             = 35434.26
+Brier Score     = 7818.78
+PEARSON X2 test = -1.6776
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = -1.2599
+lCvHCH S test   = 0.28168
+
+[1m[94m-------------------
+--- OS_Electron ---
+-------------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 7649.61
+Brier Score     = 1603.69
+PEARSON X2 test = 0.018983
+DEVIANCE G2 test = -0.042578
+CRESSIE-READ test = -0.0053817
+lCvHCH S test   = -0.071063
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+4.63 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:0.00011, 0.77, 2
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.7504
+P_2(x) = n2(x) -0.9185x +0.3765
+
+ -- PARAMETER VALUES -- 
+p0 = -0.19327 +-0.043658
+p1 = -0.14948 +-0.13623
+p2 = 0.16324 +-0.36594
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.058119 +-0.057807
+Δp1 = 0.20967 +-0.18007
+Δp2 = 0.22374 +-0.48286
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1       -0.055309        0.038595      -0.0098781        0.034993        0.038339
+   p1  ---               1        -0.04078        0.034852        0.042282         0.03266
+   p2  ---             ---               1        0.037597        0.034205        0.064317
+  Δp0  ---             ---             ---               1       -0.031629        0.032918
+  Δp1  ---             ---             ---             ---               1      -0.0079083
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 7639.77
+AIC             = 7645.77
+BIC             = 7677.56
+Brier Score     = 1611.81
+PEARSON X2 test = -0.92946
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = -0.76593
+lCvHCH S test   = 0.00015597
+
+[1m[94m---------------
+--- OS_Kaon ---
+---------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 58808.86
+Brier Score     = 11982.35
+PEARSON X2 test = 3.2496
+DEVIANCE G2 test = 3.1837
+CRESSIE-READ test = 3.2251
+lCvHCH S test   = 3.1478
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+33.8 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:5.96e-07, 0.339, 1.11
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.3732
+P_2(x) = n2(x) -0.4721x +0.07095
+
+ -- PARAMETER VALUES -- 
+p0 = 0.091789 +-0.015529
+p1 = -0.079788 +-0.055015
+p2 = -0.64003 +-0.32952
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.071487 +-0.020438
+Δp1 = -0.16405 +-0.072302
+Δp2 = 0.068741 +-0.435
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1        0.071335       -0.011811       -0.025607       -0.013083        -0.01864
+   p1  ---               1         0.05686        -0.01313       -0.048938       -0.031287
+   p2  ---             ---               1       -0.018513       -0.031165       -0.037479
+  Δp0  ---             ---             ---               1         0.06445       -0.011404
+  Δp1  ---             ---             ---             ---               1        0.047302
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 58786.40
+AIC             = 58792.40
+BIC             = 58824.20
+Brier Score     = 11894.80
+PEARSON X2 test = 0.27097
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = 0.80651
+lCvHCH S test   = 0.77461
+
+[1m[94m-----------------
+--- VtxCharge ---
+-----------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 79102.11
+Brier Score     = 16067.16
+PEARSON X2 test = 3.5029
+DEVIANCE G2 test = 3.5836
+CRESSIE-READ test = 3.5388
+lCvHCH S test   = 3.6089
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+42.63 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:1.19e-07, 0.432, 1.29
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.4382
+P_2(x) = n2(x) -0.5337x +0.1111
+
+ -- PARAMETER VALUES -- 
+p0 = 0.015589 +-0.013353
+p1 = -0.0032087 +-0.051415
+p2 = 0.7949 +-0.23971
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.045622 +-0.0176
+Δp1 = -0.13243 +-0.067965
+Δp2 = 0.074727 +-0.31652
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1        0.057862        0.034726      -0.0068113      -0.0049474       -0.015671
+   p1  ---               1        0.086959      -0.0050088        -0.02418       -0.013957
+   p2  ---             ---               1       -0.015793       -0.013982       -0.030093
+  Δp0  ---             ---             ---               1        0.058422        0.040565
+  Δp1  ---             ---             ---             ---               1        0.087839
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 79080.70
+AIC             = 79086.70
+BIC             = 79118.49
+Brier Score     = 15950.88
+PEARSON X2 test = -2.5001
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = -0.36321
+lCvHCH S test   = 2.9457
+
+[1m[94m----------------
+--- OS_Charm ---
+----------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 18661.19
+Brier Score     = 3975.99
+PEARSON X2 test = 0.55306
+DEVIANCE G2 test = 0.44229
+CRESSIE-READ test = 0.50965
+lCvHCH S test   = 0.38935
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+11.3 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:0.201, 0.55, 1.41
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.5459
+P_2(x) = n2(x) -0.3224x +0.11
+
+ -- PARAMETER VALUES -- 
+p0 = 0.080816 +-0.028202
+p1 = -0.069998 +-0.1313
+p2 = 0.45043 +-1.0469
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.02525 +-0.037049
+Δp1 = -0.055157 +-0.17438
+Δp2 = -0.94237 +-1.4005
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1       -0.013343       -0.023622       -0.010023      -0.0015044      -0.0083983
+   p1  ---               1       -0.019852      -0.0017687       -0.017184       -0.021741
+   p2  ---             ---               1      -0.0090177       -0.022053       -0.022145
+  Δp0  ---             ---             ---               1        0.012647     -4.0921e-05
+  Δp1  ---             ---             ---             ---               1        0.022462
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 18657.58
+AIC             = 18663.58
+BIC             = 18695.38
+Brier Score     = 3969.03
+PEARSON X2 test = 0.30234
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = -0.72077
+lCvHCH S test   = -1.0999
+
+[1m[94m----------------------
+--- OS_Combination ---
+----------------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 138623.61
+Brier Score     = 29980.30
+PEARSON X2 test = 26.806
+DEVIANCE G2 test = 25.961
+CRESSIE-READ test = 26.597
+lCvHCH S test   = 25.376
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+58.27 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:1.1e-06, 0.549, 4.95
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.5872
+P_2(x) = n2(x) -0.4128x +0.1351
+
+ -- PARAMETER VALUES -- 
+p0 = -0.14714 +-0.010206
+p1 = -0.34301 +-0.020036
+p2 = -0.38011 +-0.084213
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.052889 +-0.013477
+Δp1 = -0.071133 +-0.0266
+Δp2 = 0.12003 +-0.11361
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1       -0.037889       -0.044377       -0.018748      -0.0096437       0.0023751
+   p1  ---               1        -0.21878      -0.0096966       -0.032507       -0.012813
+   p2  ---             ---               1       0.0023702       -0.012916        -0.06043
+  Δp0  ---             ---             ---               1       -0.037246       -0.038003
+  Δp1  ---             ---             ---             ---               1        -0.19423
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 138073.97
+AIC             = 138079.97
+BIC             = 138111.76
+Brier Score     = 28666.61
+PEARSON X2 test = 0.83451
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = 1.955
+lCvHCH S test   = 1.9247
+
+
+[1m--------------------------------------------------
+-------- CALIBRATED TAGGING PERFORMANCES ---------
+--------------------------------------------------
+[m
+[1m[32m         Tagger            Tagging Rate              Raw Mistag                                 Eff Mistag                              Tagging Power[m[2m
+[1m[32m        OS_Muon[m[2m      (9.0668 ± 0.0528)%     (40.6890 ± 0.2740)%    (31.7674 ± 0.0501(stat) ± 0.4513(cal))%     (1.2056 ± 0.0097(stat) ± 0.0597(cal))%
+[1m[32m    OS_Electron[m[2m      (2.0060 ± 0.0258)%     (41.3692 ± 0.5841)%    (34.4455 ± 0.0750(stat) ± 0.9500(cal))%     (0.1941 ± 0.0031(stat) ± 0.0237(cal))%
+[1m[32m        OS_Kaon[m[2m     (15.7375 ± 0.0669)%     (42.9327 ± 0.2096)%    (36.8103 ± 0.0245(stat) ± 0.3616(cal))%     (1.0951 ± 0.0062(stat) ± 0.0600(cal))%
+[1m[32m      VtxCharge[m[2m     (20.8342 ± 0.0746)%     (43.0359 ± 0.1822)%    (36.9941 ± 0.0251(stat) ± 0.3069(cal))%     (1.4097 ± 0.0074(stat) ± 0.0665(cal))%
+[1m[32m       OS_Charm[m[2m      (5.0253 ± 0.0402)%     (40.4796 ± 0.3678)%    (34.0622 ± 0.0328(stat) ± 0.6189(cal))%     (0.5106 ± 0.0046(stat) ± 0.0397(cal))%
+[1m[32m OS_Combination[m[2m     (36.2386 ± 0.0883)%     (42.5088 ± 0.1379)%    (35.2847 ± 0.0240(stat) ± 0.2269(cal))%     (3.1389 ± 0.0128(stat) ± 0.0968(cal))%
+
+
+[1m--------------------------------------------------------
+-------------- COMPUTING FINAL HISTOGRAMS --------------
+--------------------------------------------------------
+[m[1m[94m---------------
+--- OS_Muon ---
+---------------[m
+[1m[94m-------------------
+--- OS_Electron ---
+-------------------[m
+[1m[94m---------------
+--- OS_Kaon ---
+---------------[m
+[1m[94m-----------------
+--- VtxCharge ---
+-----------------[m
+[1m[94m----------------
+--- OS_Charm ---
+----------------[m
+[1m[94m----------------------
+--- OS_Combination ---
+----------------------[m

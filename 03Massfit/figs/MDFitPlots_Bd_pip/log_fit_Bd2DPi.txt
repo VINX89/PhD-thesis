@@ -1,0 +1,2215 @@
+[?1034h
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Config file name: Bd2DPiConfigForMDFitter_Bd_lowStat
+Directory: /afs/cern.ch/user/v/vibattis/cmtuser/UraniaDev_v6r2p1/PhysFit/B2DXFitters/data/Bd2DPi_3fbCPV/Bd2DPi/
+==========================================================
+RUNMDFITTER_Bd IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+LogScale  =  {'BeautyMass': {'Bd2DK': [0.1, 10000.0], 'Bd2DPi': [0.001, 100000.0]}}
+sWeights  =  {'Hypo': 'Bd2DPi', 'Range': {'BeautyMass': [5220.0, 5600.0]}, 'Bins': 190}
+Chi2  =  {'Y': 0.7, 'X': 0.6}
+pdfList  =  {'Comb': {'Color': 600, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'cB2': {'par': [-0.00172409, -0.015, -0.001], 'title': 'c2^{\\pi}_{\\rm comb}'}, 'PDF': 'DoubleExponential', 'cB1': {'par': [-0.00172409, -0.015, -0.001], 'title': 'c1^{\\pi}_{\\rm comb}'}, 'frac': {'par': [0.7, 0.01, 1.0], 'title': 'f^{\\pi}_{\\rm comb}'}, 'Title': 'Combinatorial'}}, 'Bd2DK': {'BeautyMass': {'PDF': 'Exponential', 'cB': {'par': [-0.00656407, -0.015, -0.002], 'title': 'c^{K}_{\\rm comb}'}, 'Title': 'Combinatorial'}}, 'Title': 'Combinatorial'}, 'Bd2DK': {'Color': 1, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'scaleTails': False, 'a1': {'par': [0.89842], 'title': 'a1^{\\pi}_{\\Bz\\to DK}'}, 'fb': {'par': [0.0], 'title': '\\beta^{\\pi}_{\\Bz\\to DK}'}, 'a2': {'par': [1.092], 'title': 'a2^{\\pi}_{\\Bz\\to DK}'}, 'PDF': 'Ipatia', 'zeta': {'par': [0.0], 'title': '\\zeta^{\\pi}_{\\Bz\\to DK}'}, 'l': {'par': [-23.916], 'title': '\\lambda^{\\pi}_{\\Bz\\to DK}'}, 'shiftMean': False, 'n1': {'par': [3.829], 'title': 'n1^{\\pi}_{\\Bz\\to DK}'}, 'n2': {'par': [21.98], 'title': 'n2^{\\pi}_{\\Bz\\to DK}'}, 'sigma': {'par': [23.434], 'title': '\\sigma^{\\pi}_{\\Bz\\to DK}'}, 'mean': {'par': [5240.0, 5150.0, 5350.0], 'title': '\\mu^{\\pi}_{\\Bz\\to DK}'}}}, 'Bd2DK': {'BeautyMass': {'scaleTails': False, 'a1': 'Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo', 'fb': {'par': [0.0], 'title': '\\beta^{K}_{\\Bz\\to DK}'}, 'a2': 'Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo', 'PDF': 'Ipatia', 'zeta': {'par': [0.0], 'title': '\\zeta^{K}_{\\Bz\\to DK}'}, 'l': {'par': [-3.4455], 'title': '\\lambda^{K}_{\\Bz\\to DK}'}, 'shiftMean': False, 'n1': 'Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo', 'n2': 'Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo', 'sigma': {'par': [17.32, 5.0, 60.0], 'title': '\\sigma^{K}_{\\Bz\\to DK}'}, 'mean': 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo'}}, 'Title': 'B^{0}#rightarrowD^{#mp}K^{#pm}'}, 'Signal': {'Color': 632, 'Style': 2, 'Bd2DPi': {'BeautyMass': {'tau': {'par': [0.32598], 'title': '\\tau^{\\pi}_{\\Bz\\to D\\pi}'}, 'sigmaI': {'par': [43.925, 15.0, 85.0], 'title': '\\sigmaI^{\\pi}_{\\Bz\\to D\\pi}'}, 'sigmaJ': {'par': [16.824, 10.0, 34.0], 'title': '\\sigmaJ^{\\pi}_{\\Bz\\to D\\pi}'}, 'nu': {'par': [-0.10506], 'title': '\\nu^{\\pi}_{\\Bz\\to D\\pi}'}, 'fracI': {'par': [0.43622], 'title': 'f^{\\pi}_{\\Bz\\to D\\pi}'}, 'scaleTails': True, 'l': {'par': [-1.2397], 'title': '\\lambda^{\\pi}_{\\Bz\to D\\pi}'}, 'a1': 'Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo', 'fb': {'par': [0.0], 'title': '\\beta^{\\pi}_{\\Bz\\to D\\pi}'}, 'a2': 'Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo', 'shiftMean': False, 'n1': 'Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo', 'PDF': 'IpatiaPlusJohnsonSU', 'zeta': {'par': [0.0], 'title': '\\zeta^{\\pi}_{\\Bz\\to D\\pi}'}, 'n2': 'Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo', 'mean': 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo'}}, 'Bd2DK': {'BeautyMass': {'scaleTails': False, 'a1': {'par': [3.1436], 'title': 'a11^{K}_{\\Bz\\to D\\pi}'}, 'fb': {'par': [0.0], 'title': '\\beta^{K}_{\\Bz\\to D\\pi}'}, 'a2': {'par': [0.56856], 'title': 'a21^{K}_{\\Bz\\to D\\pi}'}, 'PDF': 'Ipatia', 'zeta': {'par': [0.0], 'title': '\\zeta^{K}_{\\Bz\\to D\\pi}'}, 'l': {'par': [-3.7704], 'title': '\\lambda^{K}_{\\Bz\\to D\\pi}'}, 'shiftMean': False, 'n1': {'par': [0.047325], 'title': 'n11^{K}_{\\Bz\\to D\\pi}'}, 'n2': {'par': [2.8096], 'title': 'n21^{K}_{\\Bz\\to D\\pi}'}, 'sigma': {'par': [23.972], 'title': '\\sigma^{K}_{\\Bz\\to D\\pi}'}, 'mean': {'par': [5336.5, 5250.0, 5450.0], 'title': '\\mu^{K}_{\\Bz\\to D\\pi}'}}}, 'Title': 'B^{0}#rightarrowD^{#mp}#pi^{#pm}'}, 'Bs2DsPi': {'Color': 432, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'PDF': 'None'}}, 'Bd2DK': {'BeautyMass': {'PDF': 'None'}}, 'Title': 'B_{s}#rightarrowD_{s}#pi'}, 'Bd2DRho': {'Color': 616, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'tau': {'par': [1.1632], 'title': '\\tau^{\\pi}_{\\Bz\\to D\\rho}'}, 'shift': {'par': [-452.5], 'title': '\\Delta\\mu^{\\pi}_{\\Bz\\to D\\rho}'}, 'shiftMean': True, 'PDF': 'JohnsonSU', 'sigma': {'par': [549.39], 'title': '\\sigma^{\\pi}_{\\Bz\\to D\\rho}'}, 'nu': {'par': [-2.0121], 'title': '\\nu^{\\pi}_{\\Bz\\to D\\rho}'}, 'mean': 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo'}}, 'Bd2DK': {'BeautyMass': {'frac': {'par': [0.21017], 'title': 'f^{K}_{\\Bz\\to D\\rho}'}, 'shiftMean': True, 'sameMean': True, 'sigma2': {'par': [44.513], 'title': '\\sigma 2^{K}_{\\Bz\\to D\\rho}'}, 'PDF': 'DoubleGaussian', 'shift': {'par': [-170.40000000000055], 'title': '\\Delta\\mu^{K}_{\\Bz\\to D\\rho}'}, 'sigma1': {'par': [116.56], 'title': '\\sigma 1\\mu^{K}_{\\Bz\\to D\\rho}'}, 'mean': 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo'}}, 'Title': 'B^{0}#rightarrowD^{#mp}#rho^{#pm}'}, 'Total': {'Color': 600, 'Style': 1, 'Title': 'Total'}, 'Bd2DstPi': {'Color': 416, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'fracG': {'par': [0.30218], 'title': 'f^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'alpha': {'par': [-1.4432], 'title': '\\alpha^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'scaleWidths': False, 'shiftMean': True, 'shift': {'par': [-179.40000000000055], 'title': '\\Delta\\mu^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'PDF': 'CrystalBallPlusGaussian', 'sigmaG': {'par': [16.52], 'title': '\\sigma G^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'n': {'par': [4.6477], 'title': 'n^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'sigmaCB': {'par': [25.844], 'title': '\\sigma CB^{\\pi}_{\\Bz\\to \\Dst\\pi}'}, 'mean': 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo'}}, 'Bd2DK': {'BeautyMass': {'PDF': 'None'}}, 'Title': 'B^{0}#rightarrowD^{*#mp}#pi^{#pm}'}, 'Bd2DKst': {'Color': 416, 'Style': 3, 'Bd2DPi': {'BeautyMass': {'PDF': 'None'}}, 'Bd2DK': {'BeautyMass': {'PDF': 'Gaussian', 'sigma': {'par': [28.878, 10.0, 60.0], 'title': '\\sigma^{K}_{\\Bz\\to D\\Kst}'}, 'shiftMean': False, 'mean': {'par': [5107.7, 4800.0, 5500.0], 'title': '\\mu^{K}_{\\Bz\\to D\\Kst}'}}}, 'Title': 'B^{0}#rightarrowD^{(*)#mp}K^{(*)#pm}/#pi^{#pm}'}}
+LHCbText  =  {'Y': 0.8, 'X': 0.89, 'Text': 'LHCb'}
+Legend  =  {'LogScale': {'Xmin': 0.55, 'Ymin': 0.58, 'Ymax': 0.89, 'Xmax': 0.89}, 'LinearScale': {'Xmin': 0.5, 'Ymin': 0.4, 'Ymax': 0.85, 'Xmax': 0.89}}
+BasicVariables  =  {'BDTG': {'Range': [0.0, 1], 'InputName': 'BDT_classifier', 'Name': 'BDTG'}, 'MistagSSPionBDTRaw': {'Range': [-1.0, 1.0], 'InputName': 'lab0_SS_nnetKaon_PROB', 'Name': 'MistagSSPionBDTRaw'}, 'TagDecOSCharm': {'Range': [-1.0, 1.0], 'InputName': 'obsTagOSCharm', 'Name': 'TagDecOSCharm'}, 'BacPIDK': {'Range': [-999.0, 999.0], 'InputName': 'lab1_PIDK', 'Name': 'BacPIDK'}, 'BacPT': {'Range': [400.0, 45000.0], 'InputName': 'lab0_FitDaughtersConst_P0_PT_flat', 'Name': 'BacPT'}, 'MistagSSProtonRaw': {'Range': [-1.0, 1.0], 'InputName': 'lab0_OS_nnetKaon_PROB', 'Name': 'MistagSSProtonRaw'}, 'nTracks': {'Range': [15.0, 1000.0], 'InputName': 'nTracks', 'Name': 'nTracks'}, 'MistagOSComb': {'Range': [0.0, 0.5], 'InputName': 'obsEtaOS', 'Name': 'MistagOSComb'}, 'TagDecSSProtonRaw': {'Range': [-1.0, 1.0], 'InputName': 'lab0_OS_nnetKaon_DEC', 'Name': 'TagDecSSProton'}, 'TagDecOSComb': {'Range': [-1.0, 1.0], 'InputName': 'obsTagOS', 'Name': 'TagDecOSComb'}, 'BacP': {'Range': [2000.0, 650000.0], 'InputName': 'lab0_FitDaughtersConst_P0_P_flat', 'Name': 'BacP'}, 'BeautyTime': {'Range': [0.4, 12.0], 'InputName': 'lab0_FitDaughtersPVConst_ctau_flat', 'Name': 'BeautyTime', 'Bins': 40}, 'BeautyMass': {'Range': [5090, 6000], 'InputName': 'lab0_FitDaughtersConst_M_flat', 'Name': 'BeautyMass'}, 'MistagOSCharm': {'Range': [0.0, 0.5], 'InputName': 'obsEtaOSCharm', 'Name': 'MistagOSCharm'}, 'CharmMass': {'Range': [1830, 1904], 'InputName': 'lab0_FitwithoutConst_Dplus_M_flat', 'Name': 'CharmMass'}, 'TagDecSSPionBDTRaw': {'Range': [-1.0, 1.0], 'InputName': 'lab0_SS_nnetKaon_DEC', 'Name': 'TagDecSSPionBDT'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'lab1_ID', 'Name': 'BacCharge'}}
+Range  =  {'BeautyMass': {'Range': [5090, 6000], 'Bins': 227}}
+Yields  =  {'Bd2DK': {'Bd2DK': 'nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts', 'Bd2DPi': 'nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts'}, 'Signal': {'Bd2DK': 'nSig_both_kpipi_run1_Bd2DKHypo_Evts', 'Bd2DPi': 'nSig_both_kpipi_run1_Bd2DPiHypo_Evts'}, 'Bs2DsPi': {'Bd2DK': {'par': [0], 'title': 'N^{K}_{B_{s}\\to D_{s}\\pi}'}, 'Bd2DPi': {'par': [0], 'title': 'N^{\\pi}_{B_{s}\\to D_{s}\\pi}'}}, 'Bd2DRho': {'Bd2DK': 'nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts', 'Bd2DPi': {'par': [41417.0, 0, 500000], 'title': 'N^{\\pi}_{\\Bz\\to D\\rho}'}}, 'Comb': {'Bd2DK': {'par': [1000, 0, 100000], 'title': 'N^{K}_{\\rm comb}'}, 'Bd2DPi': {'par': [15000, 0, 500000], 'title': 'N^{\\pi}_{\\rm comb}'}}, 'Bd2DstPi': {'Bd2DK': {'par': [0], 'title': 'N^{K}_{\\Bz\to \\Dst\\pi}'}, 'Bd2DPi': {'par': [32575.0, 0, 500000], 'title': 'N^{\\pi}_{\\Bz\\to \\Dst\\pi}'}}, 'Bd2DKst': {'Bd2DK': 'nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts', 'Bd2DPi': {'par': [0], 'title': 'N^{\\pi}_{\\Bz\\to D\\Kst}'}}}
+sWeightsFitPlot  =  {'Signal': {'Color': 632, 'Style': 2, 'Title': 'Signal'}, 'Total': {'Color': 600, 'Style': 1, 'Title': 'Total'}, 'Background': {'Color': 1, 'Style': 3, 'Title': 'Background'}}
+AxisTitle  =  {'BeautyMass': {'Bd2DK': 'D^{#mp}K^{#pm} mass [MeV/c^{2}]', 'Bd2DPi': 'D^{#mp}#pi^{#pm} mass [MeV/c^{2}]'}}
+GlobalVariables  =  {'Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo': {'Range': [1.0, 0.1, 10.0], 'Type': 'RooRealVar', 'Title': 'sa^{\\pi}_{\\Bz\\to D\\pi}'}, 'DRho_to_DKst_KHypo': {'Range': [0.93], 'Error': 0.23, 'Type': 'RooRealVar', 'Title': 'DRho_to_DKst_KHypo'}, 'nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts': {'Formula': '((1-@0)/@0)*@1', 'Dependents': ['eff_Bd2DK_DK', 'nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts'], 'Type': 'RooFormulaVar', 'Title': 'N^{\\pi}_{\\Bz\\to DK}'}, 'Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo': {'Range': [1.0, 0.1, 10.0], 'Type': 'RooRealVar', 'Title': 'sn^{\\pi}_{\\Bz\\to D\\pi}'}, 'nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts': {'Range': [2000, 0, 100000], 'Type': 'RooRealVar', 'Title': 'N^{K}_{\\Bz\\to D\\Kst}'}, 'nSig_both_kpipi_run1_Bd2DKHypo_Evts': {'Formula': '((1-@0)/@0)*@1', 'Dependents': ['eff_Bd2DPi_DPi', 'nSig_both_kpipi_run1_Bd2DPiHypo_Evts'], 'Type': 'RooFormulaVar', 'Title': 'N^{K}_{\\Bz\\to D\\pi}'}, 'Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo': {'Range': [0.0], 'Type': 'RooRealVar', 'Title': 'n2^{K}_{\\Bz\\to DK}'}, 'Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo': {'Range': [5.8254], 'Type': 'RooRealVar', 'Title': 'n2^{\\pi}_{\\Bz\\to D\\pi}'}, 'Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo': {'Range': [2.3381], 'Type': 'RooRealVar', 'Title': 'a1^{K}_{\\Bz\\to DK}'}, 'Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo': {'Range': [0.96101], 'Type': 'RooRealVar', 'Title': 'a2^{\\pi}_{\\Bz\\to D\\pi}'}, 'nSig_both_kpipi_run1_Bd2DPiHypo_Evts': {'Range': [200000, 0, 900000], 'Type': 'RooRealVar', 'Title': 'N^{\\pi}_{\\Bz\\to D\\pi}'}, 'Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo': {'Range': [0.72205], 'Type': 'RooRealVar', 'Title': 'a1^{\\pi}_{\\Bz\\to D\\pi}'}, 'nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts': {'Range': [15000, 0, 500000], 'Type': 'RooRealVar', 'Title': 'N^{K}_{\\Bz\\to DK}'}, 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo': {'Range': [5280.3, 5200.0, 5350.0], 'Type': 'RooRealVar', 'Title': '\\mu^{\\pi}_{\\Bz\\to D\\pi}'}, 'Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo': {'Range': [1000000000.0], 'Type': 'RooRealVar', 'Title': 'a2^{K}_{\\Bz\\to DK}'}, 'nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts': {'Formula': '@0*@1', 'Dependents': ['nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts', 'DRho_to_DKst_KHypo'], 'Type': 'RooFormulaVar', 'Title': 'N^{K}_{\\Bz\\to D\\rho}'}, 'eff_Bd2DPi_DPi': {'Range': [0.979, 0.8, 1.0], 'Error': 0.00439346855221, 'Type': 'RooRealVar', 'Title': '\\epsilon_{\\rm PID}(\\Bz\\to D\\pi)_{\\pi}'}, 'Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo': {'Range': [1.5601], 'Type': 'RooRealVar', 'Title': 'n1^{K}_{\\Bz\\to DK}'}, 'eff_Bd2DK_DK': {'Range': [0.637, 0.5, 0.8], 'Error': 0.0127799916689, 'Type': 'RooRealVar', 'Title': '\\epsilon_{\\rm PID}(\\Bz\\to DK)_{K}'}, 'Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo': {'Range': [5279.8, 5200.0, 5350.0], 'Type': 'RooRealVar', 'Title': '\\mu^{K}_{\\Bz\\to D\\pi}'}, 'Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo': {'Range': [5.9199], 'Type': 'RooRealVar', 'Title': 'n1^{\\pi}_{\\Bz\\to D\\pi}'}}
+GaussianConstraints  =  {'Eff_Bd2DK_DK': {'Covariance': [0.0127799916689], 'Parameters': ['eff_Bd2DK_DK'], 'Mean': [0.637]}, 'Eff_Bd2DPi_DPi': {'Covariance': [0.00439346855221], 'Parameters': ['eff_Bd2DPi_DPi'], 'Mean': [0.979]}}
+plotsWeights  =  {'BeautyTime': '#tau(B_{d}#rightarrow D#pi) (ps)', 'CharmMass': 'K#pi#pi mass (MeV/c^{2})'}
+AdditionalVariables  =  {'BeautyMassErr': {'Range': [0.0, 900000], 'InputName': 'lab0_FitDaughtersConst_MERR_flat', 'Name': 'BeautyMassErr'}, 'CharmTime': {'Range': [-10, 10], 'InputName': 'lab2_TAU', 'Name': 'CharmTime'}, 'BeautyPhi': {'Range': [-10.0, 10.0], 'InputName': 'lab0_LOKI_PHI', 'Name': 'BeautyPhi'}, 'BeautyPT': {'Range': [0.0, 100000], 'InputName': 'lab0_PT', 'Name': 'BeautyPT'}, 'Hlt2Topo3BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo3BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo3BodyBBDTDecision_TOS'}, 'Hlt2Topo4BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo4BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo4BodyBBDTDecision_TOS'}, 'L0HadronDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_L0HadronDecision_TOS', 'Name': 'L0HadronDecision_TOS'}, 'BeautyP': {'Range': [0.0, 3000000], 'InputName': 'lab0_P', 'Name': 'BeautyP'}, 'Hlt2Topo2BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo2BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo2BodyBBDTDecision_TOS'}, 'BeautyEta': {'Range': [1.5, 10.0], 'InputName': 'lab0_LOKI_ETA', 'Name': 'BeautyEta'}, 'nPV': {'Range': [0.0, 10], 'InputName': 'nPV', 'Name': 'nPV'}}
+==========================================================
+===================================================================
+MDFitterSettings(,)
+===================================================================
+-------------------------------------------------------------------
+	 Basic variables: 
+-------------------------------------------------------------------
+B(s) mass range: (5090,6000), input name: lab0_FitDaughtersConst_M_flat, output name: BeautyMass
+D(s) mass range: (1830,1904), input name: lab0_FitwithoutConst_Dplus_M_flat, output name: CharmMass
+PIDK range: (-999,999),  input name: lab1_PIDK, output name: BacPIDK
+BDTG range: (0,1), input name: BDT_classifier, output name: BDTG
+Time range: (0.4,12), input name: lab0_FitDaughtersPVConst_ctau_flat, output name: BeautyTime
+Charge range: (-1000,1000), input name: lab1_ID, output name: BacCharge
+Momentum range: (2000,650000), intput name: lab0_FitDaughtersConst_P0_P_flat, output name: BacP
+Transverse momentum range: (400,45000),  variable name: lab0_FitDaughtersConst_P0_PT_flat, output name: BacPT
+nTracks range: (15,1000),  variable name: nTracks, output name: nTracks
+-------------------------------------------------------------------
+	 Tagging: 
+-------------------------------------------------------------------
+Tagging decision variables
+Range: (-1,1), input name: obsTagOSCharm, output name: TagDecOSCharm
+Range: (-1,1), input name: obsTagOS, output name: TagDecOSComb
+Range: (-1,1), input name: lab0_SS_nnetKaon_DEC, output name: TagDecSSPionBDTRaw
+Range: (-1,1), input name: lab0_OS_nnetKaon_DEC, output name: TagDecSSProtonRaw
+Tagging mistag variables
+Range: (0,0.5), variable name: obsEtaOSCharm, output name: MistagOSCharm
+Range: (0,0.5), variable name: obsEtaOS, output name: MistagOSComb
+Range: (-1,1), variable name: lab0_SS_nnetKaon_PROB, output name: MistagSSPionBDTRaw
+Range: (-1,1), variable name: lab0_OS_nnetKaon_PROB, output name: MistagSSProtonRaw
+Tagging calibration:
+	 OSCharm: p0: 1, p1: 1, average: 1 use: 1
+	 OSComb: p0: 1, p1: 1, average: 1 use: 1
+	 SSPionBDT: p0: 1, p1: 1, average: 1 use: 1
+	 SSProton: p0: 1, p1: 1, average: 1 use: 1
+-------------------------------------------------------------------
+	 Additional cuts applied to data set: 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+	 Additional variables in data set: 
+-------------------------------------------------------------------
+Range: (0,900000), input name: lab0_FitDaughtersConst_MERR_flat output name: BeautyMassErr
+Range: (-10,10), input name: lab2_TAU output name: CharmTime
+Range: (-10,10), input name: lab0_LOKI_PHI output name: BeautyPhi
+Range: (0,100000), input name: lab0_PT output name: BeautyPT
+Range: (0,1), input name: lab0_Hlt2Topo3BodyBBDTDecision_TOS output name: Hlt2Topo3BodyBBDTDecision_TOS
+Range: (0,1), input name: lab0_Hlt2Topo4BodyBBDTDecision_TOS output name: Hlt2Topo4BodyBBDTDecision_TOS
+Range: (0,1), input name: lab0_L0HadronDecision_TOS output name: L0HadronDecision_TOS
+Range: (0,3e+06), input name: lab0_P output name: BeautyP
+Range: (0,1), input name: lab0_Hlt2Topo2BodyBBDTDecision_TOS output name: Hlt2Topo2BodyBBDTDecision_TOS
+Range: (1.5,10), input name: lab0_LOKI_ETA output name: BeautyEta
+Range: (0,10), input name: nPV output name: nPV
+-------------------------------------------------------------------
+	 Mass templates will be weighted using following settings: 
+-------------------------------------------------------------------
+ Shift for BeautyMass is: 0
+ Shift for CharmMass is: 0
+-------------------------------------------------------------------
+
+
+=========================================
+Get input workspace with data workspace from:
+/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_data.root
+=========================================
+
+[INFO] => GeneralUtils.LoadWorkspace(/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_data.root,workspace)
+Open file: /afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_data.root
+Read workspace: workspace
+
+RooWorkspace(workspace) workspace contents
+
+variables
+---------
+(BDTG,BacCharge,BacEta,BacP,BacPIDK,BacPT,BeautyEta,BeautyMass,BeautyMassErr,BeautyP,BeautyPT,BeautyPhi,BeautyTime,BeautyTimeErr,CharmEta,CharmMass,CharmTime,Hlt2Topo2BodyBBDTDecision_TOS,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,MistagOSCharm,MistagOSCharm_calib,MistagOSComb,MistagOSComb_calib,MistagSSPionBDTRaw,MistagSSPionBDTRaw_calib,MistagSSProtonRaw,MistagSSProtonRaw_calib,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,nPV,nTracks)
+
+datasets
+--------
+RooDataSet::dataSetBd2DPi_down_kpipi_2011_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_up_kpipi_2011_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_down_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_up_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_down_kpipi_2011_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_up_kpipi_2011_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_down_kpipi_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+RooDataSet::dataSetBd2DPi_up_kpipi_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BeautyTimeErr,BDTG,BacP,BacPT,nTracks,BacCharge,BacEta,CharmTime,BeautyPhi,CharmEta,BeautyPT,BeautyMassErr,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,MistagOSCharm_calib,MistagOSComb_calib,MistagSSPionBDTRaw_calib,MistagSSProtonRaw_calib)
+
+
+=========================================
+Create output workspace workResults
+=========================================
+
+
+=========================================
+Get input observables from:
+workspace
+=========================================
+
+MDFitterSettings::GetObsSet(...) => Get set of observables
+  1) 0x1b49e550 RooRealVar::                    BeautyMass = 5545  L(5090 - 6000)  "BeautyMass"
+  2) 0x1b4d69b0 RooRealVar::                     CharmMass = 1867  L(1830 - 1904)  "CharmMass"
+  3) 0x1b4c3060 RooRealVar::                       BacPIDK = 0  L(-999 - 999)  "BacPIDK"
+  4) 0x1b4dcd00 RooRealVar::                    BeautyTime = 6.2  L(0.4 - 12)  "BeautyTime"
+  5) 0x1b4aa360 RooRealVar::                          BDTG = 0.5  L(0 - 1)  "BDTG"
+  6) 0x1b4cca40 RooRealVar::                          BacP = 10.4928  L(7.6009 - 13.3847)  "BacP"
+  7) 0x1b4b5550 RooRealVar::                         BacPT = 8.35294  L(5.99146 - 10.7144)  "BacPT"
+  8) 0x1b4ea4f0 RooRealVar::                       nTracks = 4.8079  L(2.70805 - 6.90776)  "nTracks"
+  9) 0x1b4e98c0 RooCategory::                     BacCharge = h+(idx = 1)
+  "bachelor charge"
+ 10) 0x1b4cb330 RooRealVar::                 BeautyMassErr = 450000  L(0 - 900000)  "BeautyMassErr"
+ 11) 0x1b4cc0d0 RooRealVar::                     CharmTime = 0  L(-10 - 10)  "CharmTime"
+ 12) 0x1b4cc4f0 RooRealVar::                     BeautyPhi = 0  L(-10 - 10)  "BeautyPhi"
+ 13) 0x1b4d2b10 RooRealVar::                      BeautyPT = 50000  L(0 - 100000)  "BeautyPT"
+ 14) 0x1b4d2f30 RooRealVar:: Hlt2Topo3BodyBBDTDecision_TOS = 0.5  L(0 - 1)  "Hlt2Topo3BodyBBDTDecision_TOS"
+ 15) 0x1b4c1f60 RooRealVar:: Hlt2Topo4BodyBBDTDecision_TOS = 0.5  L(0 - 1)  "Hlt2Topo4BodyBBDTDecision_TOS"
+ 16) 0x1b4c2380 RooRealVar::          L0HadronDecision_TOS = 0.5  L(0 - 1)  "L0HadronDecision_TOS"
+ 17) 0x1b4ad410 RooRealVar::                       BeautyP = 1.5e+06  L(0 - 3e+06)  "BeautyP"
+ 18) 0x1b4ad830 RooRealVar:: Hlt2Topo2BodyBBDTDecision_TOS = 0.5  L(0 - 1)  "Hlt2Topo2BodyBBDTDecision_TOS"
+ 19) 0x1b4a7db0 RooRealVar::                     BeautyEta = 5.75  L(1.5 - 10)  "BeautyEta"
+ 20) 0x1b4a84c0 RooRealVar::                           nPV = 5  L(0 - 10)  "nPV"
+ 21) 0x1b4dd510 RooCategory::                 TagDecOSCharm = B_0(idx = 1)
+  "flavour tagging result"
+ 22) 0x1b4a48c0 RooCategory::                  TagDecOSComb = B_1(idx = 1)
+  "flavour tagging result"
+ 23) 0x1b4a8f20 RooCategory::            TagDecSSPionBDTRaw = B_2(idx = 1)
+  "flavour tagging result"
+ 24) 0x93b7f40 RooCategory::             TagDecSSProtonRaw = B_3(idx = 1)
+  "flavour tagging result"
+ 25) 0x1b4b6730 RooRealVar::                 MistagOSCharm = 0.25  L(0 - 0.5)  "MistagOSCharm"
+ 26) 0x1b4b6e40 RooRealVar::                  MistagOSComb = 0.25  L(0 - 0.5)  "MistagOSComb"
+ 27) 0x1b4d7b00 RooRealVar::            MistagSSPionBDTRaw = 0  L(-1 - 1)  "MistagSSPionBDTRaw"
+ 28) 0x1b4ca560 RooRealVar::             MistagSSProtonRaw = 0  L(-1 - 1)  "MistagSSProtonRaw"
+
+=========================================
+Get dataset from:
+workspace
+=========================================
+
+[INFO] GetDataSet(...)
+[INFO] Sample: both, Mode: kpipi, Year: run1, Hypo: Bd2DPi_Bd2DK, Merge: both
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi_Bd2DK: Merge: 
+[INFO] GeneralUtils::GetHypo(..): Multiple hypothesys selected. Splitting string
+[INFO] Sample mode year hypo: up_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: up_kpipi_2011_Bd2DKHypo
+[INFO] Sample mode year hypo: up_kpipi_2012_Bd2DPiHypo
+[INFO] Sample mode year hypo: up_kpipi_2012_Bd2DKHypo
+[INFO] Sample mode year hypo: down_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: down_kpipi_2011_Bd2DKHypo
+[INFO] Sample mode year hypo: down_kpipi_2012_Bd2DPiHypo
+[INFO] Sample mode year hypo: down_kpipi_2012_Bd2DKHypo
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_up_kpipi_2011_Bd2DPiHypo)
+Read data set: dataSetBd2DPi_up_kpipi_2011_Bd2DPiHypo with number of entries: 80899 and the sum of entries: 80899
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_up_kpipi_2011_Bd2DKHypo)
+Read data set: dataSetBd2DPi_up_kpipi_2011_Bd2DKHypo with number of entries: 7552 and the sum of entries: 7552
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_up_kpipi_2012_Bd2DPiHypo)
+Read data set: dataSetBd2DPi_up_kpipi_2012_Bd2DPiHypo with number of entries: 242536 and the sum of entries: 242536
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_up_kpipi_2012_Bd2DKHypo)
+Read data set: dataSetBd2DPi_up_kpipi_2012_Bd2DKHypo with number of entries: 22240 and the sum of entries: 22240
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_down_kpipi_2011_Bd2DPiHypo)
+Read data set: dataSetBd2DPi_down_kpipi_2011_Bd2DPiHypo with number of entries: 114119 and the sum of entries: 114119
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_down_kpipi_2011_Bd2DKHypo)
+Read data set: dataSetBd2DPi_down_kpipi_2011_Bd2DKHypo with number of entries: 10543 and the sum of entries: 10543
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_down_kpipi_2012_Bd2DPiHypo)
+Read data set: dataSetBd2DPi_down_kpipi_2012_Bd2DPiHypo with number of entries: 246048 and the sum of entries: 246048
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetBd2DPi_down_kpipi_2012_Bd2DKHypo)
+Read data set: dataSetBd2DPi_down_kpipi_2012_Bd2DKHypo with number of entries: 21659 and the sum of entries: 21659
+[INFO] Adding dataSetBd2DPi_up_kpipi_2011_Bd2DPiHypo dataSetBd2DPi_down_kpipi_2011_Bd2DPiHypo 195018
+[INFO] New data name: dataSetBd2DPi_both_kpipi_2011_Bd2DPiHypo
+[INFO] Adding dataSetBd2DPi_up_kpipi_2011_Bd2DKHypo dataSetBd2DPi_down_kpipi_2011_Bd2DKHypo 18095
+[INFO] New data name: dataSetBd2DPi_both_kpipi_2011_Bd2DKHypo
+[INFO] Adding dataSetBd2DPi_up_kpipi_2012_Bd2DPiHypo dataSetBd2DPi_down_kpipi_2012_Bd2DPiHypo 488584
+[INFO] New data name: dataSetBd2DPi_both_kpipi_2012_Bd2DPiHypo
+[INFO] Adding dataSetBd2DPi_up_kpipi_2012_Bd2DKHypo dataSetBd2DPi_down_kpipi_2012_Bd2DKHypo 43899
+[INFO] New data name: dataSetBd2DPi_both_kpipi_2012_Bd2DKHypo
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi_Bd2DK: Merge: pol
+[INFO] GeneralUtils::GetHypo(..): Multiple hypothesys selected. Splitting string
+[INFO] Sample mode year hypo: both_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: both_kpipi_2011_Bd2DKHypo
+[INFO] Sample mode year hypo: both_kpipi_2012_Bd2DPiHypo
+[INFO] Sample mode year hypo: both_kpipi_2012_Bd2DKHypo
+[INFO] In dataOutTmp name: dataSetBd2DPi_both_kpipi_2011_Bd2DPiHypo with entries 195018
+[INFO] In dataOutTmp name: dataSetBd2DPi_both_kpipi_2011_Bd2DKHypo with entries 18095
+[INFO] In dataOutTmp name: dataSetBd2DPi_both_kpipi_2012_Bd2DPiHypo with entries 488584
+[INFO] In dataOutTmp name: dataSetBd2DPi_both_kpipi_2012_Bd2DKHypo with entries 43899
+[INFO] Adding dataSetBd2DPi_both_kpipi_2011_Bd2DPiHypo dataSetBd2DPi_both_kpipi_2012_Bd2DPiHypo 683602
+[INFO] New data name: dataSetBd2DPi_both_kpipi_run1_Bd2DPiHypo
+[INFO] Adding dataSetBd2DPi_both_kpipi_2011_Bd2DKHypo dataSetBd2DPi_both_kpipi_2012_Bd2DKHypo 61994
+[INFO] New data name: dataSetBd2DPi_both_kpipi_run1_Bd2DKHypo
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi_Bd2DK: Merge: both
+[INFO] GeneralUtils::GetHypo(..): Multiple hypothesys selected. Splitting string
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DPiHypo
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DKHypo
+In dataOut name: dataSetBd2DPi_both_kpipi_run1_Bd2DPiHypo with entries 683602
+In dataOut name: dataSetBd2DPi_both_kpipi_run1_Bd2DKHypo with entries 61994
+[INFO] Adding: dataSetBd2DPi_both_kpipi_run1_Bd2DPiHypo to combData
+sm: both_kpipi_run1_Bd2DKHypo
+[INFO] Adding: dataSetBd2DPi_both_kpipi_run1_Bd2DKHypo to combData
+RooArgSet:: = (BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,BeautyMassErr,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw)
+Applying following preselection to reduce dataset:
+BacCharge==1
+[#0] WARNING:DataHandling -- RooDataSet::RooDataSet(combData) WARNING: designated weight variable  not found in set of variables, no weighting will be assigned
+Entries:
+...before cut: 745596.0
+...after cut: 376652.0
+Binning dataset
+TH1.Print Name  = hist_Bd2DPi, Entries= 345198, Total sum= 345198
+OBJ: RooCmdArg	ImportHistoSlice	ImportHistoSlice
+TH1.Print Name  = hist_Bd2DK, Entries= 31454, Total sum= 31454
+OBJ: RooCmdArg	ImportHistoSlice	ImportHistoSlice
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(combData_binned): fit range of variable BeautyMass expanded to nearest bin boundaries: [5090,6000] --> [5090,6000]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing dataset combData_binned
+[#0] ERROR:InputArguments -- RooWorkspace::import(workResults) ERROR: unrecognized command: RecycleConflictNodes
+[#0] ERROR:InputArguments -- RooWorkspace::import(workResults) ERROR: unrecognized command: Silence
+WARNING: binning and sWeights requested at the same time. Performing fit on a binned copy, and evaluating sWeights on unbinned dataset.
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing dataset combData
+[#0] ERROR:InputArguments -- RooWorkspace::import(workResults) ERROR: unrecognized command: RecycleConflictNodes
+[#0] ERROR:InputArguments -- RooWorkspace::import(workResults) ERROR: unrecognized command: Silence
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::CharmMass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BacPIDK
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BDTG
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BacP
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BacPT
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::nTracks
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyMassErr
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::CharmTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyPhi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyPT
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::Hlt2Topo3BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::Hlt2Topo4BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::L0HadronDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyP
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::Hlt2Topo2BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::BeautyEta
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::nPV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooCategory::TagDecOSCharm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooCategory::TagDecOSComb
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooCategory::TagDecSSPionBDTRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooCategory::TagDecSSProtonRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::MistagOSCharm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::MistagOSComb
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::MistagSSPionBDTRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workResults) importing RooRealVar::MistagSSProtonRaw
+Dataset:
+DataStore combData_binned (combData binned)
+  Contains 454 entries
+  Observables: 
+    1)      sample = both_kpipi_run1_Bd2DKHypo(idx = 1)
+  "sample"
+    2)  BeautyMass = 5998  L(5090 - 6000) B(227)  "BeautyMass"
+Binned Dataset combData_binned (combData binned)
+  Contains 454 bins with a total weight of 376652
+  Observables:     1)      sample = both_kpipi_run1_Bd2DKHypo(idx = 1)
+  "sample"
+    2)  BeautyMass = 5998  L(5090 - 6000) B(227)  "BeautyMass"
+376652.0
+Sample categories
+--- RooAbsArg ---
+  Value State: clean
+  Shape State: clean
+  Attributes: 
+  Address: 0x1b514a90
+  Clients: 
+  Servers: 
+  Proxies: 
+--- RooAbsCategory ---
+  Value is "both_kpipi_run1_Bd2DKHypo" (1)
+  Has the following possible values:
+        both_kpipi_run1_Bd2DPiHypo = 0
+        both_kpipi_run1_Bd2DKHypo = 1
+Category dictionary:
+{'Bd2DK': 'both_kpipi_run1_Bd2DKHypo', 'Bd2DPi': 'both_kpipi_run1_Bd2DPiHypo'}
+
+=========================================
+Build global variables
+=========================================
+
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building DRho_to_DKst_KHypo of RooRealVar type
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts of RooRealVar type
+Building Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo of RooRealVar type
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo of RooRealVar type
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building nSig_both_kpipi_run1_Bd2DPiHypo_Evts of RooRealVar type
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts of RooRealVar type
+Building Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo of RooRealVar type
+Building eff_Bd2DPi_DPi of RooRealVar type
+Building Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo of RooRealVar type
+Building eff_Bd2DK_DK of RooRealVar type
+Building Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo of RooRealVar type
+Building Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo of RooRealVar type
+Building nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts of RooFormulaVar type
+Building nSig_both_kpipi_run1_Bd2DKHypo_Evts of RooFormulaVar type
+Building nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts of RooFormulaVar type
+Workspace content:
+
+RooWorkspace(workResults) workResults contents
+
+variables
+---------
+(BDTG,BacCharge,BacP,BacPIDK,BacPT,Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo,BeautyEta,BeautyMass,BeautyMassErr,BeautyP,BeautyPT,BeautyPhi,BeautyTime,CharmMass,CharmTime,DRho_to_DKst_KHypo,Hlt2Topo2BodyBBDTDecision_TOS,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo,Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,eff_Bd2DK_DK,eff_Bd2DPi_DPi,nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts,nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts,nPV,nSig_both_kpipi_run1_Bd2DPiHypo_Evts,nTracks,sample)
+
+functions
+--------
+RooFormulaVar::nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts[ actualVars=(eff_Bd2DK_DK,nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts) formula="((1-@0)/@0)*@1" ] = 8547.88
+RooFormulaVar::nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts[ actualVars=(nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts,DRho_to_DKst_KHypo) formula="@0*@1" ] = 1860
+RooFormulaVar::nSig_both_kpipi_run1_Bd2DKHypo_Evts[ actualVars=(eff_Bd2DPi_DPi,nSig_both_kpipi_run1_Bd2DPiHypo_Evts) formula="((1-@0)/@0)*@1" ] = 4290.09
+
+datasets
+--------
+RooDataHist::combData_binned(sample,BeautyMass)
+RooDataSet::combData(sample,BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,BeautyMassErr,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw)
+
+
+=========================================
+Build PDF to fit dataset:
+combData
+=========================================
+
+List of PDF components:
+['Comb', 'Bd2DK', 'Signal', 'Bs2DsPi', 'Bd2DRho', 'Total', 'Bd2DstPi', 'Bd2DKst']
+List of hypotheses (PID bins):
+['Bd2DPi', 'Bd2DK']
+List of observables:
+[<ROOT.RooRealVar object ("BeautyMass") at 0x1b53a950>]
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi_Bd2DK: Merge: both
+[INFO] GeneralUtils::GetHypo(..): Multiple hypothesys selected. Splitting string
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DPiHypo
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DKHypo
+Start to build PDF for each component...
+...hypothesys Bd2DPi, component Comb
+...observable BeautyMass
+Creating parameter Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo
+[INFO] --------- build double Exponential -------- 
+[INFO] Read observable: Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Comb_2E_BeautyMass_doubleExpo_both_kpipi_run1_Bd2DPiHypo
+...hypothesys Bd2DPi, component Bd2DK
+...observable BeautyMass
+Creating parameter Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo
+[INFO] --------- build Ipatia -------- 
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Bd2DK_Ipatia_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo
+...hypothesys Bd2DPi, component Signal
+...observable BeautyMass
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+Taking parameter Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo from workspace
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo
+Taking parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo from workspace
+Taking parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo from workspace
+Taking parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo from workspace
+Taking parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo from workspace
+Creating parameter Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo
+Bd2DhModels::buildIpatiaPlusJohnsonSUPDF(..)==> building Ipatia + JohnsonSU pdf...
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+[ERROR] Cannot read observable.
+[INFO] Read observable: Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Signal_IpatiaPlusJohnsonSU_BeautyMass_IpatiaPlusJohnsonSU_both_kpipi_run1_Bd2DPiHypo
+...hypothesys Bd2DPi, component Bs2DsPi
+...observable BeautyMass
+...hypothesys Bd2DPi, component Bd2DRho
+...observable BeautyMass
+Taking parameter Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo from workspace
+Creating parameter Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+Bd2DhModels::buildJohnsonSUPDF(..)==> building JohnsonSU pdf... 
+[ERROR] Cannot read observable.
+[INFO] Read observable: Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Bd2DRho_johnson_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo
+...hypothesys Bd2DPi, component Bd2DstPi
+...observable BeautyMass
+Taking parameter Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo from workspace
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo
+Creating parameter Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+Bd2DhModels::buildCrystalBallPlusGaussianPDF(..)==> building crystal ball + gaussian pdf...
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo
+[ERROR] Cannot read observable.
+[INFO] Read observable: Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+[INFO] Read observable: Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo
+[INFO] Create/Read Bd2DstPi_CBplusG_BeautyMass_CrystalBallPlusGaussian_both_kpipi_run1_Bd2DPiHypo
+...hypothesys Bd2DPi, component Bd2DKst
+...observable BeautyMass
+...hypothesys Bd2DK, component Comb
+...observable BeautyMass
+Creating parameter Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo
+[INFO] --------- build Exponential -------- 
+[INFO] Read observable: Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Comb_E_BeautyMass_expo_both_kpipi_run1_Bd2DKHypo
+...hypothesys Bd2DK, component Bd2DK
+...observable BeautyMass
+Creating parameter Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo
+Taking parameter Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo from workspace
+Creating parameter Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+Taking parameter Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo from workspace
+Taking parameter Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo from workspace
+Taking parameter Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo from workspace
+Taking parameter Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo from workspace
+[INFO] --------- build Ipatia -------- 
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo
+[ERROR] Cannot read observable.
+[INFO] Read observable: Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Bd2DK_Ipatia_BeautyMass_ipatia_both_kpipi_run1_Bd2DKHypo
+...hypothesys Bd2DK, component Signal
+...observable BeautyMass
+Creating parameter Signal_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo
+Creating parameter Signal_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo
+[INFO] --------- build Ipatia -------- 
+[INFO] Read observable: Signal_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Signal_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Signal_Ipatia_BeautyMass_ipatia_both_kpipi_run1_Bd2DKHypo
+...hypothesys Bd2DK, component Bs2DsPi
+...observable BeautyMass
+...hypothesys Bd2DK, component Bd2DRho
+...observable BeautyMass
+Taking parameter Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo from workspace
+Creating parameter Bd2DRho_DG_BeautyMass_sigma1_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DRho_DG_BeautyMass_sigma2_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DRho_DG_BeautyMass_frac_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DRho_DG_BeautyMass_shift_both_kpipi_run1_Bd2DKHypo
+[INFO] --------- build double Gaussian -------- 
+[INFO] Read observable: Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DRho_DG_BeautyMass_shift_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DRho_DG_BeautyMass_sigma1_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DRho_DG_BeautyMass_sigma2_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DRho_DG_BeautyMass_frac_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Bd2DRho_DG_BeautyMass_doubleGauss_both_kpipi_run1_Bd2DKHypo
+...hypothesys Bd2DK, component Bd2DstPi
+...observable BeautyMass
+...hypothesys Bd2DK, component Bd2DKst
+...observable BeautyMass
+Creating parameter Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+Creating parameter Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+[INFO] --------- build Gaussian -------- 
+[INFO] Read observable: Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo
+[INFO] Read observable: Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo
+[INFO] Create/Read Bd2DKst_G_BeautyMass_gauss_both_kpipi_run1_Bd2DKHypo
+PDF dictionary:
+
+Hypo: Bd2DPi, component: Comb
+{'Style': 3, 'Name': 'Comb_Bd2DPiHypo_PDF', 'Title': 'Combinatorial', 'Color': 600, 'Yield': <ROOT.RooRealVar object ("nComb_both_kpipi_run1_Bd2DPiHypo_Evts") at 0x42d1d7b0>, 'PDF': <ROOT.RooAddPdf object ("Comb_Bd2DPiHypo_PDF") at 0x46295f80>}
+
+
+Hypo: Bd2DPi, component: Bd2DK
+{'Style': 3, 'Name': 'Bd2DK_Bd2DPiHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}K^{#pm}', 'Color': 1, 'Yield': <ROOT.RooFormulaVar object ("nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts") at 0x437c2070>, 'PDF': <ROOT.RooIpatia2 object ("Bd2DK_Bd2DPiHypo_PDF") at 0x42d0ae30>}
+
+
+Hypo: Bd2DPi, component: Signal
+{'Style': 2, 'Name': 'Signal_Bd2DPiHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}#pi^{#pm}', 'Color': 632, 'Yield': <ROOT.RooRealVar object ("nSig_both_kpipi_run1_Bd2DPiHypo_Evts") at 0x52cea800>, 'PDF': <ROOT.RooAddPdf object ("Signal_Bd2DPiHypo_PDF") at 0x430840d0>}
+
+
+Hypo: Bd2DPi, component: Bs2DsPi
+{}
+
+
+Hypo: Bd2DPi, component: Bd2DRho
+{'Style': 3, 'Name': 'Bd2DRho_Bd2DPiHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}#rho^{#pm}', 'Color': 616, 'Yield': <ROOT.RooRealVar object ("nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts") at 0x430c5700>, 'PDF': <ROOT.RooJohnsonSU object ("Bd2DRho_Bd2DPiHypo_PDF") at 0x430f4230>}
+
+
+Hypo: Bd2DPi, component: Bd2DstPi
+{'Style': 3, 'Name': 'Bd2DstPi_Bd2DPiHypo_PDF', 'Title': 'B^{0}#rightarrowD^{*#mp}#pi^{#pm}', 'Color': 416, 'Yield': <ROOT.RooRealVar object ("nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts") at 0x430f2960>, 'PDF': <ROOT.RooAddPdf object ("Bd2DstPi_Bd2DPiHypo_PDF") at 0x42e5bc60>}
+
+
+Hypo: Bd2DPi, component: Bd2DKst
+{}
+
+
+Hypo: Bd2DK, component: Comb
+{'Style': 3, 'Name': 'Comb_Bd2DKHypo_PDF', 'Title': 'Combinatorial', 'Color': 600, 'Yield': <ROOT.RooRealVar object ("nComb_both_kpipi_run1_Bd2DKHypo_Evts") at 0x42e9d9d0>, 'PDF': <ROOT.RooExponential object ("Comb_Bd2DKHypo_PDF") at 0x42e7eb40>}
+
+
+Hypo: Bd2DK, component: Bd2DK
+{'Style': 3, 'Name': 'Bd2DK_Bd2DKHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}K^{#pm}', 'Color': 1, 'Yield': <ROOT.RooRealVar object ("nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts") at 0x52cf3460>, 'PDF': <ROOT.RooIpatia2 object ("Bd2DK_Bd2DKHypo_PDF") at 0x430e3750>}
+
+
+Hypo: Bd2DK, component: Signal
+{'Style': 2, 'Name': 'Signal_Bd2DKHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}#pi^{#pm}', 'Color': 632, 'Yield': <ROOT.RooFormulaVar object ("nSig_both_kpipi_run1_Bd2DKHypo_Evts") at 0x433c5f50>, 'PDF': <ROOT.RooIpatia2 object ("Signal_Bd2DKHypo_PDF") at 0x8deaa30>}
+
+
+Hypo: Bd2DK, component: Bs2DsPi
+{}
+
+
+Hypo: Bd2DK, component: Bd2DRho
+{'Style': 3, 'Name': 'Bd2DRho_Bd2DKHypo_PDF', 'Title': 'B^{0}#rightarrowD^{#mp}#rho^{#pm}', 'Color': 616, 'Yield': <ROOT.RooFormulaVar object ("nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts") at 0x444178b0>, 'PDF': <ROOT.RooAddPdf object ("Bd2DRho_Bd2DKHypo_PDF") at 0x8de7980>}
+
+
+Hypo: Bd2DK, component: Bd2DstPi
+{}
+
+
+Hypo: Bd2DK, component: Bd2DKst
+{'Style': 3, 'Name': 'Bd2DKst_Bd2DKHypo_PDF', 'Title': 'B^{0}#rightarrowD^{(*)#mp}K^{(*)#pm}/#pi^{#pm}', 'Color': 416, 'Yield': <ROOT.RooRealVar object ("nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts") at 0x42dee000>, 'PDF': <ROOT.RooGaussian object ("Bd2DKst_Bd2DKHypo_PDF") at 0x42eab400>}
+
+Create total PDF...
+Total PDF:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x42e2b640
+  Clients: 
+  Servers: 
+    (0x1b514a90,V-) RooCategory::sample "sample"
+    (0x4332ac90,V-) RooAddPdf::Bd2DPiHypo_EPDF "Bd2DPiHypo_EPDF"
+    (0x42d9df50,V-) RooAddPdf::Bd2DKHypo_EPDF "Bd2DKHypo_EPDF"
+  Proxies: 
+    !plotCoefNormSet -> 
+    indexCat -> sample
+    both_kpipi_run1_Bd2DPiHypo -> Bd2DPiHypo_EPDF
+    both_kpipi_run1_Bd2DKHypo -> Bd2DKHypo_EPDF
+--- RooAbsReal ---
+
+  Plot label is "totEPDF"
+--- RooAbsPdf ---
+Cached value = 0
+
+=========================================
+Build external constraints on parameters (if any):
+=========================================
+
+Building Gaussian constraint for eff_Bd2DK_DK
+
+=========================================
+Fit PDF:
+totEPDF
+to dataset:
+combData
+=========================================
+
+Fit options:
+[<ROOT.RooCmdArg object ("Save") at 0x42da2e90>, <ROOT.RooCmdArg object ("Optimize") at 0x433222d0>, <ROOT.RooCmdArg object ("OffsetLikelihood") at 0x432f8b90>, <ROOT.RooCmdArg object ("Strategy") at 0x43322c70>, <ROOT.RooCmdArg object ("Timer") at 0x43377250>, <ROOT.RooCmdArg object ("NumCPU") at 0x432ebcf0>, <ROOT.RooCmdArg object ("Minimizer") at 0x433a36e0>, <ROOT.RooCmdArg object ("ExternalConstraints") at 0x432df1a0>]
+[#1] INFO:Minization -- p.d.f. provides expected number of events, including extended term in likelihood.
+[#1] INFO:Minization --  Including the following contraint terms in minimization: (ExtConstraint_eff_Bd2DK_DK)
+RooAbsTestStatistic::initSimMode: creating slave calculator #0 for state both_kpipi_run1_Bd2DPiHypo (227 dataset entries)
+RooAbsTestStatistic::initSimMode: creating slave calculator #1 for state both_kpipi_run1_Bd2DKHypo (227 dataset entries)
+[#1] INFO:Fitting -- RooAbsTestStatistic::initSimMode: created 2 slave calculators.
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_totEPDF_combData_binned_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(both_kpipi_run1_Bd2DPiHypo) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(both_kpipi_run1_Bd2DKHypo) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+Minuit2Minimizer: Minimize with max-calls 12000 convergence for edm < 1 strategy 2
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(both_kpipi_run1_Bd2DPiHypo) first = 0 last = 227 Likelihood offset now set to -2.03766e+06
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(both_kpipi_run1_Bd2DKHypo) first = 0 last = 227 Likelihood offset now set to -89032.9
+MnSeedGenerator: for initial parameters FCN = -3.440935948947
+MnSeedGenerator: Initial state:   - FCN =  -3.440935948947 Edm =      13322.9 NCalls =     97
+MnSeedGenerator: Negative G2 found - new state:   - FCN =  -1312.228950816 Edm =      56857.8 NCalls =    401
+MnSeedGenerator: run Hesse - new state:   - FCN =  -1312.228950816 Edm =  2.05289e+06 NCalls =    774
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -1312.228950816 Edm =  2.05289e+06 NCalls =    774
+VariableMetric: Iteration #   0 - FCN =  -1312.228950816 Edm =  2.05289e+06 NCalls =    774
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (894868) to force MIGRAD to back out of this region. Error log follows
+Parameter values: Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo=5235.3, Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=41.2477, Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665, Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo=-0.00578033, Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo=-0.00362789, Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo=0.0554166, Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo=-0.0104736, Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=5304.46, Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo=5279.96, Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo=0.652359, Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo=1.15847, Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo=44.6677, Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo=17.1114, Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=5450, eff_Bd2DK_DK=0.607239, eff_Bd2DPi_DPi=0.867567, nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts=5115.48, nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts=98448.7, nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts=41767.7, nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts=32545.7, nComb_both_kpipi_run1_Bd2DKHypo_Evts=89105.9, nComb_both_kpipi_run1_Bd2DPiHypo_Evts=18676.3, nSig_both_kpipi_run1_Bd2DPiHypo_Evts=117137
+RooGaussian::Bd2DKst_Bd2DKHypo_PDF[ x=BeautyMass mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo ]
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5092, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5096.01, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5100.02, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5104.03, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5108.04, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5112.05, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5116.06, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5120.07, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5124.07, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5128.08, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5132.09, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5136.1, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4842.49, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=26.2665
+    ... (remaining 217 messages suppressed)
+
+[#0] WARNING:Minization -- RooMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (894868) to force MIGRAD to back out of this region. Error log follows
+Parameter values: Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo=5238.96, Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=6.68238, Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404, Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo=-0.0115984, Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo=-0.00343855, Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo=0.0160943, Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo=-0.0145547, Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=5285.38, Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo=5280.23, Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo=0.820377, Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo=1.03392, Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo=44.0883, Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo=16.887, Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=5259.06, eff_Bd2DK_DK=0.630357, eff_Bd2DPi_DPi=0.873947, nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts=6405.18, nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts=4256.91, nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts=41494.1, nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts=32568.5, nComb_both_kpipi_run1_Bd2DKHypo_Evts=634.479, nComb_both_kpipi_run1_Bd2DPiHypo_Evts=15776.3, nSig_both_kpipi_run1_Bd2DPiHypo_Evts=180296
+RooGaussian::Bd2DKst_Bd2DKHypo_PDF[ x=BeautyMass mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo ]
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5092, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5096.01, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5100.02, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5104.03, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5108.04, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5112.05, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5116.06, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5120.07, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5124.07, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5128.08, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5132.09, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+     p.d.f normalization integral is zero or negative @ x=BeautyMass=5136.1, mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo=4967.03, sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo=10.2404
+    ... (remaining 217 messages suppressed)
+
+VariableMetric: Iteration #   1 - FCN =  -3327.401563317 Edm =       301022 NCalls =    844
+VariableMetric: Iteration #   2 - FCN =  -7439.628223431 Edm =      2506.66 NCalls =    919
+VariableMetric: Iteration #   3 - FCN =  -9556.219356417 Edm =      1314.68 NCalls =    989
+VariableMetric: Iteration #   4 - FCN =  -11264.95435652 Edm =      137.287 NCalls =   1053
+VariableMetric: Iteration #   5 - FCN =  -11483.09507645 Edm =       28.438 NCalls =   1120
+VariableMetric: Iteration #   6 - FCN =  -11576.52241203 Edm =      162.956 NCalls =   1181
+VariableMetric: Iteration #   7 - FCN =   -11616.8666753 Edm =      16.6248 NCalls =   1248
+VariableMetric: Iteration #   8 - FCN =   -11622.9918101 Edm =      11.3332 NCalls =   1302
+VariableMetric: Iteration #   9 - FCN =  -11637.03626727 Edm =      8.83354 NCalls =   1360
+VariableMetric: Iteration #  10 - FCN =  -11666.60062902 Edm =      8.29537 NCalls =   1419
+VariableMetric: Iteration #  11 - FCN =  -11687.26298565 Edm =       11.835 NCalls =   1477
+VariableMetric: Iteration #  12 - FCN =    -11720.250304 Edm =      6.14899 NCalls =   1536
+VariableMetric: Iteration #  13 - FCN =  -11726.86685091 Edm =      5.26689 NCalls =   1588
+VariableMetric: Iteration #  14 - FCN =  -11731.99212896 Edm =      3.66809 NCalls =   1644
+VariableMetric: Iteration #  15 - FCN =   -11736.9400777 Edm =      1.34875 NCalls =   1696
+VariableMetric: Iteration #  16 - FCN =  -11738.79174606 Edm =     0.906269 NCalls =   1748
+VariableMetric: Iteration #  17 - FCN =  -11741.37688068 Edm =     0.469175 NCalls =   1799
+VariableMetric: Iteration #  18 - FCN =  -11742.59037278 Edm =      0.56169 NCalls =   1854
+VariableMetric: Iteration #  19 - FCN =  -11743.95960882 Edm =     0.769223 NCalls =   1907
+VariableMetric: Iteration #  20 - FCN =  -11744.83446275 Edm =     0.982798 NCalls =   1957
+VariableMetric: Iteration #  21 - FCN =   -11745.7770308 Edm =      0.76321 NCalls =   2013
+VariableMetric: Iteration #  22 - FCN =  -11746.95565812 Edm =     0.696993 NCalls =   2066
+VariableMetric: Iteration #  23 - FCN =  -11747.53682455 Edm =      1.10233 NCalls =   2116
+VariableMetric: Iteration #  24 - FCN =  -11747.94810989 Edm =      0.16617 NCalls =   2169
+VariableMetric: Iteration #  25 - FCN =  -11748.17985633 Edm =     0.102184 NCalls =   2219
+VariableMetric: Iteration #  26 - FCN =  -11748.65825055 Edm =     0.127384 NCalls =   2271
+VariableMetric: Iteration #  27 - FCN =  -11748.87293647 Edm =     0.168126 NCalls =   2323
+VariableMetric: Iteration #  28 - FCN =   -11748.9632245 Edm =     0.125877 NCalls =   2373
+VariableMetric: Iteration #  29 - FCN =  -11749.39395889 Edm =     0.239368 NCalls =   2426
+VariableMetric: Iteration #  30 - FCN =  -11750.19061788 Edm =     0.625897 NCalls =   2479
+VariableMetric: Iteration #  31 - FCN =  -11750.58463444 Edm =     0.389854 NCalls =   2529
+VariableMetric: Iteration #  32 - FCN =  -11751.58930718 Edm =     0.178264 NCalls =   2582
+VariableMetric: Iteration #  33 - FCN =  -11751.76815732 Edm =    0.0744117 NCalls =   2631
+VariableMetric: Iteration #  34 - FCN =  -11751.91827563 Edm =    0.0912517 NCalls =   2683
+VariableMetric: Iteration #  35 - FCN =  -11752.19068421 Edm =     0.116857 NCalls =   2735
+VariableMetric: Iteration #  36 - FCN =  -11752.29874263 Edm =    0.0515363 NCalls =   2786
+VariableMetric: Iteration #  37 - FCN =  -11752.54577316 Edm =     0.135223 NCalls =   2841
+VariableMetric: Iteration #  38 - FCN =  -11752.71328222 Edm =     0.111359 NCalls =   2893
+VariableMetric: Iteration #  39 - FCN =  -11752.98931245 Edm =     0.107306 NCalls =   2947
+VariableMetric: Iteration #  40 - FCN =  -11753.21991045 Edm =     0.141556 NCalls =   2997
+VariableMetric: Iteration #  41 - FCN =   -11753.3306168 Edm =    0.0911929 NCalls =   3048
+VariableMetric: Iteration #  42 - FCN =  -11753.68381519 Edm =     0.182453 NCalls =   3099
+VariableMetric: Iteration #  43 - FCN =  -11754.12383602 Edm =     0.228648 NCalls =   3149
+VariableMetric: Iteration #  44 - FCN =  -11754.28316345 Edm =     0.110492 NCalls =   3199
+VariableMetric: Iteration #  45 - FCN =   -11754.4519698 Edm =     0.123187 NCalls =   3249
+VariableMetric: Iteration #  46 - FCN =  -11754.80528528 Edm =     0.119674 NCalls =   3300
+VariableMetric: Iteration #  47 - FCN =  -11754.96385947 Edm =    0.0368725 NCalls =   3350
+VariableMetric: Iteration #  48 - FCN =  -11755.05874525 Edm =    0.0869953 NCalls =   3401
+VariableMetric: Iteration #  49 - FCN =   -11755.2165815 Edm =     0.123262 NCalls =   3452
+VariableMetric: Iteration #  50 - FCN =  -11755.45340801 Edm =     0.111878 NCalls =   3505
+VariableMetric: Iteration #  51 - FCN =  -11755.71607128 Edm =    0.0733903 NCalls =   3556
+VariableMetric: Iteration #  52 - FCN =  -11755.86025325 Edm =     0.100665 NCalls =   3607
+VariableMetric: Iteration #  53 - FCN =    -11755.956479 Edm =     0.144924 NCalls =   3657
+VariableMetric: Iteration #  54 - FCN =  -11756.12348449 Edm =    0.0740499 NCalls =   3713
+VariableMetric: Iteration #  55 - FCN =  -11756.20356821 Edm =    0.0433449 NCalls =   3762
+VariableMetric: Iteration #  56 - FCN =  -11756.23405166 Edm =     0.018819 NCalls =   3812
+VariableMetric: Iteration #  57 - FCN =  -11756.27334679 Edm =    0.0158914 NCalls =   3864
+VariableMetric: Iteration #  58 - FCN =  -11756.30582905 Edm =    0.0143454 NCalls =   3914
+VariableMetric: Iteration #  59 - FCN =  -11756.34372799 Edm =    0.0285839 NCalls =   3967
+VariableMetric: Iteration #  60 - FCN =  -11756.37514705 Edm =    0.0323668 NCalls =   4017
+VariableMetric: Iteration #  61 - FCN =  -11756.44543522 Edm =    0.0397357 NCalls =   4075
+VariableMetric: Iteration #  62 - FCN =  -11756.52324573 Edm =    0.0252284 NCalls =   4127
+VariableMetric: Iteration #  63 - FCN =  -11756.54214233 Edm =    0.0185793 NCalls =   4177
+VariableMetric: Iteration #  64 - FCN =   -11756.5526568 Edm =   0.00244202 NCalls =   4227
+VariableMetric: Iteration #  65 - FCN =  -11756.55850019 Edm =   0.00256042 NCalls =   4278
+VariableMetric: Iteration #  66 - FCN =  -11756.56746351 Edm =  0.000976219 NCalls =   4328
+VariableMetric: Iteration #  67 - FCN =  -11756.56942959 Edm =   0.00082634 NCalls =   4379
+VariableMetric: Iteration #  68 - FCN =  -11756.57368937 Edm =   0.00224611 NCalls =   4429
+VariableMetric: Iteration #  69 - FCN =  -11756.57779019 Edm =  0.000456589 NCalls =   4479
+VariableMetric: After Hessian   - FCN =  -11756.57779019 Edm =    0.0287094 NCalls =   4852
+VariableMetric: Iteration #  70 - FCN =  -11756.57779019 Edm =    0.0287094 NCalls =   4852
+VariableMetric: Iteration #  71 - FCN =  -11756.61169481 Edm =   0.00567549 NCalls =   4906
+VariableMetric: Iteration #  72 - FCN =  -11756.62109113 Edm =   0.00498622 NCalls =   4959
+VariableMetric: Iteration #  73 - FCN =  -11756.62420165 Edm =   0.00307518 NCalls =   5009
+VariableMetric: Iteration #  74 - FCN =  -11756.62647965 Edm =   0.00164658 NCalls =   5062
+VariableMetric: Iteration #  75 - FCN =  -11756.62764719 Edm =   0.00129226 NCalls =   5114
+VariableMetric: Iteration #  76 - FCN =  -11756.62997809 Edm =   0.00140494 NCalls =   5167
+VariableMetric: Iteration #  77 - FCN =   -11756.6320029 Edm =  0.000849284 NCalls =   5219
+VariableMetric: Iteration #  78 - FCN =   -11756.6325835 Edm =  0.000190258 NCalls =   5272
+VariableMetric: After Hessian   - FCN =   -11756.6325835 Edm =  0.000332504 NCalls =   5653
+VariableMetric: Iteration #  79 - FCN =   -11756.6325835 Edm =  0.000332504 NCalls =   5653
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -11756.6325835023381
+Edm   = 0.000332503990592521799
+Nfcn  = 5653
+Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo	  = 5228.68	 +/-  1.19207	(limited)
+Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo	  = 17.1837	 +/-  0.218398	(limited)
+Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo	  = 5092.05	 +/-  6.06836	(limited)
+Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo	  = 25.5554	 +/-  3.85922	(limited)
+Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo	  = -0.00585181	 +/-  0.000173144	(limited)
+Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo	  = -0.00100019	 +/-  0.00103161	(limited)
+Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo	  = 0.894459	 +/-  0.01015	(limited)
+Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo	  = -0.00435059	 +/-  9.16298e-05	(limited)
+Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo	  = 5279.4	 +/-  0.199299	(limited)
+Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo	  = 5278.11	 +/-  0.0442273	(limited)
+Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo	  = 0.663435	 +/-  0.0236878	(limited)
+Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo	  = 3.59649	 +/-  1.62231	(limited)
+Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo	  = 37.7937	 +/-  0.834152	(limited)
+Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo	  = 16.9455	 +/-  0.20849	(limited)
+Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo	  = 5328.15	 +/-  1.28964	(limited)
+eff_Bd2DK_DK	  = 0.615768	 +/-  0.00926402	(limited)
+eff_Bd2DPi_DPi	  = 0.981068	 +/-  0.000586464	(limited)
+nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts	  = 14735.5	 +/-  177.698	(limited)
+nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts	  = 1619.17	 +/-  77.9752	(limited)
+nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts	  = 37461.8	 +/-  855.184	(limited)
+nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts	  = 25889.6	 +/-  575.479	(limited)
+nComb_both_kpipi_run1_Bd2DKHypo_Evts	  = 8913.86	 +/-  242.048	(limited)
+nComb_both_kpipi_run1_Bd2DPiHypo_Evts	  = 28530.3	 +/-  871.978	(limited)
+nSig_both_kpipi_run1_Bd2DPiHypo_Evts	  = 244091	 +/-  694.105	(limited)
+[#1] INFO:Minization -- Command timer: Real time 0:00:03, CP time 3.610
+[#1] INFO:Minization -- Session timer: Real time 0:00:03, CP time 3.610
+[#1] INFO:Minization -- Command timer: Real time 0:00:00, CP time 0.280
+[#1] INFO:Minization -- Session timer: Real time 0:00:03, CP time 3.890, 2 slices
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+=========================================
+Fit done. Summarizing results:
+=========================================
+
+
+  RooFitResult: minimized FCN value: -11756.6, estimated distance to minimum: 0.000535719
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+  Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo    2.3381e+00
+  Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo    8.9842e-01
+  Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo    1.0000e+09
+  Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo    1.0920e+00
+  Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo    0.0000e+00
+  Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo    0.0000e+00
+  Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo   -3.4455e+00
+  Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo   -2.3916e+01
+  Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo    1.5601e+00
+  Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo    3.8290e+00
+  Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo    0.0000e+00
+  Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo    2.1980e+01
+  Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo    2.3434e+01
+  Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo    0.0000e+00
+  Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo    0.0000e+00
+  Bd2DRho_DG_BeautyMass_frac_both_kpipi_run1_Bd2DKHypo    2.1017e-01
+  Bd2DRho_DG_BeautyMass_shift_both_kpipi_run1_Bd2DKHypo   -1.7040e+02
+  Bd2DRho_DG_BeautyMass_sigma1_both_kpipi_run1_Bd2DKHypo    1.1656e+02
+  Bd2DRho_DG_BeautyMass_sigma2_both_kpipi_run1_Bd2DKHypo    4.4513e+01
+  Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo   -2.0121e+00
+  Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo   -4.5250e+02
+  Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo    5.4939e+02
+  Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo    1.1632e+00
+  Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo   -1.4432e+00
+  Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo    3.0218e-01
+  Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo    4.6477e+00
+  Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo   -1.7940e+02
+  Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo    2.5844e+01
+  Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo    1.6520e+01
+    DRho_to_DKst_KHypo    9.3000e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo    7.2205e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo    9.6101e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo    0.0000e+00
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo    4.3622e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo   -1.2397e+00
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo    5.9199e+00
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo    5.8254e+00
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo   -1.0506e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo    3.2598e-01
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo    0.0000e+00
+  Signal_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo    3.1436e+00
+  Signal_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo    5.6856e-01
+  Signal_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo    0.0000e+00
+  Signal_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo   -3.7704e+00
+  Signal_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo    4.7325e-02
+  Signal_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo    2.8096e+00
+  Signal_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo    2.3972e+01
+  Signal_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo    5.2400e+03    5.2287e+03 +/-  1.19e+00  <none>
+  Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo    1.7320e+01    1.7184e+01 +/-  2.19e-01  <none>
+  Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo    5.1077e+03    5.0921e+03 +/-  6.54e+00  <none>
+  Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo    2.8878e+01    2.5555e+01 +/-  4.16e+00  <none>
+  Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo   -1.7241e-03   -5.8518e-03 +/-  1.78e-04  <none>
+  Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo   -1.7241e-03   -1.0002e-03 +/-  3.65e-04  <none>
+  Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo    7.0000e-01    8.9446e-01 +/-  1.46e-02  <none>
+  Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo   -6.5641e-03   -4.3506e-03 +/-  9.25e-05  <none>
+  Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo    5.2798e+03    5.2794e+03 +/-  1.99e-01  <none>
+  Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo    5.2803e+03    5.2781e+03 +/-  4.43e-02  <none>
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo    1.0000e+00    6.6343e-01 +/-  2.57e-02  <none>
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo    1.0000e+00    3.5965e+00 +/-  1.87e+00  <none>
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo    4.3925e+01    3.7794e+01 +/-  9.42e-01  <none>
+  Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo    1.6824e+01    1.6945e+01 +/-  2.33e-01  <none>
+  Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo    5.3365e+03    5.3282e+03 +/-  1.29e+00  <none>
+          eff_Bd2DK_DK    6.3700e-01    6.1577e-01 +/-  9.34e-03  <none>
+        eff_Bd2DPi_DPi    9.7900e-01    9.8107e-01 +/-  5.87e-04  <none>
+  nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts    1.5000e+04    1.4735e+04 +/-  1.78e+02  <none>
+  nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts    2.0000e+03    1.6192e+03 +/-  7.92e+01  <none>
+  nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts    4.1417e+04    3.7462e+04 +/-  8.69e+02  <none>
+  nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts    3.2575e+04    2.5890e+04 +/-  5.77e+02  <none>
+  nComb_both_kpipi_run1_Bd2DKHypo_Evts    1.0000e+03    8.9139e+03 +/-  2.45e+02  <none>
+  nComb_both_kpipi_run1_Bd2DPiHypo_Evts    1.5000e+04    2.8530e+04 +/-  9.20e+02  <none>
+  nSig_both_kpipi_run1_Bd2DPiHypo_Evts    2.0000e+05    2.4409e+05 +/-  7.08e+02  <none>
+
+
+24x24 matrix is as follows
+
+     |       0    |       1    |       2    |       3    |       4    |
+----------------------------------------------------------------------
+   0 |      1.428    0.008264    -0.04491     0.03856  -6.816e-05 
+   1 |   0.008264     0.04776     -0.1165     0.09999   8.667e-07 
+   2 |   -0.04491     -0.1165       42.84      -25.79  -4.714e-06 
+   3 |    0.03856     0.09999      -25.79       17.51   4.047e-06 
+   4 | -6.816e-05   8.667e-07  -4.714e-06   4.047e-06   3.174e-08 
+   5 | -2.127e-07   2.905e-09  -1.582e-08   1.358e-08  -6.683e-10 
+   6 |  -0.000901   9.525e-06  -5.172e-05   4.441e-05   1.411e-06 
+   7 |  1.608e-06   4.696e-06  -0.0001702    0.000146   1.687e-10 
+   8 |   0.005413     0.01806     0.02227    -0.02038   5.675e-07 
+   9 |    0.01884    0.000293   -0.001593    0.001368  -4.799e-07 
+  10 | -0.0008325   0.0002083   -0.001133   0.0009726   5.219e-07 
+  11 |     0.1997   -0.007286     0.03964    -0.03404  -8.307e-05 
+  12 |     0.1065   -0.004327     0.02354    -0.02021  -2.817e-05 
+  13 |   -0.05784   0.0007118   -0.003872    0.003325   7.322e-06 
+  14 |     0.0536      0.1622     -0.4221      0.3599   5.621e-06 
+  15 |  -0.003797   0.0001575  -0.0008567   0.0007355  -3.999e-07 
+  16 | -8.213e-06   6.149e-05     0.00025  -0.0002174   4.204e-09 
+  17 |       12.4       21.11      -114.8       98.54    0.001301 
+  18 |      1.371       3.655      -193.1       166.1   0.0001439 
+  19 |     -294.4       2.015      -10.97       9.416     0.09392 
+  20 |        111      0.1805     -0.9772      0.8392    -0.02699 
+  21 |     -4.975      -12.72       551.6        -475   -0.000522 
+  22 |      360.7      -4.814       26.19      -22.49      -0.115 
+  23 |     -338.2      -4.198        22.8      -19.58     0.03112 
+
+
+     |       5    |       6    |       7    |       8    |       9    |
+----------------------------------------------------------------------
+   0 | -2.127e-07   -0.000901   1.608e-06    0.005413     0.01884 
+   1 |  2.905e-09   9.525e-06   4.696e-06     0.01806    0.000293 
+   2 | -1.582e-08  -5.172e-05  -0.0001702     0.02227   -0.001593 
+   3 |  1.358e-08   4.441e-05    0.000146    -0.02038    0.001368 
+   4 | -6.683e-10   1.411e-06   1.687e-10   5.675e-07  -4.799e-07 
+   5 |  2.757e-10    -1.8e-07   5.657e-13   1.901e-09  -1.959e-09 
+   6 |   -1.8e-07    0.000212   1.853e-09    6.24e-06  -3.631e-06 
+   7 |  5.657e-13   1.853e-09   8.551e-09   5.562e-07   5.703e-08 
+   8 |  1.901e-09    6.24e-06   5.562e-07      0.0397   0.0001919 
+   9 | -1.959e-09  -3.631e-06   5.703e-08   0.0001919    0.001959 
+  10 |  1.004e-08  -3.944e-05   4.055e-08   0.0001364  -5.784e-05 
+  11 | -1.538e-06    0.005248  -1.418e-06    -0.00477    0.003188 
+  12 | -4.366e-07    0.001607  -8.424e-07   -0.002834  -0.0004999 
+  13 |  1.086e-07  -0.0003749   1.386e-07    0.000466   -0.000741 
+  14 |  1.883e-08   6.179e-05   1.616e-05      0.1471    0.001901 
+  15 | -1.339e-09  -4.397e-06   3.066e-08   0.0001032  -0.0001349 
+  16 |  4.328e-11  -6.951e-08    1.89e-09   6.155e-05   8.622e-08 
+  17 |  4.361e-06     0.01429    0.004108       13.82      0.4397 
+  18 |  4.827e-07     0.00158    0.005065     -0.0448     0.04864 
+  19 |  0.0003575      0.5419   0.0003923       1.319      -7.207 
+  20 | -0.0001708    -0.05365   3.508e-05      0.1184       5.694 
+  21 | -1.752e-06    -0.00573    -0.01343       1.773     -0.1764 
+  22 | -0.0007314      0.5046  -0.0009372      -3.152       2.828 
+  23 |   0.000488      -1.179  -0.0008168      -2.751      -7.029 
+
+
+     |      10    |      11    |      12    |      13    |      14    |
+----------------------------------------------------------------------
+   0 | -0.0008325      0.1997      0.1065    -0.05784      0.0536 
+   1 |  0.0002083   -0.007286   -0.004327   0.0007118      0.1622 
+   2 |  -0.001133     0.03964     0.02354   -0.003872     -0.4221 
+   3 |  0.0009726    -0.03404    -0.02021    0.003325      0.3599 
+   4 |  5.219e-07  -8.307e-05  -2.817e-05   7.322e-06   5.621e-06 
+   5 |  1.004e-08  -1.538e-06  -4.366e-07   1.086e-07   1.883e-08 
+   6 | -3.944e-05    0.005248    0.001607  -0.0003749   6.179e-05 
+   7 |  4.055e-08  -1.418e-06  -8.424e-07   1.386e-07   1.616e-05 
+   8 |  0.0001364    -0.00477   -0.002834    0.000466      0.1471 
+   9 | -5.784e-05    0.003188  -0.0004999   -0.000741    0.001901 
+  10 |  0.0006598    -0.03434    -0.01565    0.004016    0.001351 
+  11 |   -0.03434       3.678       1.615     -0.3798    -0.04725 
+  12 |   -0.01565       1.615      0.8883     -0.2098    -0.02806 
+  13 |   0.004016     -0.3798     -0.2098     0.05432    0.004616 
+  14 |   0.001351    -0.04725    -0.02806    0.004616       1.664 
+  15 |   -9.6e-05    0.003358    0.001994  -0.0003283    0.001022 
+  16 |  5.048e-07  -5.467e-05  -1.979e-05   4.592e-06   0.0004587 
+  17 |     0.3127      -10.94      -6.495       1.068       136.9 
+  18 |    0.03458       -1.21     -0.7185      0.1182       14.21 
+  19 |      3.331      -564.4      -158.9       43.06       13.06 
+  20 |    -0.6219       134.2       25.43      -9.396       1.172 
+  21 |    -0.1255        4.39       2.607     -0.4288      -48.98 
+  22 |      -7.61        1088       357.7      -88.12      -31.22 
+  23 |     0.8326      -515.7      -139.6       40.54      -27.24 
+
+
+     |      15    |      16    |      17    |      18    |      19    |
+----------------------------------------------------------------------
+   0 |  -0.003797  -8.213e-06        12.4       1.371      -294.4 
+   1 |  0.0001575   6.149e-05       21.11       3.655       2.015 
+   2 | -0.0008567     0.00025      -114.8      -193.1      -10.97 
+   3 |  0.0007355  -0.0002174       98.54       166.1       9.416 
+   4 | -3.999e-07   4.204e-09    0.001301   0.0001439     0.09392 
+   5 | -1.339e-09   4.328e-11   4.361e-06   4.827e-07   0.0003575 
+   6 | -4.397e-06  -6.951e-08     0.01429     0.00158      0.5419 
+   7 |  3.066e-08    1.89e-09    0.004108    0.005065   0.0003923 
+   8 |  0.0001032   6.155e-05       13.82     -0.0448       1.319 
+   9 | -0.0001349   8.622e-08      0.4397     0.04864      -7.207 
+  10 |   -9.6e-05   5.048e-07      0.3127     0.03458       3.331 
+  11 |   0.003358  -5.467e-05      -10.94       -1.21      -564.4 
+  12 |   0.001994  -1.979e-05      -6.495     -0.7185      -158.9 
+  13 | -0.0003283   4.592e-06       1.068      0.1182       43.06 
+  14 |   0.001022   0.0004587       136.9       14.21       13.06 
+  15 |  8.734e-05   4.807e-07      0.2364     0.02615     -0.9312 
+  16 |  4.807e-07   3.444e-07     0.04425   -0.005665     0.02117 
+  17 |     0.2364     0.04425   3.168e+04        3504        3025 
+  18 |    0.02615   -0.005665        3504        6280       334.7 
+  19 |    -0.9312     0.02117        3025       334.7   7.559e+05 
+  20 |   -0.08186   -0.005543       270.6       29.88  -4.041e+05 
+  21 |   -0.09488     0.03417  -1.271e+04  -1.547e+04       -1214 
+  22 |      2.221    -0.03446       -7226      -799.5   -5.76e+05 
+  23 |      1.931     0.02918       -6298      -696.4   2.221e+05 
+
+
+     |      20    |      21    |      22    |      23    |
+----------------------------------------------------------------------
+   0 |        111      -4.975       360.7      -338.2 
+   1 |     0.1805      -12.72      -4.814      -4.198 
+   2 |    -0.9772       551.6       26.19        22.8 
+   3 |     0.8392        -475      -22.49      -19.58 
+   4 |   -0.02699   -0.000522      -0.115     0.03112 
+   5 | -0.0001708  -1.752e-06  -0.0007314    0.000488 
+   6 |   -0.05365    -0.00573      0.5046      -1.179 
+   7 |  3.508e-05    -0.01343  -0.0009372  -0.0008168 
+   8 |     0.1184       1.773      -3.152      -2.751 
+   9 |      5.694     -0.1764       2.828      -7.029 
+  10 |    -0.6219     -0.1255       -7.61      0.8326 
+  11 |      134.2        4.39        1088      -515.7 
+  12 |      25.43       2.607       357.7      -139.6 
+  13 |     -9.396     -0.4288      -88.12       40.54 
+  14 |      1.172      -48.98      -31.22      -27.24 
+  15 |   -0.08186    -0.09488       2.221       1.931 
+  16 |  -0.005543     0.03417    -0.03446     0.02918 
+  17 |      270.6  -1.271e+04       -7226       -6298 
+  18 |      29.88  -1.547e+04      -799.5      -696.4 
+  19 | -4.041e+05       -1214   -5.76e+05   2.221e+05 
+  20 |  3.333e+05      -108.3   1.711e+05   -7.79e+04 
+  21 |     -108.3   6.023e+04        2901        2526 
+  22 |  1.711e+05        2901   8.464e+05  -3.189e+05 
+  23 |  -7.79e+04        2526  -3.189e+05   5.006e+05 
+
+
+24x24 matrix is as follows
+
+     |       0    |       1    |       2    |       3    |       4    |
+----------------------------------------------------------------------
+   0 |          1     0.03164   -0.005743    0.007712     -0.3201 
+   1 |    0.03164           1    -0.08146      0.1093     0.02226 
+   2 |  -0.005743    -0.08146           1     -0.9415   -0.004042 
+   3 |   0.007712      0.1093     -0.9415           1    0.005429 
+   4 |    -0.3201     0.02226   -0.004042    0.005429           1 
+   5 |   -0.01072   0.0008004  -0.0001456   0.0001955     -0.2259 
+   6 |   -0.05178    0.002993  -0.0005427   0.0007289      0.5439 
+   7 |    0.01455      0.2324     -0.2812      0.3774     0.01024 
+   8 |    0.02273      0.4146     0.01707    -0.02445     0.01599 
+   9 |     0.3562     0.03029   -0.005498    0.007384    -0.06085 
+  10 |   -0.02712     0.03711   -0.006738    0.009049       0.114 
+  11 |    0.08714    -0.01738    0.003158   -0.004241     -0.2431 
+  12 |    0.09454    -0.02101    0.003815   -0.005124     -0.1678 
+  13 |    -0.2077     0.01397   -0.002538    0.003409      0.1763 
+  14 |    0.03478      0.5754    -0.04999     0.06667     0.02445 
+  15 |      -0.34     0.07714    -0.01401     0.01881     -0.2402 
+  16 |   -0.01171      0.4795     0.06509    -0.08852     0.04021 
+  17 |    0.05831      0.5427    -0.09852      0.1323     0.04102 
+  18 |    0.01448       0.211     -0.3722       0.501     0.01019 
+  19 |    -0.2834      0.0106   -0.001927    0.002588      0.6063 
+  20 |     0.1609    0.001431  -0.0002586   0.0003474     -0.2624 
+  21 |   -0.01696     -0.2371      0.3434     -0.4625    -0.01194 
+  22 |     0.3281    -0.02394     0.00435   -0.005842     -0.7015 
+  23 |       -0.4    -0.02715    0.004923   -0.006612      0.2469 
+
+
+     |       5    |       6    |       7    |       8    |       9    |
+----------------------------------------------------------------------
+   0 |   -0.01072    -0.05178     0.01455     0.02273      0.3562 
+   1 |  0.0008004    0.002993      0.2324      0.4146     0.03029 
+   2 | -0.0001456  -0.0005427     -0.2812     0.01707   -0.005498 
+   3 |  0.0001955   0.0007289      0.3774    -0.02445    0.007384 
+   4 |    -0.2259      0.5439     0.01024     0.01599    -0.06085 
+   5 |          1     -0.7444   0.0003684   0.0005746   -0.002665 
+   6 |    -0.7444           1    0.001376    0.002151   -0.005634 
+   7 |  0.0003684    0.001376           1     0.03019     0.01393 
+   8 |  0.0005746    0.002151     0.03019           1     0.02176 
+   9 |  -0.002665   -0.005634     0.01393     0.02176           1 
+  10 |    0.02354     -0.1054     0.01707     0.02666    -0.05087 
+  11 |    -0.0483      0.1879   -0.007998    -0.01248     0.03755 
+  12 |    -0.0279      0.1171   -0.009665    -0.01509    -0.01198 
+  13 |    0.02807     -0.1105    0.006429     0.01004    -0.07183 
+  14 |  0.0008791     0.00329      0.1355      0.5723     0.03329 
+  15 |  -0.008625    -0.03231     0.03548      0.0554     -0.3261 
+  16 |   0.004441   -0.008135     0.03484      0.5264     0.00332 
+  17 |   0.001476    0.005514      0.2496      0.3898     0.05582 
+  18 |  0.0003668    0.001369      0.6911   -0.002837     0.01387 
+  19 |    0.02476     0.04281     0.00488    0.007614     -0.1873 
+  20 |   -0.01782   -0.006382   0.0006571    0.001029      0.2228 
+  21 | -0.0004298   -0.001603     -0.5919     0.03625    -0.01624 
+  22 |   -0.04788     0.03767    -0.01102    -0.01719     0.06944 
+  23 |    0.04154     -0.1145    -0.01248    -0.01951     -0.2245 
+
+
+     |      10    |      11    |      12    |      13    |      14    |
+----------------------------------------------------------------------
+   0 |   -0.02712     0.08714     0.09454     -0.2077     0.03478 
+   1 |    0.03711    -0.01738    -0.02101     0.01397      0.5754 
+   2 |  -0.006738    0.003158    0.003815   -0.002538    -0.04999 
+   3 |   0.009049   -0.004241   -0.005124    0.003409     0.06667 
+   4 |      0.114     -0.2431     -0.1678      0.1763     0.02445 
+   5 |    0.02354     -0.0483     -0.0279     0.02807   0.0008791 
+   6 |    -0.1054      0.1879      0.1171     -0.1105     0.00329 
+   7 |    0.01707   -0.007998   -0.009665    0.006429      0.1355 
+   8 |    0.02666    -0.01248    -0.01509     0.01004      0.5723 
+   9 |   -0.05087     0.03755    -0.01198    -0.07183     0.03329 
+  10 |          1     -0.6971     -0.6463      0.6707     0.04078 
+  11 |    -0.6971           1      0.8935     -0.8498     -0.0191 
+  12 |    -0.6463      0.8935           1     -0.9549    -0.02308 
+  13 |     0.6707     -0.8498     -0.9549           1     0.01535 
+  14 |    0.04078     -0.0191    -0.02308     0.01535           1 
+  15 |    -0.3999      0.1874      0.2264     -0.1507     0.08475 
+  16 |    0.03349    -0.04857    -0.03579     0.03358       0.606 
+  17 |    0.06839    -0.03204    -0.03872     0.02576      0.5963 
+  18 |    0.01699   -0.007962    -0.00962      0.0064       0.139 
+  19 |     0.1491     -0.3385      -0.194      0.2125     0.01165 
+  20 |   -0.04194      0.1212     0.04673    -0.06983    0.001574 
+  21 |    -0.0199    0.009327     0.01127   -0.007497     -0.1547 
+  22 |     -0.322      0.6167      0.4125      -0.411     -0.0263 
+  23 |    0.04581       -0.38     -0.2094      0.2459    -0.02984 
+
+
+     |      15    |      16    |      17    |      18    |      19    |
+----------------------------------------------------------------------
+   0 |      -0.34    -0.01171     0.05831     0.01448     -0.2834 
+   1 |    0.07714      0.4795      0.5427       0.211      0.0106 
+   2 |   -0.01401     0.06509    -0.09852     -0.3722   -0.001927 
+   3 |    0.01881    -0.08852      0.1323       0.501    0.002588 
+   4 |    -0.2402     0.04021     0.04102     0.01019      0.6063 
+   5 |  -0.008625    0.004441    0.001476   0.0003668     0.02476 
+   6 |   -0.03231   -0.008135    0.005514    0.001369     0.04281 
+   7 |    0.03548     0.03484      0.2496      0.6911     0.00488 
+   8 |     0.0554      0.5264      0.3898   -0.002837    0.007614 
+   9 |    -0.3261     0.00332     0.05582     0.01387     -0.1873 
+  10 |    -0.3999     0.03349     0.06839     0.01699      0.1491 
+  11 |     0.1874    -0.04857    -0.03204   -0.007962     -0.3385 
+  12 |     0.2264    -0.03579    -0.03872    -0.00962      -0.194 
+  13 |    -0.1507     0.03358     0.02576      0.0064      0.2125 
+  14 |    0.08475       0.606      0.5963       0.139     0.01165 
+  15 |          1     0.08766      0.1421     0.03532     -0.1146 
+  16 |    0.08766           1      0.4237     -0.1218     0.04149 
+  17 |     0.1421      0.4237           1      0.2484     0.01955 
+  18 |    0.03532     -0.1218      0.2484           1    0.004858 
+  19 |    -0.1146     0.04149     0.01955    0.004858           1 
+  20 |   -0.01517    -0.01636    0.002633   0.0006531      -0.805 
+  21 |   -0.04137      0.2372      -0.291     -0.7952   -0.005692 
+  22 |     0.2583    -0.06383    -0.04413    -0.01097     -0.7201 
+  23 |     0.2921     0.07029    -0.05002    -0.01242      0.3611 
+
+
+     |      20    |      21    |      22    |      23    |
+----------------------------------------------------------------------
+   0 |     0.1609    -0.01696      0.3281        -0.4 
+   1 |   0.001431     -0.2371    -0.02394    -0.02715 
+   2 | -0.0002586      0.3434     0.00435    0.004923 
+   3 |  0.0003474     -0.4625   -0.005842   -0.006612 
+   4 |    -0.2624    -0.01194     -0.7015      0.2469 
+   5 |   -0.01782  -0.0004298    -0.04788     0.04154 
+   6 |  -0.006382   -0.001603     0.03767     -0.1145 
+   7 |  0.0006571     -0.5919    -0.01102    -0.01248 
+   8 |   0.001029     0.03625    -0.01719    -0.01951 
+   9 |     0.2228    -0.01624     0.06944     -0.2245 
+  10 |   -0.04194     -0.0199      -0.322     0.04581 
+  11 |     0.1212    0.009327      0.6167       -0.38 
+  12 |    0.04673     0.01127      0.4125     -0.2094 
+  13 |   -0.06983   -0.007497      -0.411      0.2459 
+  14 |   0.001574     -0.1547     -0.0263    -0.02984 
+  15 |   -0.01517    -0.04137      0.2583      0.2921 
+  16 |   -0.01636      0.2372    -0.06383     0.07029 
+  17 |   0.002633      -0.291    -0.04413    -0.05002 
+  18 |  0.0006531     -0.7952    -0.01097    -0.01242 
+  19 |     -0.805   -0.005692     -0.7201      0.3611 
+  20 |          1  -0.0007645      0.3221     -0.1907 
+  21 | -0.0007645           1     0.01285     0.01455 
+  22 |     0.3221     0.01285           1     -0.4899 
+  23 |    -0.1907     0.01455     -0.4899           1 
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting covariance matrix
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting correlation matrix
+
+=========================================
+Saving fit plot
+=========================================
+
+
+Plotting PDF in BeautyMass
+for Bd2DK hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 240.908835105
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Signal_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: (Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Comb_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DKst component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DKst_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DK hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 240.908835105
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Signal_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: (Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Comb_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DKst component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DKst_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DK hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 240.908835105
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Signal_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: (Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Comb_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DKst component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DKst_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DK hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 240.908835105
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Signal_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: (Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Comb_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DKst component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) directly selected PDF components: (Bd2DKst_Bd2DKHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DKHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DKHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 31454 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DPi hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 212.291715018
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Signal_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Comb_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DstPi component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DstPi_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DPi hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 212.291715018
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Signal_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Comb_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DstPi component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DstPi_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DPi hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 212.291715018
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Signal_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Comb_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DstPi component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DstPi_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+Plotting PDF in BeautyMass
+for Bd2DPi hypothesys
+
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+Chi^2: 212.291715018
+Number of bins: 227
+
+Plotting Bd2DK component
+with line style 3
+and line color 1
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DK_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Signal component
+with line style 2
+and line color 632
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Signal_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DRho component
+with line style 3
+and line color 616
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DRho_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Comb component
+with line style 3
+and line color 600
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Comb_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+
+Plotting Bd2DstPi component
+with line style 3
+and line color 416
+
+[#1] INFO:Plotting -- RooSimultaneous::plotOn(totEPDF) plot on BeautyMass represents a slice in the index category (sample)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) directly selected PDF components: (Bd2DstPi_Bd2DPiHypo_PDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF) indirectly selected PDF components: (Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsReal::plotOn(Bd2DPiHypo_EPDF) slice variable sample was not projected anyway
+[#1] INFO:Plotting -- RooTreeData::plotOn: plotting 345198 events out of 376652 total events
+
+Adding data points to legend
+Adding Total PDF to legend
+Adding Bd2DK PDF to legend...
+Adding Signal PDF to legend...
+Adding Bs2DsPi PDF to legend...
+Adding Bd2DRho PDF to legend...
+Adding Comb PDF to legend...
+Adding Bd2DstPi PDF to legend...
+Adding Bd2DKst PDF to legend...
+
+=========================================
+Merging background PDFs into a single PDF
+in order to compute sWeights.
+Will have Sgn+TotBkg only at the end
+=========================================
+
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'Total' created with bounds [5090,6000]
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'Signal' created with bounds [5220,5600]
+Selecting signal region with following cut:
+sample==sample::both_kpipi_run1_Bd2DPiHypo && BeautyMass>=5220.0 && BeautyMass<=5600.0
+Obtained dataset:
+DataStore combData (dataSetBd2DPi_up_kpipi_2011_Bd2DPiHypo)
+  Contains 259456 entries
+  Observables: 
+    1)                         sample = both_kpipi_run1_Bd2DPiHypo(idx = 0)
+  "sample"
+    2)                     BeautyMass = 5271.25  L(5090 - 6000)  "BeautyMass"
+    3)                      CharmMass = 1865.87  L(1830 - 1904)  "CharmMass"
+    4)                        BacPIDK = 3.38232  L(-999 - 999)  "BacPIDK"
+    5)                     BeautyTime = 1.5514  L(0.4 - 12)  "BeautyTime"
+    6)                           BDTG = 0.0929633  L(0 - 1)  "BDTG"
+    7)                           BacP = 10.5624  L(7.6009 - 13.3847)  "BacP"
+    8)                          BacPT = 7.91551  L(5.99146 - 10.7144)  "BacPT"
+    9)                        nTracks = 5.00395  L(2.70805 - 6.90776)  "nTracks"
+   10)                      BacCharge = h+(idx = 1)
+  "bachelor charge"
+   11)                  BeautyMassErr = 12.172  L(0 - 900000)  "BeautyMassErr"
+   12)                      CharmTime = 0.00142276  L(-10 - 10)  "CharmTime"
+   13)                      BeautyPhi = -0.395832  L(-10 - 10)  "BeautyPhi"
+   14)                       BeautyPT = 2683.65  L(0 - 100000)  "BeautyPT"
+   15)  Hlt2Topo3BodyBBDTDecision_TOS = 1  L(0 - 1)  "Hlt2Topo3BodyBBDTDecision_TOS"
+   16)  Hlt2Topo4BodyBBDTDecision_TOS = 0  L(0 - 1)  "Hlt2Topo4BodyBBDTDecision_TOS"
+   17)           L0HadronDecision_TOS = 0  L(0 - 1)  "L0HadronDecision_TOS"
+   18)                        BeautyP = 65360.3  L(0 - 3e+06)  "BeautyP"
+   19)  Hlt2Topo2BodyBBDTDecision_TOS = 1  L(0 - 1)  "Hlt2Topo2BodyBBDTDecision_TOS"
+   20)                      BeautyEta = 3.88546  L(1.5 - 10)  "BeautyEta"
+   21)                            nPV = 2  L(0 - 10)  "nPV"
+   22)                  TagDecOSCharm = Utagged_0(idx = 0)
+  "flavour tagging result"
+   23)                   TagDecOSComb = Utagged_1(idx = 0)
+  "flavour tagging result"
+   24)             TagDecSSPionBDTRaw = Bbar_2(idx = -1)
+  "flavour tagging result"
+   25)              TagDecSSProtonRaw = B_3(idx = 1)
+  "flavour tagging result"
+   26)                  MistagOSCharm = 0.5  L(0 - 0.5)  "MistagOSCharm"
+   27)                   MistagOSComb = 0.5  L(0 - 0.5)  "MistagOSComb"
+   28)             MistagSSPionBDTRaw = 0.0196654  L(-1 - 1)  "MistagSSPionBDTRaw"
+   29)              MistagSSProtonRaw = -0.104577  L(-1 - 1)  "MistagSSProtonRaw"
+
+Component: Comb
+PDF integral in the signal region: 0.423630209809
+PDF integral in the total region: 1.0
+PDF integral ratio: 0.423630209809
+Fitted yield: 28530.2523316
+Fitted yield in the signal region: 12086.2767811
+
+Component: Bd2DK
+PDF integral in the signal region: 0.580830485848
+PDF integral in the total region: 1.0
+PDF integral ratio: 0.580830485848
+Fitted yield: 9194.74752951
+Fitted yield in the signal region: 5340.58967481
+
+Component: Bd2DRho
+PDF integral in the signal region: 0.00191405395782
+PDF integral in the total region: 1.0
+PDF integral ratio: 0.00191405395782
+Fitted yield: 37461.7783498
+Fitted yield in the signal region: 71.7038651174
+
+Component: Bd2DstPi
+PDF integral in the signal region: 0.00426626161807
+PDF integral in the total region: 1.0
+PDF integral ratio: 0.00426626161807
+Fitted yield: 25889.6414757
+Fitted yield in the signal region: 110.451983734
+
+Number of background components: 4
+Total fitted background yield in signal region: 17609.0223048
+Dictionary of background integral ratios in the signal region:
+{'Bd2DRho': 0.0019140539578188034, 'Comb': 0.42363020980854466, 'Bd2DstPi': 0.004266261618071115, 'Bd2DK': 0.5808304858477558}
+
+Background pdf list:
+  1) 0x46295f80 RooAddPdf::     Comb_Bd2DPiHypo_PDF[ Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo * Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo + [%] * Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo ] = 0.000479039/1  "Comb_Bd2DPiHypo_PDF"
+  2) 0x42d0ae30 RooIpatia2::    Bd2DK_Bd2DPiHypo_PDF[ x=BeautyMass l=Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo zeta=Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo fb=Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo sigma=Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo mu=Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo a=Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo n=Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo a2=Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo n2=Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo ] = 1.01154e-05/70.8041  "Bd2DK_Bd2DPiHypo_PDF"
+  3) 0x430f4230 RooJohnsonSU::  Bd2DRho_Bd2DPiHypo_PDF[ x=BeautyMass mean=Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo width=Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo nu=Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo tau=Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo ] = 3.6144e-09/0.0774898  "Bd2DRho_Bd2DPiHypo_PDF"
+  4) 0x42e5bc60 RooAddPdf:: Bd2DstPi_Bd2DPiHypo_PDF[ Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo * Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo + [%] * Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo ] = 6.24301e-07/1  "Bd2DstPi_Bd2DPiHypo_PDF"
+Background fractions list:
+  1) 0x493f1790 RooRealVar::    frac_Comb_Bd2DPiHypo = 0.686368 C  L(-INF - +INF)  "frac_Comb_Bd2DPiHypo"
+  2) 0x493eeb70 RooRealVar::   frac_Bd2DK_Bd2DPiHypo = 0.303287 C  L(-INF - +INF)  "frac_Bd2DK_Bd2DPiHypo"
+  3) 0x493f4d20 RooRealVar:: frac_Bd2DRho_Bd2DPiHypo = 0.004072 C  L(-INF - +INF)  "frac_Bd2DRho_Bd2DPiHypo"
+
+=========================================
+Computing sWeights
+=========================================
+
+==> FitMeTool::FitMeTool()
+==> FitMeTool: debugging ON
+==> FitMeTool::setObservables( 0x5694a84 )
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyMass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::CharmMass
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BacPIDK
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BDTG
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BacP
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BacPT
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::nTracks
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyMassErr
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::CharmTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyPhi
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyPT
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Hlt2Topo3BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Hlt2Topo4BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::L0HadronDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyP
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Hlt2Topo2BodyBBDTDecision_TOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::BeautyEta
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::nPV
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::TagDecOSCharm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::TagDecOSComb
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::TagDecSSPionBDTRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::TagDecSSProtonRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::MistagOSCharm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::MistagOSComb
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::MistagSSPionBDTRaw
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::MistagSSProtonRaw
+==> FitMeTool::setModelPDF( model=Bd2DPiHypo_EPDF_merged )
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooAddPdf::Bd2DPiHypo_EPDF_merged
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooExtendPdf::Bd2DPiHypo_SgnEPDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooAddPdf::Signal_Bd2DPiHypo_PDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooIpatia2::Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooJohnsonSU::Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::nSig_both_kpipi_run1_Bd2DPiHypo_Evts
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooExtendPdf::Bd2DPiHypo_TotBkgEPDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooAddPdf::Bd2DPiHypo_TotBkgPDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooAddPdf::Comb_Bd2DPiHypo_PDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooExponential::Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooExponential::Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::frac_Comb_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooIpatia2::Bd2DK_Bd2DPiHypo_PDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::frac_Bd2DK_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooJohnsonSU::Bd2DRho_Bd2DPiHypo_PDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::frac_Bd2DRho_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooAddPdf::Bd2DstPi_Bd2DPiHypo_PDF
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCBShape::Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooFormulaVar::Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooGaussian::Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooRealVar::nBkg_both_kpipi_run1_Bd2DPiHypo_Evts
+==> FitMeTool::setData( combData )
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing dataset combData
+[#1] INFO:ObjectHandling -- RooWorkspace::import(FitMeToolWS) importing RooCategory::sample
+All Message streams
+[0] MinLevel = PROGRESS Topic =  Any 
+[1] MinLevel = INFO Topic = Minization Plotting Fitting Eval Caching ObjectHandling InputArguments DataHandling NumericIntegration 
+==> FitMeTool::savesWeights( obs=BeautyMass, data=combData, mode=/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/sWeights/Nominal/sWeights_pipdata.root )
+==> FitMeTool::getObservables()
+    Set of observables:
+  1) 0x4946bf10 RooRealVar:: BeautyMass = 5545  L(5220 - 5600)  "BeautyMass"
+[WARNING] Variable "Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo" set to constant (5228.675843) - sPlot technique requirement.
+[WARNING] Variable "Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo" set to constant (-0.005852) - sPlot technique requirement.
+[WARNING] Variable "Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo" set to constant (-0.001000) - sPlot technique requirement.
+[WARNING] Variable "Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo" set to constant (0.894459) - sPlot technique requirement.
+[WARNING] Variable "Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo" set to constant (5278.110529) - sPlot technique requirement.
+[WARNING] Variable "Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo" set to constant (0.663435) - sPlot technique requirement.
+[WARNING] Variable "Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo" set to constant (3.596492) - sPlot technique requirement.
+[WARNING] Variable "Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo" set to constant (37.793732) - sPlot technique requirement.
+[WARNING] Variable "Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo" set to constant (16.945460) - sPlot technique requirement.
+==> FitMeTool::fit()
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_Bd2DPiHypo_EPDF_merged_combData) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 nBkg_both_kpipi_run1_Bd2DPiHypo_Evts   1.76090e+04  3.52180e+03    0.00000e+00  3.52180e+04
+     2 nSig_both_kpipi_run1_Bd2DPiHypo_Evts   2.44091e+05  7.07510e+02    0.00000e+00  9.00000e+05
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           2
+ **********
+ NOW USING STRATEGY  2: MAKE SURE MINIMUM TRUE, ERRORS CORRECT  
+ **********
+ **    6 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  2.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=0 FROM HESSE     STATUS=OK             14 CALLS          15 TOTAL
+                     EDM=9.78239    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  nBkg_both_kpipi_run1_Bd2DPiHypo_Evts   1.76090e+04   2.14965e+02   2.01358e-03   1.16203e+02
+   2  nSig_both_kpipi_run1_Bd2DPiHypo_Evts   2.44091e+05   5.23450e+02   1.97762e-05   3.48848e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-9.75238 FROM MIGRAD    STATUS=CONVERGED      34 CALLS          35 TOTAL
+                     EDM=1.02659e-08    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  nBkg_both_kpipi_run1_Bd2DPiHypo_Evts   1.75530e+04   2.14012e+02   2.59917e-05   5.32995e-03
+   2  nSig_both_kpipi_run1_Bd2DPiHypo_Evts   2.41903e+05   5.19739e+02   2.78580e-06   7.37574e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  4.580e+04 -2.825e+04 
+ -2.825e+04  2.701e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.25398   1.000 -0.254
+        2  0.25398  -0.254  1.000
+Real time 0:00:02, CP time 2.710
+Real time 0:00:02, CP time 2.710
+ **********
+ **    7 **SET ERR         0.5
+ **********
+ **********
+ **    8 **SET PRINT           1
+ **********
+ **********
+ **    9 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-9.75238 FROM HESSE     STATUS=OK             12 CALLS          47 TOTAL
+                     EDM=1.05027e-08    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  nBkg_both_kpipi_run1_Bd2DPiHypo_Evts   1.75530e+04   2.13964e+02   5.19833e-06  -3.17994e-03
+   2  nSig_both_kpipi_run1_Bd2DPiHypo_Evts   2.41903e+05   5.19327e+02   5.57159e-07  -4.80743e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  4.578e+04 -2.816e+04 
+ -2.816e+04  2.697e+05 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.25342   1.000 -0.253
+        2  0.25342  -0.253  1.000
+Real time 0:00:00, CP time 0.960
+Real time 0:00:03, CP time 3.670, 2 slices
+RooArgList:: = (nBkg_both_kpipi_run1_Bd2DPiHypo_Evts,nSig_both_kpipi_run1_Bd2DPiHypo_Evts)
+SPlot is created
+Cross-check on sWeights:
+Yield of     nBkg_both_kpipi_run1_Bd2DPiHypo_Evts is    17553.019108. From sWeights it is    17553.019108
+Yield of     nSig_both_kpipi_run1_Bd2DPiHypo_Evts is   241902.981463. From sWeights it is   241902.981463
+About to write the sWeights to /afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/sWeights/Nominal/sWeights_pipdata.root
+==> FitMeTool::getFitResult()
+
+Plotting fit result for sWeights: BeautyMass
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF_merged) directly selected PDF components: (Bd2DPiHypo_SgnEPDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF_merged) indirectly selected PDF components: (Signal_Bd2DPiHypo_PDF,Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF_merged) directly selected PDF components: (Bd2DPiHypo_TotBkgEPDF)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Bd2DPiHypo_EPDF_merged) indirectly selected PDF components: (Bd2DPiHypo_TotBkgPDF,Comb_Bd2DPiHypo_PDF,Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Bd2DPiHypo_PDF,Bd2DRho_Bd2DPiHypo_PDF,Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_Bd2DPiHypo_PDF,Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo)
+
+Adding data points to legend
+Adding PDFs to legend
+
+=========================================
+Plotting sWeighted data for:
+BeautyTime
+CharmMass
+=========================================
+
+Collection name='TObjArray', class='TObjArray', size=39
+ OBJ: TLeafI	sample_idx	sample_idx
+ OBJ: TLeafC	sample_lbl	sample_lbl
+ OBJ: TLeafD	BeautyMass	BeautyMass
+ OBJ: TLeafD	CharmMass	CharmMass
+ OBJ: TLeafD	BacPIDK	BacPIDK
+ OBJ: TLeafD	BeautyTime	BeautyTime
+ OBJ: TLeafD	BDTG	BDTG
+ OBJ: TLeafD	BacP	BacP
+ OBJ: TLeafD	BacPT	BacPT
+ OBJ: TLeafD	nTracks	nTracks
+ OBJ: TLeafI	BacCharge_idx	BacCharge_idx
+ OBJ: TLeafC	BacCharge_lbl	BacCharge_lbl
+ OBJ: TLeafD	BeautyMassErr	BeautyMassErr
+ OBJ: TLeafD	CharmTime	CharmTime
+ OBJ: TLeafD	BeautyPhi	BeautyPhi
+ OBJ: TLeafD	BeautyPT	BeautyPT
+ OBJ: TLeafD	Hlt2Topo3BodyBBDTDecision_TOS	Hlt2Topo3BodyBBDTDecision_TOS
+ OBJ: TLeafD	Hlt2Topo4BodyBBDTDecision_TOS	Hlt2Topo4BodyBBDTDecision_TOS
+ OBJ: TLeafD	L0HadronDecision_TOS	L0HadronDecision_TOS
+ OBJ: TLeafD	BeautyP	BeautyP
+ OBJ: TLeafD	Hlt2Topo2BodyBBDTDecision_TOS	Hlt2Topo2BodyBBDTDecision_TOS
+ OBJ: TLeafD	BeautyEta	BeautyEta
+ OBJ: TLeafD	nPV	nPV
+ OBJ: TLeafI	TagDecOSCharm_idx	TagDecOSCharm_idx
+ OBJ: TLeafC	TagDecOSCharm_lbl	TagDecOSCharm_lbl
+ OBJ: TLeafI	TagDecOSComb_idx	TagDecOSComb_idx
+ OBJ: TLeafC	TagDecOSComb_lbl	TagDecOSComb_lbl
+ OBJ: TLeafI	TagDecSSPionBDTRaw_idx	TagDecSSPionBDTRaw_idx
+ OBJ: TLeafC	TagDecSSPionBDTRaw_lbl	TagDecSSPionBDTRaw_lbl
+ OBJ: TLeafI	TagDecSSProtonRaw_idx	TagDecSSProtonRaw_idx
+ OBJ: TLeafC	TagDecSSProtonRaw_lbl	TagDecSSProtonRaw_lbl
+ OBJ: TLeafD	MistagOSCharm	MistagOSCharm
+ OBJ: TLeafD	MistagOSComb	MistagOSComb
+ OBJ: TLeafD	MistagSSPionBDTRaw	MistagSSPionBDTRaw
+ OBJ: TLeafD	MistagSSProtonRaw	MistagSSProtonRaw
+ OBJ: TLeafD	nBkg_both_kpipi_run1_Bd2DPiHypo_Evts_sw	nBkg_both_kpipi_run1_Bd2DPiHypo_Evts_sw
+ OBJ: TLeafD	L_nBkg_both_kpipi_run1_Bd2DPiHypo_Evts	L_nBkg_both_kpipi_run1_Bd2DPiHypo_Evts
+ OBJ: TLeafD	nSig_both_kpipi_run1_Bd2DPiHypo_Evts_sw	nSig_both_kpipi_run1_Bd2DPiHypo_Evts_sw
+ OBJ: TLeafD	L_nSig_both_kpipi_run1_Bd2DPiHypo_Evts	L_nSig_both_kpipi_run1_Bd2DPiHypo_Evts
+sWeight leaf name: nSig_both_kpipi_run1_Bd2DPiHypo_Evts_sw
+==> FitMeTool::printYieldsInRange( obs=BeautyMass, range=[5220.00,5600.00], rangeName=SignalRegion )
+==> FitMeTool::getObservables()
+    Set of observables:
+  1) 0x56f8e620 RooRealVar:: BeautyMass = 5271.25  L(5220 - 5600)  "BeautyMass"
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'SignalRegion' created with bounds [5220,5600]
+==> FitMeTool::getMatchingVariableNames( wildcard='*Evts*' )
+  1) 0x495670b0 RooRealVar:: nBkg_both_kpipi_run1_Bd2DPiHypo_Evts = 17553 +/- 213.979  L(0 - 35218)  "nBkg_both_kpipi_run1_Bd2DPiHypo_Evts"
+  2) 0x495466b0 RooRealVar:: nSig_both_kpipi_run1_Bd2DPiHypo_Evts = 241903 +/- 519.669  L(0 - 900000)  "N^{\pi}_{\Bz\to D\pi}"
+==> FitMeTool::getEPDFComponents()
+RooArgSet::ModelEPDFComponents = (Bd2DPiHypo_SgnEPDF,Bd2DPiHypo_TotBkgEPDF)
+==> FitMeTool::getMatchingEPDFComponent( yieldVarName=nBkg_both_kpipi_run1_Bd2DPiHypo_Evts )
+==> FitMeTool::getMatchingEPDFComponent( yieldVarName=nSig_both_kpipi_run1_Bd2DPiHypo_Evts )
+
+##################################################################
+Yields in range [5220.00,5600.00] for variable BeautyMass named 'SignalRegion' :
+nSig_both_kpipi_run1_Bd2DPiHypo_Evts:  241902.98    ( 1.000 * 241902.98 )
+nBkg_both_kpipi_run1_Bd2DPiHypo_Evts:   17553.02    ( 1.000 * 17553.02 )
+------------------------------------------------------------------
+                     nBkg:    17553.02 ( total:   17553.02 )
+                     nSig:   241902.98 ( total:  241902.98 )
+------------------------------------------------------------------
+               Background:    17553.02 ( total:   17553.02 )
+                   Signal:   241902.98 ( total:  241902.98 )
+------------------------------------------------------------------
+##################################################################
+------------------------------------------------------------------
+                Performance in signal range                         
+------------------------------------------------------------------
+                      S/B:       13.78 ( total:      13.78 ) 
+              S/sqrt(S+B):      474.91 ( total:     474.91 )  
+##################################################################
+==> FitMeTool::~FitMeTool()
+
+=========================================
+Pretty-printing fit results
+=========================================
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Creating LaTeX style table with fitted parameters
+
+
+Parameter number & Parameter name & Fitted value & Initial value \\
+\hline
+$0$ & $\mu^{\pi}_{\Bz\to DK}$ & $5228.7\pm1.2$ & $(5.24\pm0)e+03$ \\
+$1$ & $\sigma^{K}_{\Bz\to DK}$ & $17.18\pm0.22$ & $17.32\pm0$ \\
+$2$ & $\mu^{K}_{\Bz\to D\Kst}$ & $5092.1\pm6.5$ & $(5.1077\pm0)e+03$ \\
+$3$ & $\sigma^{K}_{\Bz\to D\Kst}$ & $25.6\pm4.2$ & $28.878\pm0$ \\
+$4$ & $c1^{\pi}_{\rm comb}$ & $-0.00585\pm0.00018$ & $-0.00172409\pm0$ \\
+$5$ & $c2^{\pi}_{\rm comb}$ & $-0.00100\pm0.00036$ & $-0.00172409\pm0$ \\
+$6$ & $f^{\pi}_{\rm comb}$ & $0.894\pm0.015$ & $0.7\pm0$ \\
+$7$ & $c^{K}_{\rm comb}$ & $-0.004351\pm0.000092$ & $-0.00656407\pm0$ \\
+$8$ & $\mu^{K}_{\Bz\to D\pi}$ & $5279.40\pm0.20$ & $(5.2798\pm0)e+03$ \\
+$9$ & $\mu^{\pi}_{\Bz\to D\pi}$ & $5278.111\pm0.044$ & $(5.2803\pm0)e+03$ \\
+$10$ & $sa^{\pi}_{\Bz\to D\pi}$ & $0.663\pm0.026$ & $1.0\pm0$ \\
+$11$ & $sn^{\pi}_{\Bz\to D\pi}$ & $3.6\pm1.9$ & $1.0\pm0$ \\
+$12$ & $\sigmaI^{\pi}_{\Bz\to D\pi}$ & $37.79\pm0.94$ & $43.925\pm0$ \\
+$13$ & $\sigmaJ^{\pi}_{\Bz\to D\pi}$ & $16.95\pm0.23$ & $16.824\pm0$ \\
+$14$ & $\mu^{K}_{\Bz\to D\pi}$ & $5328.2\pm1.3$ & $(5.3365\pm0)e+03$ \\
+$15$ & $\epsilon_{\rm PID}(\Bz\to DK)_{K}$ & $0.6158\pm0.0093$ & $0.637\pm0$ \\
+$16$ & $\epsilon_{\rm PID}(\Bz\to D\pi)_{\pi}$ & $0.98107\pm0.00059$ & $0.979\pm0$ \\
+$17$ & $N^{K}_{\Bz\to DK}$ & $14735\pm178$ & $15000\pm0$ \\
+$18$ & $N^{K}_{\Bz\to D\Kst}$ & $1619\pm79$ & $2000\pm0$ \\
+$19$ & $N^{\pi}_{\Bz\to D\rho}$ & $37462\pm869$ & $41417\pm0$ \\
+$20$ & $N^{\pi}_{\Bz\to \Dst\pi}$ & $25890\pm577$ & $32575\pm0$ \\
+$21$ & $N^{K}_{\rm comb}$ & $8914\pm245$ & $1000\pm0$ \\
+$22$ & $N^{\pi}_{\rm comb}$ & $28530\pm920$ & $15000\pm0$ \\
+$23$ & $N^{\pi}_{\Bz\to D\pi}$ & $244091\pm708$ & $200000\pm0$ \\
+\hline
+
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Creating LaTeX style table with fitted parameters
+
+
+Parameter number & Parameter name & Fitted value & Initial value \\
+\hline
+$0$ & $nBkg_both_kpipi_run1_Bd2DPiHypo_Evts$ & $17553\pm214$ & $17609\pm0$ \\
+$1$ & $N^{\pi}_{\Bz\to D\pi}$ & $241903\pm519$ & $244091\pm708$ \\
+\hline
+
+
+
+=========================================
+Saving output workspace
+=========================================
+
+
+RooWorkspace(workResults) workResults contents
+
+variables
+---------
+(BDTG,BacCharge,BacP,BacPIDK,BacPT,Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo,Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo,Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo,Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo,Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_frac_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_shift_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_sigma1_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_sigma2_both_kpipi_run1_Bd2DKHypo,Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo,Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo,Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo,Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo,BeautyEta,BeautyMass,BeautyMassErr,BeautyP,BeautyPT,BeautyPhi,BeautyTime,CharmMass,CharmTime,Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo,Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo,Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo,DRho_to_DKst_KHypo,Hlt2Topo2BodyBBDTDecision_TOS,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw,Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo,Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo,Signal_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo,Signal_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,eff_Bd2DK_DK,eff_Bd2DPi_DPi,frac_Bd2DK_Bd2DPiHypo,frac_Bd2DRho_Bd2DPiHypo,frac_Comb_Bd2DPiHypo,nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts,nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts,nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts,nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts,nBkg_both_kpipi_run1_Bd2DPiHypo_Evts,nComb_both_kpipi_run1_Bd2DKHypo_Evts,nComb_both_kpipi_run1_Bd2DPiHypo_Evts,nPV,nSig_both_kpipi_run1_Bd2DPiHypo_Evts,nTracks,sample)
+
+p.d.f.s
+-------
+RooAddPdf::Bd2DKHypo_EPDF[ nComb_both_kpipi_run1_Bd2DKHypo_Evts * Comb_Bd2DKHypo_PDF + nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts * Bd2DK_Bd2DKHypo_PDF + nSig_both_kpipi_run1_Bd2DKHypo_Evts * Signal_Bd2DKHypo_PDF + nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts * Bd2DRho_Bd2DKHypo_PDF + nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts * Bd2DKst_Bd2DKHypo_PDF ] = 0.00349006
+RooIpatia2::Bd2DK_Bd2DKHypo_PDF[ x=BeautyMass l=Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo zeta=Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo fb=Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo sigma=Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo mu=Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo a=Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo n=Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo a2=Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo n2=Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo ] = 2.00442e-07
+RooIpatia2::Bd2DK_Bd2DPiHypo_PDF[ x=BeautyMass l=Bd2DK_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo zeta=Bd2DK_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo fb=Bd2DK_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo sigma=Bd2DK_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo mu=Bd2DK_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo a=Bd2DK_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo n=Bd2DK_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo a2=Bd2DK_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo n2=Bd2DK_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo ] = 1.01154e-05/41.1252
+RooGaussian::Bd2DKst_Bd2DKHypo_PDF[ x=BeautyMass mean=Bd2DKst_G_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo sigma=Bd2DKst_G_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo ] = 6.08218e-69
+RooAddPdf::Bd2DPiHypo_EPDF[ nComb_both_kpipi_run1_Bd2DPiHypo_Evts * Comb_Bd2DPiHypo_PDF + nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts * Bd2DK_Bd2DPiHypo_PDF + nSig_both_kpipi_run1_Bd2DPiHypo_Evts * Signal_Bd2DPiHypo_PDF + nBd2DRho_both_kpipi_run1_Bd2DPiHypo_Evts * Bd2DRho_Bd2DPiHypo_PDF + nBd2DstPi_both_kpipi_run1_Bd2DPiHypo_Evts * Bd2DstPi_Bd2DPiHypo_PDF ] = 3.7079e-05
+RooAddPdf::Bd2DPiHypo_EPDF_merged[ Bd2DPiHypo_SgnEPDF + Bd2DPiHypo_TotBkgEPDF ] = 2.01568e-05
+RooExtendPdf::Bd2DPiHypo_SgnEPDF[ pdf=Signal_Bd2DPiHypo_PDF n=nSig_both_kpipi_run1_Bd2DPiHypo_Evts ] = 9.80979e-07
+RooExtendPdf::Bd2DPiHypo_TotBkgEPDF[ pdf=Bd2DPiHypo_TotBkgPDF n=nBkg_both_kpipi_run1_Bd2DPiHypo_Evts ] = 0.000285966
+RooAddPdf::Bd2DPiHypo_TotBkgPDF[ frac_Comb_Bd2DPiHypo * Comb_Bd2DPiHypo_PDF + frac_Bd2DK_Bd2DPiHypo * Bd2DK_Bd2DPiHypo_PDF + frac_Bd2DRho_Bd2DPiHypo * Bd2DRho_Bd2DPiHypo_PDF + [%] * Bd2DstPi_Bd2DPiHypo_PDF ] = 0.000285966
+RooAddPdf::Bd2DRho_Bd2DKHypo_PDF[ Bd2DRho_DG_BeautyMass_frac_both_kpipi_run1_Bd2DKHypo * Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo + [%] * Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo ] = 0.000192421
+RooJohnsonSU::Bd2DRho_Bd2DPiHypo_PDF[ x=BeautyMass mean=Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo width=Bd2DRho_johnson_BeautyMass_sigma_both_kpipi_run1_Bd2DPiHypo nu=Bd2DRho_johnson_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo tau=Bd2DRho_johnson_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo ] = 3.6144e-09/0.00014832
+RooGaussian::Bd2DRho_DG_BeautyMass_Gauss1_both_kpipi_run1_Bd2DKHypo[ x=BeautyMass mean=Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo sigma=Bd2DRho_DG_BeautyMass_sigma1_both_kpipi_run1_Bd2DKHypo ] = 0.000915547
+RooGaussian::Bd2DRho_DG_BeautyMass_Gauss2_both_kpipi_run1_Bd2DKHypo[ x=BeautyMass mean=Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo sigma=Bd2DRho_DG_BeautyMass_sigma2_both_kpipi_run1_Bd2DKHypo ] = 1.4678e-21
+RooAddPdf::Bd2DstPi_Bd2DPiHypo_PDF[ Bd2DstPi_CBplusG_BeautyMass_fracG_both_kpipi_run1_Bd2DPiHypo * Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo + [%] * Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo ] = 4.42193e-05/1
+RooCBShape::Bd2DstPi_CBplusG_BeautyMass_crystalball_both_kpipi_run1_Bd2DPiHypo[ m=BeautyMass m0=Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo sigma=Bd2DstPi_CBplusG_BeautyMass_sigmaCB_both_kpipi_run1_Bd2DPiHypo alpha=Bd2DstPi_CBplusG_BeautyMass_alpha_both_kpipi_run1_Bd2DPiHypo n=Bd2DstPi_CBplusG_BeautyMass_n_both_kpipi_run1_Bd2DPiHypo ] = 9.12467e-05/0.62355
+RooGaussian::Bd2DstPi_CBplusG_BeautyMass_gaussian_both_kpipi_run1_Bd2DPiHypo[ x=BeautyMass mean=Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo sigma=Bd2DstPi_CBplusG_BeautyMass_sigmaG_both_kpipi_run1_Bd2DPiHypo ] = 3.33071e-159/4.35831e-12
+RooExponential::Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo[ x=BeautyMass c=Comb_2E_BeautyMass_cB1_both_kpipi_run1_Bd2DPiHypo ] = 8.08909e-15/8.25714e-12
+RooExponential::Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo[ x=BeautyMass c=Comb_2E_BeautyMass_cB2_both_kpipi_run1_Bd2DPiHypo ] = 0.00390289/1.70774
+RooExponential::Comb_Bd2DKHypo_PDF[ x=BeautyMass c=Comb_E_BeautyMass_cB_both_kpipi_run1_Bd2DKHypo ] = 3.33476e-11
+RooAddPdf::Comb_Bd2DPiHypo_PDF[ Comb_2E_BeautyMass_frac_both_kpipi_run1_Bd2DPiHypo * Comb_2E_BeautyMass_expo1_both_kpipi_run1_Bd2DPiHypo + [%] * Comb_2E_BeautyMass_expo2_both_kpipi_run1_Bd2DPiHypo ] = 0.000479039/1
+RooGaussian::ExtConstraint_eff_Bd2DK_DK[ x=eff_Bd2DK_DK mean=mean_eff_Bd2DK_DK sigma=sigma_eff_Bd2DK_DK ] = 0.25158/0.0320347
+RooIpatia2::Signal_Bd2DKHypo_PDF[ x=BeautyMass l=Signal_Ipatia_BeautyMass_l_both_kpipi_run1_Bd2DKHypo zeta=Signal_Ipatia_BeautyMass_zeta_both_kpipi_run1_Bd2DKHypo fb=Signal_Ipatia_BeautyMass_fb_both_kpipi_run1_Bd2DKHypo sigma=Signal_Ipatia_BeautyMass_sigma_both_kpipi_run1_Bd2DKHypo mu=Signal_Ipatia_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo a=Signal_Ipatia_BeautyMass_a1_both_kpipi_run1_Bd2DKHypo n=Signal_Ipatia_BeautyMass_n1_both_kpipi_run1_Bd2DKHypo a2=Signal_Ipatia_BeautyMass_a2_both_kpipi_run1_Bd2DKHypo n2=Signal_Ipatia_BeautyMass_n2_both_kpipi_run1_Bd2DKHypo ] = 0.0232663
+RooAddPdf::Signal_Bd2DPiHypo_PDF[ Signal_IpatiaPlusJohnsonSU_BeautyMass_fracI_both_kpipi_run1_Bd2DPiHypo * Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo + [%] * Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo ] = 9.80979e-07
+RooIpatia2::Signal_IpatiaPlusJohnsonSU_BeautyMass_ipatia_both_kpipi_run1_Bd2DPiHypo[ x=BeautyMass l=Signal_IpatiaPlusJohnsonSU_BeautyMass_l_both_kpipi_run1_Bd2DPiHypo zeta=Signal_IpatiaPlusJohnsonSU_BeautyMass_zeta_both_kpipi_run1_Bd2DPiHypo fb=Signal_IpatiaPlusJohnsonSU_BeautyMass_fb_both_kpipi_run1_Bd2DPiHypo sigma=Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaI_both_kpipi_run1_Bd2DPiHypo mu=Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo a=Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo n=Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo a2=Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo n2=Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo ] = 2.24882e-06
+RooJohnsonSU::Signal_IpatiaPlusJohnsonSU_BeautyMass_johnsonSU_both_kpipi_run1_Bd2DPiHypo[ x=BeautyMass mean=Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo width=Signal_IpatiaPlusJohnsonSU_BeautyMass_sigmaJ_both_kpipi_run1_Bd2DPiHypo nu=Signal_IpatiaPlusJohnsonSU_BeautyMass_nu_both_kpipi_run1_Bd2DPiHypo tau=Signal_IpatiaPlusJohnsonSU_BeautyMass_tau_both_kpipi_run1_Bd2DPiHypo ] = 1.95932e-15
+RooSimultaneous::totEPDF[ indexCat=sample both_kpipi_run1_Bd2DPiHypo=Bd2DPiHypo_EPDF both_kpipi_run1_Bd2DKHypo=Bd2DKHypo_EPDF ] = 3.39795e-05
+
+functions
+--------
+RooFormulaVar::Bd2DRho_DG_BeautyMass_meanShift_both_kpipi_run1_Bd2DKHypo[ actualVars=(Signal_BeautyMass_mean_both_kpipi_run1_Bd2DKHypo,Bd2DRho_DG_BeautyMass_shift_both_kpipi_run1_Bd2DKHypo) formula="@0+@1" ] = 5109
+RooFormulaVar::Bd2DRho_johnson_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo,Bd2DRho_johnson_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo) formula="@0+@1" ] = 4825.61
+RooFormulaVar::Bd2DstPi_CBplusG_BeautyMass_meanShift_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_BeautyMass_mean_both_kpipi_run1_Bd2DPiHypo,Bd2DstPi_CBplusG_BeautyMass_shift_both_kpipi_run1_Bd2DPiHypo) formula="@0+@1" ] = 5098.71
+RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a1scaled_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_IpatiaPlusJohnsonSU_BeautyMass_a1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo) formula="@0*@1" ] = 0.479033
+RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_a2scaled_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_IpatiaPlusJohnsonSU_BeautyMass_a2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_ascale_both_kpipi_run1_Bd2DPiHypo) formula="@0*@1" ] = 0.637567
+RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n1scaled_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_IpatiaPlusJohnsonSU_BeautyMass_n1_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo) formula="@0*@1" ] = 21.2909
+RooFormulaVar::Signal_IpatiaPlusJohnsonSU_BeautyMass_n2scaled_both_kpipi_run1_Bd2DPiHypo[ actualVars=(Signal_IpatiaPlusJohnsonSU_BeautyMass_n2_both_kpipi_run1_Bd2DPiHypo,Signal_IpatiaPlusJohnsonSU_BeautyMass_nscale_both_kpipi_run1_Bd2DPiHypo) formula="@0*@1" ] = 20.951
+RooFormulaVar::nBd2DK_both_kpipi_run1_Bd2DPiHypo_Evts[ actualVars=(eff_Bd2DK_DK,nBd2DK_both_kpipi_run1_Bd2DKHypo_Evts) formula="((1-@0)/@0)*@1" ] = 9194.75
+RooFormulaVar::nBd2DRho_both_kpipi_run1_Bd2DKHypo_Evts[ actualVars=(nBd2DKst_both_kpipi_run1_Bd2DKHypo_Evts,DRho_to_DKst_KHypo) formula="@0*@1" ] = 1505.83
+RooFormulaVar::nSig_both_kpipi_run1_Bd2DKHypo_Evts[ actualVars=(eff_Bd2DPi_DPi,nSig_both_kpipi_run1_Bd2DPiHypo_Evts) formula="((1-@0)/@0)*@1" ] = 4710.26
+
+datasets
+--------
+RooDataHist::combData_binned(sample,BeautyMass)
+RooDataSet::combData(sample,BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,BeautyMassErr,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,L0HadronDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDTRaw,TagDecSSProtonRaw,MistagOSCharm,MistagOSComb,MistagSSPionBDTRaw,MistagSSProtonRaw)
+
+generic objects
+---------------
+RooFitResult::FitTo_combData
+

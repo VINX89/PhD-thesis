@@ -1,0 +1,900 @@
+[?1034h
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+==========================================================
+FITTER IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+{'treeName': 'merged', 'truetime': False, 'UniformBlinding': True, 'workMC': 'workspace', 'scan': False, 'toys': False, 'pol': 'both', 'tagfromdata': False, 'fileNameFitresult': 'FitResult.root', 'year': 'run1', 'outputdir': '/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/sFit/SSbarAccAsymmFTFloatingDMGammaConstrSSExclusiveBlinded_SSrlogit/', 'truetag': False, 'wsname': '/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/sFit/SSbarAccAsymmFTFloatingDMGammaConstrSSExclusiveBlinded_SSrlogit/workResults.root', 'randomise': False, 'noweight': False, 'blindingString': 'TD_Dpi_3fb', 'fixtagging': False, 'singletagger': 'TagDecSS', 'plotsWeights': False, 'inputdata': '', 'extended': False, 'sampleConstr': False, 'pereventmistag': True, 'fileName': '/eos/lhcb/wg/b2oc/TD_DPi_3fb/sWeightedData_Bd/sWeights_RunIdata_OSCombined_SSCombined_B2DXNaming.root', 'binned': False, 'unblind': False, 'superimpose': False, 'pereventterr': False, 'configName': '/afs/cern.ch/user/v/vibattis/cmtuser/UraniaDev_v6r2p1/PhysFit/B2DXFitters/data/Bd2DPi_3fbCPV/Bd2DPi/Bd2DPiConfigForSFitOnData.py', 'noftcalib': False, 'fileNamePull': 'PullTree.root', 'MC': False, 'NumCPU': 8, 'HFAG': True, 'cat': False, 'merge': 'both', 'hypo': 'Bd2DPi', 'seed': 4534209875, 'mode': 'kpipi', 'preselection': 'TagDecOS==0&&TagDecSS!=0', 'debug': True}
+==========================================================
+==========================================================
+FITTER IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+UseProtoData  =  True
+Taggers  =  {'Signal': {'SS': {'MistagPDF': {'Type': 'BuildTemplate'}, 'Calibration': {'XML': ['/eos/lhcb/wg/b2oc/TD_DPi_3fb/calibrations/RLogisticCalibration_Bd2JpsiKst_SS_20171101.xml'], 'tageff': [1.0], 'Type': 'GLM', 'tagasymm': [0.0]}}, 'OS': {'MistagPDF': {'Type': 'BuildTemplate'}, 'Calibration': {'XML': ['/eos/lhcb/wg/b2oc/TD_DPi_3fb/calibrations/RLogisticCalibration_Bu2D0Pi_OS_20171109.xml'], 'tageff': [1.0], 'Type': 'GLM', 'tagasymm': [0.0]}}}}
+ResolutionAcceptance  =  {'Signal': {'Resolution': {'ScaleFactor': [1.0], 'Bias': [0.0], 'Type': 'AverageModel', 'Parameters': {'fractions': [], 'sigmas': [0.05491]}}, 'TimeErrorPDF': None, 'Acceptance': {'KnotCoefficients': [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946], 'Extrapolate': True, 'Float': True, 'Type': 'Spline', 'KnotPositions': [0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0]}}}
+blindParams  =  ['Sf', 'Sfbar']
+gaussCons  =  {'deltaM': 0.002325940669922601, 'Gamma': 0.0017358670048135594}
+Decay  =  Bd2DPi
+LikelihoodScan  =  ['Sf', 'DetAsymm']
+NBinsAcceptance  =  0
+ParameteriseIntegral  =  True
+BasicVariables  =  {'MistagSS': {'Range': [0.0, 0.5], 'InputName': 'MistagSS', 'Name': 'MistagSS'}, 'BacPIDK': {'Range': [-999.0, 999.0], 'InputName': 'lab1_PIDK', 'Name': 'BacPIDK'}, 'BacPT': {'Range': [400.0, 45000.0], 'InputName': 'lab0_FitDaughtersConst_P0_PT_flat', 'Name': 'BacPT'}, 'nTracks': {'Range': [15.0, 1000.0], 'InputName': 'nTracks', 'Name': 'nTracks'}, 'BDTG': {'Range': [0.0, 1], 'InputName': 'BDT_classifier', 'Name': 'BDTG'}, 'BacP': {'Range': [2000.0, 650000.0], 'InputName': 'lab0_FitDaughtersConst_P0_P_flat', 'Name': 'BacP'}, 'MistagOS': {'Range': [0.0, 0.5], 'InputName': 'MistagOS', 'Name': 'MistagOS'}, 'BeautyTime': {'Range': [0.4, 12.0], 'InputName': 'obsTime', 'Name': 'BeautyTime', 'Bins': 40}, 'BeautyMass': {'Range': [5090, 6000], 'InputName': 'lab0_FitDaughtersConst_M_flat', 'Name': 'BeautyMass'}, 'CharmMass': {'Range': [1830, 1904], 'InputName': 'obsMassDminus', 'Name': 'CharmMass'}, 'TagDecSS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecSS', 'Name': 'TagDecSS'}, 'TagDecOS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecOS', 'Name': 'TagDecOS'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'lab1_ID', 'Name': 'BacCharge'}}
+Debug  =  True
+ACP  =  {'Signal': {'C': [1.0], 'D': [0.0], 'S': [-0.031], 'DeltaM': [0.505, 0.01, 2.0], 'Gamma': [0.6587615283267457, 0.1, 2.0], 'DeltaGamma': [0.0], 'ParameteriseIntegral': True, 'Sbar': [-0.029], 'NBinsAcceptance': 0, 'CPlimit': {'upper': 1.0, 'lower': -1.0}, 'Dbar': [0.0]}}
+Context  =  FIT
+Cf is constant in the fit
+Cfbar is constant in the fit
+Df is constant in the fit
+Dfbar is constant in the fit
+.*scalefactor is constant in the fit
+resmodel00_sigma is constant in the fit
+DetectionAsymmetry  =  {'Signal': [0.0086, -3.0, 3.0]}
+ProductionAsymmetry  =  {'Signal': [-0.0124, -3.0, 3.0]}
+AdditionalVariables  =  {'CharmTime': {'Range': [-10, 10], 'InputName': 'lab2_TAU', 'Name': 'CharmTime'}, 'BeautyPhi': {'Range': [-10.0, 10.0], 'InputName': 'lab0_LOKI_PHI', 'Name': 'BeautyPhi'}, 'BeautyPT': {'Range': [0.0, 100000], 'InputName': 'lab0_PT', 'Name': 'BeautyPT'}, 'Hlt2Topo3BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo3BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo3BodyBBDTDecision_TOS'}, 'Hlt2Topo4BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo4BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo4BodyBBDTDecision_TOS'}, 'BeautyP': {'Range': [0.0, 3000000], 'InputName': 'lab0_P', 'Name': 'BeautyP'}, 'Hlt2Topo2BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo2BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo2BodyBBDTDecision_TOS'}, 'BeautyEta': {'Range': [1.5, 10.0], 'InputName': 'lab0_LOKI_ETA', 'Name': 'BeautyEta'}, 'nPV': {'Range': [0.0, 10], 'InputName': 'nPV', 'Name': 'nPV'}}
+==========================================================
+===================================================================
+MDFitterSettings(,)
+===================================================================
+-------------------------------------------------------------------
+	 Basic variables: 
+-------------------------------------------------------------------
+B(s) mass range: (5090,6000), input name: lab0_FitDaughtersConst_M_flat, output name: BeautyMass
+D(s) mass range: (1830,1904), input name: obsMassDminus, output name: CharmMass
+PIDK range: (-999,999),  input name: lab1_PIDK, output name: BacPIDK
+BDTG range: (0,1), input name: BDT_classifier, output name: BDTG
+Time range: (0.4,12), input name: obsTime, output name: BeautyTime
+Charge range: (-1000,1000), input name: lab1_ID, output name: BacCharge
+Momentum range: (2000,650000), intput name: lab0_FitDaughtersConst_P0_P_flat, output name: BacP
+Transverse momentum range: (400,45000),  variable name: lab0_FitDaughtersConst_P0_PT_flat, output name: BacPT
+nTracks range: (15,1000),  variable name: nTracks, output name: nTracks
+-------------------------------------------------------------------
+	 Tagging: 
+-------------------------------------------------------------------
+Tagging decision variables
+Range: (-1,1), input name: TagDecOS, output name: TagDecOS
+Range: (-1,1), input name: TagDecSS, output name: TagDecSS
+Tagging mistag variables
+Range: (0,0.5), variable name: MistagOS, output name: MistagOS
+Range: (0,0.5), variable name: MistagSS, output name: MistagSS
+Tagging calibration:
+	 OS: p0: 1, p1: 1, average: 1 use: 1
+	 SS: p0: 1, p1: 1, average: 1 use: 1
+-------------------------------------------------------------------
+	 Additional cuts applied to data set: 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+	 Additional variables in data set: 
+-------------------------------------------------------------------
+Range: (-10,10), input name: lab2_TAU output name: CharmTime
+Range: (-10,10), input name: lab0_LOKI_PHI output name: BeautyPhi
+Range: (0,100000), input name: lab0_PT output name: BeautyPT
+Range: (0,1), input name: lab0_Hlt2Topo3BodyBBDTDecision_TOS output name: Hlt2Topo3BodyBBDTDecision_TOS
+Range: (0,1), input name: lab0_Hlt2Topo4BodyBBDTDecision_TOS output name: Hlt2Topo4BodyBBDTDecision_TOS
+Range: (0,3e+06), input name: lab0_P output name: BeautyP
+Range: (0,1), input name: lab0_Hlt2Topo2BodyBBDTDecision_TOS output name: Hlt2Topo2BodyBBDTDecision_TOS
+Range: (1.5,10), input name: lab0_LOKI_ETA output name: BeautyEta
+Range: (0,10), input name: nPV output name: nPV
+-------------------------------------------------------------------
+	 Mass templates will be weighted using following settings: 
+-------------------------------------------------------------------
+ Shift for BeautyMass is: 0
+ Shift for CharmMass is: 0
+-------------------------------------------------------------------
+
+
+==========================================================
+Get input workspace with data
+==========================================================
+
+[INFO] ==> GeneralUtils::ReadDataFromSWeights(...). Read data set from sWeights NTuple 
+[INFO] path of file: /eos/lhcb/wg/b2oc/TD_DPi_3fb/sWeightedData_Bd/sWeights_RunIdata_OSCombined_SSCombined_B2DXNaming.root
+[INFO] name of tree: merged
+[INFO] apply kfactor: 0
+[INFO] apply sWeightsCorr: 0
+[INFO] pol: both, D mode: kpipi, year: run1, hypo: Bd2DPi, merge: both
+[INFO] ==> GeneralUtils::ReadTreeMC(...). Read Tree from MC
+: Open MC File: /eos/lhcb/wg/b2oc/TD_DPi_3fb/sWeightedData_Bd/sWeights_RunIdata_OSCombined_SSCombined_B2DXNaming.root
+with tree: merged
+Number of events: 497682
+----------------------------------------------------------
+[INFO] Number of all taggers: 2, number of used taggers: 2
+ i: 0 name: TagDecOS
+[INFO] Use tagger 0: 1
+ i: 1 name: TagDecSS
+[INFO] Use tagger 1: 1
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi: Merge: both
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DPiHypo
+[INFO] sWeights bound: 1
+[INFO] Variable BeautyTime in data set.
+[INFO] Variable BacCharge in data set.
+[INFO] Variable TagDecOS in data set.
+[INFO] Variable TagDecSS in data set.
+[INFO] Variable MistagOS in data set.
+[INFO] Variable MistagSS in data set.
+[INFO] sWeights names: nSig_both_kpipi_run1_Bd2DPiHypo_Evts_sw
+[INFO] ==> SFitUtils::ReadDataFromSWeights(...). No sWeights correction applied
+[INFO] ==> Create dataSet_time
+Sample dataSet_time number of entries: 497682 in data set: 497682
+sum of sWeights: 497682 squared sum of sWeights: 518027
+tagEff1: 0.402978 = 200555 / 497682
+tagEff2: 0.867168 = 431574 / 497682
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset dataSet_time
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::sWeights
+[INFO] ==> GeneralUtils::ReadDataFromSWeights(...). Read data set from sWeights NTuple 
+[INFO] path of file: /eos/lhcb/wg/b2oc/TD_DPi_3fb/sWeightedData_Bd/sWeights_RunIdata_OSCombined_SSCombined_B2DXNaming.root
+[INFO] name of tree: merged
+[INFO] apply kfactor: 0
+[INFO] apply sWeightsCorr: 1
+[INFO] pol: both, D mode: kpipi, year: run1, hypo: Bd2DPi, merge: both
+[INFO] ==> GeneralUtils::ReadTreeMC(...). Read Tree from MC
+: Open MC File: /eos/lhcb/wg/b2oc/TD_DPi_3fb/sWeightedData_Bd/sWeights_RunIdata_OSCombined_SSCombined_B2DXNaming.root
+with tree: merged
+Number of events: 497682
+----------------------------------------------------------
+[INFO] Number of all taggers: 2, number of used taggers: 2
+ i: 0 name: TagDecOS
+[INFO] Use tagger 0: 1
+ i: 1 name: TagDecSS
+[INFO] Use tagger 1: 1
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi: Merge: both
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DPiHypo
+[INFO] sWeights bound: 1
+[INFO] Variable BeautyTime in data set.
+[INFO] Variable BacCharge in data set.
+[INFO] Variable TagDecOS in data set.
+[INFO] Variable TagDecSS in data set.
+[INFO] Variable MistagOS in data set.
+[INFO] Variable MistagSS in data set.
+[INFO] sWeights names: nSig_both_kpipi_run1_Bd2DPiHypo_Evts_sw
+[INFO] ==> SFitUtils::ReadDataFromSWeights(...). sWeights correction factor: 0.895377
+[INFO] ==> Create dataSet_time_weighted
+Sample dataSet_time_weighted number of entries: 497682 in data set: 497682
+sum of sWeights: 415302 squared sum of sWeights: 415302
+tagEff1: 0.432389 = 179572 / 415302
+tagEff2: 0.930458 = 386421 / 415302
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset dataSet_time_weighted
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagSS
+
+==========================================================
+Create dataset and observables
+==========================================================
+
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSet_time)
+Read data set: dataSet_time with number of entries: 497682 and the sum of entries: 497682
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSet_time_weighted)
+Read data set: dataSet_time_weighted with number of entries: 497682 and the sum of entries: 415302
+Applying following preselection to reduce dataset:
+TagDecOS==0&&TagDecSS!=0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing dataset dataSet_time_weighted
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::MistagOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::MistagSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing dataset dataSet_time
+Entries (unweighted set):
+...before cut: 497682, sum of weights 497682.0
+...after cut: 280231, sum of weights 280231.0
+Entries (weighted set):
+...before cut: 497682, sum of weights 415301.798493
+...after cut: 280231, sum of weights 263274.397276
+RooDataSet::dataSet_time[BeautyTime,BacCharge,TagDecOS,TagDecSS,MistagOS,MistagSS] = 280231 entries
+RooDataSet::dataSet_time_weighted[BeautyTime,BacCharge,TagDecOS,TagDecSS,MistagOS,MistagSS,weight:sWeights] = 280231 entries (263274 weighted)
+Tagger number 0
+...tagging decision TagDecOS
+...mistag MistagOS
+Skipped...
+Tagger number 1
+...tagging decision TagDecSS
+...mistag MistagSS
+Selected
+Tag decision(s):
+[<ROOT.RooCategory object ("TagDecSS") at 0x1f680c70>]
+Mistag(s):
+[<ROOT.RooRealVar object ("MistagSS") at 0x1f681bc0>]
+
+==========================================================
+Define some physical parameters
+==========================================================
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::Gamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::deltaGamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::deltaM
+
+==========================================================
+Build decay time resolution/error and acceptance
+==========================================================
+
+DEBUG: Spline knots: [0.4, 0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0, 12.0]
+DEBUG: Spline Coeffs: [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946, 1.0, 0.9351333333333333]
+Acceptance function:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x1c17b0b0
+  Clients: 
+  Servers: 
+    (0x1f67bfc0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x1bb489d0,V-) RooRealVar::Acceptance_SplineAccCoeff0 "v_{1}"
+    (0x1bb3dd00,V-) RooRealVar::Acceptance_SplineAccCoeff1 "v_{2}"
+    (0x1bb2ff30,V-) RooRealVar::Acceptance_SplineAccCoeff2 "v_{3}"
+    (0x1bb48f10,V-) RooRealVar::Acceptance_SplineAccCoeff3 "v_{4}"
+    (0x1bb3d3c0,V-) RooRealVar::Acceptance_SplineAccCoeff4 "v_{5}"
+    (0x1bb38bb0,V-) RooRealVar::Acceptance_SplineAccCoeff5 "v_{6}"
+    (0x1bb3e370,V-) RooRealVar::Acceptance_SplineAccCoeff6 "v_{7}"
+    (0x1bb37850,V-) RooRealVar::Acceptance_SplineAccCoeff7 "v_{8}"
+    (0x1bb2cb70,V-) RooRealVar::Acceptance_SplineAccCoeff8 "v_{9}"
+    (0x1bb909d0,V-) RooConstVar::one "1"
+    (0x1bb8c800,V-) RooPolyVar::Acceptance_SplineAccCoeff10 "v_{11}"
+  Proxies: 
+    x -> BeautyTime
+    coefList -> 
+      1)   Acceptance_SplineAccCoeff0
+      2)   Acceptance_SplineAccCoeff1
+      3)   Acceptance_SplineAccCoeff2
+      4)   Acceptance_SplineAccCoeff3
+      5)   Acceptance_SplineAccCoeff4
+      6)   Acceptance_SplineAccCoeff5
+      7)   Acceptance_SplineAccCoeff6
+      8)   Acceptance_SplineAccCoeff7
+      9)   Acceptance_SplineAccCoeff8
+     10)                          one
+     11)  Acceptance_SplineAccCoeff10
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance"
+[INFO] Using mean resolution
+=>resmodelutils.getResolutionModel(): using list/tuple/dict to build resolution.
+=>resmodelutils.getResolutionModel(): multiplying resolution by spline acceptance
+=>resmodelutils.getResolutionModel(): using spline acceptance in fitting stage. Returning null acceptance (already included in resolution.)
+Resolution model:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x1bdde130
+  Clients: 
+  Servers: 
+    (0x1f67bfc0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x1bda8650,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00 "Acceptance_SplineAcceptance_resmodel00"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = <none>
+
+==========================================================
+Build tagging
+==========================================================
+
+Tagger TagDecOS skipped...
+[INFO] Building mistag templates directly from data for SS
+[INFO] Number of taggers 2
+List of tag decisions: 
+RooArgList:: = (TagDecOS)
+List of mistag: 
+RooArgList:: = (MistagOS)
+List of tag decisions: 
+RooArgList:: = (TagDecOS,TagDecSS)
+List of mistag: 
+RooArgList:: = (MistagOS,MistagSS)
+Number of mistag templates: 2
+Cut on tagger: 1 and -1
+[INFO] sliceData 1 with entries: 0
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Create RooHistPdf
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Bins: 50, Min: 0, Max: 0.5
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Create RooHistPdf
+[INFO] Create histogram 
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(histData_sigMistagPdf_1): fit range of variable MistagOS expanded to nearest bin boundaries: [0,0.5] --> [0,0.5]
+[INFO] Create RooDataHist histData_sigMistagPdf_1
+[INFO] Create RooHistPdf sigMistagPdf_1
+[INFO] Create RooHistPDF done
+[INFO] ==> GeneralUtils::SaveTemplate(...). Saving template for background to pdf file
+[INFO] Observable label: #omega OS
+Cut on tagger: 2 and -2
+[INFO] sliceData 2 with entries: 280231
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Create RooHistPdf
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Bins: 50, Min: 0, Max: 0.5
+[INFO] ==> GeneralUtils::CreateHistPDFMC(...). Create RooHistPdf
+[INFO] Create histogram 
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(histData_sigMistagPdf_2): fit range of variable MistagSS expanded to nearest bin boundaries: [0,0.5] --> [0,0.5]
+[INFO] Create RooDataHist histData_sigMistagPdf_2
+[INFO] Create RooHistPdf sigMistagPdf_2
+[INFO] Create RooHistPDF done
+[INFO] ==> GeneralUtils::SaveTemplate(...). Saving template for background to pdf file
+[INFO] Observable label: #omega SS
+[#1] INFO:InputArguments -- RooAbsData::plotOn(dataSet_time_weighted) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset histData_sigMistagPdf_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooHistPdf::sigMistagPdf_1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset histData_sigMistagPdf_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooHistPdf::sigMistagPdf_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagSS
+
+RooWorkspace(workspace) workspace contents
+
+variables
+---------
+(MistagOS,MistagSS)
+
+p.d.f.s
+-------
+RooHistPdf::sigMistagPdf_1[ pdfObs=(MistagOS) ] = 1e-35
+RooHistPdf::sigMistagPdf_2[ pdfObs=(MistagSS) ] = 2.44676e+06
+
+embedded datasets (in pdfs and functions)
+-----------------------------------------
+RooDataHist::histData_sigMistagPdf_1(MistagOS)
+RooDataHist::histData_sigMistagPdf_2(MistagSS)
+
+Tagger TagDecOS skipped...
+[INFO] Creating calibration parameters for SS tagger
+Here the GLM model should be implemented
+[INFO] Using per-event mistag for SS tagger
+[INFO] Build mistag template on the fly as histogram PDF
+
+==========================================================
+Build CP parameters
+==========================================================
+
+[INFO] Building CP parameters directly from their values
+[INFO] Parameter: Cf set to be constant with value 1.000000
+[INFO] Parameter: Sf floats in the fit
+[INFO]   RooRealVar::Sf = -0.031  L(-1 - 1) 
+ None
+[INFO] Parameter: Df set to be constant with value 0.000000
+[INFO] Parameter: Sfbar floats in the fit
+[INFO]   RooRealVar::Sfbar = -0.029  L(-1 - 1) 
+ None
+[INFO] Parameter: Dfbar set to be constant with value 0.000000
+
+==========================================================
+Build production/detection asymmetries
+==========================================================
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::ProdAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::DetAsymm
+
+==========================================================
+Build total time PDF
+==========================================================
+
+########################################################################
+buildBDecayTimePdf(
+	GLM = ['/eos/lhcb/wg/b2oc/TD_DPi_3fb/calibrations/RLogisticCalibration_Bd2JpsiKst_SS_20171101.xml']
+	Dbar = <ROOT.RooRealVar object ("Dfbar") at 0x21f86750>
+	mistagpdf = [<ROOT.RooHistPdf object ("sigMistagPdf_2") at 0x1becad80>]
+	mistagobs = [<ROOT.RooRealVar object ("MistagSS") at 0x1f681bc0>]
+	DeltaGamma = <ROOT.RooRealVar object ("deltaGamma") at 0x8b72270>
+	acceptance = None
+	mistagcalib = [[<ROOT.RooRealVar object ("tageff_SS") at 0x3ee9f90>, <ROOT.RooRealVar object ("tagasymm_SS") at 0x3edf820>]]
+	fixtagging = False
+	config = {'UseProtoData': True, 'Taggers': {'Signal': {'SS': {'MistagPDF': {'Type': 'BuildTemplate'}, 'Calibration': {'XML': ['/eos/lhcb/wg/b2oc/TD_DPi_3fb/calibrations/RLogisticCalibration_Bd2JpsiKst_SS_20171101.xml'], 'tageff': [1.0], 'Type': 'GLM', 'tagasymm': [0.0]}}, 'OS': {'MistagPDF': {'Type': 'BuildTemplate'}, 'Calibration': {'XML': ['/eos/lhcb/wg/b2oc/TD_DPi_3fb/calibrations/RLogisticCalibration_Bu2D0Pi_OS_20171109.xml'], 'tageff': [1.0], 'Type': 'GLM', 'tagasymm': [0.0]}}}}, 'ResolutionAcceptance': {'Signal': {'Resolution': {'ScaleFactor': [1.0], 'Bias': [0.0], 'Type': 'AverageModel', 'Parameters': {'fractions': [], 'sigmas': [0.05491]}}, 'TimeErrorPDF': None, 'Acceptance': {'KnotCoefficients': [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946], 'Extrapolate': True, 'Float': True, 'Type': 'Spline', 'KnotPositions': [0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0]}}}, 'blindParams': ['Sf', 'Sfbar'], 'gaussCons': {'deltaM': 0.002325940669922601, 'Gamma': 0.0017358670048135594}, 'Decay': 'Bd2DPi', 'AcceptanceFunction': 'Spline', 'LikelihoodScan': ['Sf', 'DetAsymm'], 'NBinsAcceptance': 0, 'ParameteriseIntegral': True, 'DecayTimeResolutionModel': {'fractions': [], 'sigmas': [0.05491]}, 'BasicVariables': {'MistagSS': {'Range': [0.0, 0.5], 'InputName': 'MistagSS', 'Name': 'MistagSS'}, 'BacPIDK': {'Range': [-999.0, 999.0], 'InputName': 'lab1_PIDK', 'Name': 'BacPIDK'}, 'BacPT': {'Range': [400.0, 45000.0], 'InputName': 'lab0_FitDaughtersConst_P0_PT_flat', 'Name': 'BacPT'}, 'nTracks': {'Range': [15.0, 1000.0], 'InputName': 'nTracks', 'Name': 'nTracks'}, 'BDTG': {'Range': [0.0, 1], 'InputName': 'BDT_classifier', 'Name': 'BDTG'}, 'BacP': {'Range': [2000.0, 650000.0], 'InputName': 'lab0_FitDaughtersConst_P0_P_flat', 'Name': 'BacP'}, 'MistagOS': {'Range': [0.0, 0.5], 'InputName': 'MistagOS', 'Name': 'MistagOS'}, 'BeautyTime': {'Range': [0.4, 12.0], 'InputName': 'obsTime', 'Name': 'BeautyTime', 'Bins': 40}, 'BeautyMass': {'Range': [5090, 6000], 'InputName': 'lab0_FitDaughtersConst_M_flat', 'Name': 'BeautyMass'}, 'CharmMass': {'Range': [1830, 1904], 'InputName': 'obsMassDminus', 'Name': 'CharmMass'}, 'TagDecSS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecSS', 'Name': 'TagDecSS'}, 'TagDecOS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecOS', 'Name': 'TagDecOS'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'lab1_ID', 'Name': 'BacCharge'}}, 'DecayTimeResolutionBias': 0.0, 'Debug': True, 'ACP': {'Signal': {'C': [1.0], 'D': [0.0], 'S': [-0.031], 'DeltaM': [0.505, 0.01, 2.0], 'Gamma': [0.6587615283267457, 0.1, 2.0], 'DeltaGamma': [0.0], 'ParameteriseIntegral': True, 'Sbar': [-0.029], 'NBinsAcceptance': 0, 'CPlimit': {'upper': 1.0, 'lower': -1.0}, 'Dbar': [0.0]}}, 'Context': 'FIT', 'constParams': ['Cf', 'Cfbar', 'Df', 'Dfbar', '.*scalefactor', 'resmodel00_sigma'], 'DetectionAsymmetry': {'Signal': [0.0086, -3.0, 3.0]}, 'ProductionAsymmetry': {'Signal': [-0.0124, -3.0, 3.0]}, 'AdditionalVariables': {'CharmTime': {'Range': [-10, 10], 'InputName': 'lab2_TAU', 'Name': 'CharmTime'}, 'BeautyPhi': {'Range': [-10.0, 10.0], 'InputName': 'lab0_LOKI_PHI', 'Name': 'BeautyPhi'}, 'BeautyPT': {'Range': [0.0, 100000], 'InputName': 'lab0_PT', 'Name': 'BeautyPT'}, 'Hlt2Topo3BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo3BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo3BodyBBDTDecision_TOS'}, 'Hlt2Topo4BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo4BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo4BodyBBDTDecision_TOS'}, 'BeautyP': {'Range': [0.0, 3000000], 'InputName': 'lab0_P', 'Name': 'BeautyP'}, 'Hlt2Topo2BodyBBDTDecision_TOS': {'Range': [0.0, 1.0], 'InputName': 'lab0_Hlt2Topo2BodyBBDTDecision_TOS', 'Name': 'Hlt2Topo2BodyBBDTDecision_TOS'}, 'BeautyEta': {'Range': [1.5, 10.0], 'InputName': 'lab0_LOKI_ETA', 'Name': 'BeautyEta'}, 'nPV': {'Range': [0.0, 10], 'InputName': 'nPV', 'Name': 'nPV'}}, 'DecayTimeResolutionScaleFactor': 1.0}
+	C = <ROOT.RooRealVar object ("Cf") at 0x21f8be40>
+	D = <ROOT.RooRealVar object ("Df") at 0x21f94a20>
+	aprod = <ROOT.RooRealVar object ("ProdAsymm") at 0x21f82430>
+	timeerrpdf = None
+	S = <ROOT.RooUnblindUniform object ("Sf_blind") at 0x21f88a10>
+	ws = <ROOT.RooWorkspace object ("intWork") at 0x8de81d0>
+	DeltaM = <ROOT.RooRealVar object ("deltaM") at 0x1bbeee60>
+	Gamma = <ROOT.RooRealVar object ("Gamma") at 0x1bc70c80>
+	qt = [<ROOT.RooCategory object ("TagDecSS") at 0x1f680c70>]
+	adet = <ROOT.RooRealVar object ("DetAsymm") at 0x21f86c90>
+	name = time_signal
+	Sbar = <ROOT.RooUnblindUniform object ("Sfbar_blind") at 0x21f96e80>
+	timeerr = None
+	timeresmodel = <ROOT.RooAddModel object ("Acceptance_SplineAcceptance_resmodel") at 0x1bdde130>
+	HFAG = True
+	time = <ROOT.RooRealVar object ("BeautyTime") at 0x1f67bfc0>
+	qf = <ROOT.RooCategory object ("BacCharge") at 0x1f678b80>
+	)
+########################################################################
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including resolution
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning resolution
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including acceptance
+timepdfutils_Bd.applyBinnedAcceptance(..)=> Returning resolution without acceptance.
+timepdfutils_Bd.parameteriseResModelIntegrals(..)=> Not doing parameterisation.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including tagging
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Taking EPM calibration
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Floating calibration coefficients...
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including asymmetries
+Production: -0.0124
+Detection: 0.0086
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Additional arguments of DecRateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecSS") at 0x1f680c70>, <ROOT.Espresso::RooGLMFunction object ("b_RLogisticCalibration_Bd2JpsiKst_SS_20171101") at 0x23c46a40>, <ROOT.Espresso::RooGLMFunction object ("bbar_RLogisticCalibration_Bd2JpsiKst_SS_20171101") at 0x23d930f0>, <ROOT.RooRealVar object ("tageff_SS") at 0x3ee9f90>, <ROOT.RooRealVar object ("tagasymm_SS") at 0x3edf820>, <ROOT.RooRealVar object ("ProdAsymm") at 0x21f82430>, <ROOT.RooRealVar object ("DetAsymm") at 0x21f86c90>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+7
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Using HFAG convention (Cfbar = -Cf)
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> The following mistag pdf is applied:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x1becad80
+  Clients: 
+  Servers: 
+    (0x1d889560,V-) RooRealVar::MistagSS "MistagSS"
+  Proxies: 
+    pdfObs -> 
+      1)  MistagSS
+--- RooAbsReal ---
+
+  Plot label is "sigMistagPdf_2"
+--- RooAbsPdf ---
+Cached value = 0
+timepdfutils_Bd.buildConditionalPdf(..)=> Conditional dimensions:
+  1) 0x1becad80 RooHistPdf:: sigMistagPdf_2[ pdfObs=(MistagSS) ] = 2.44676e+06  "sigMistagPdf_2"
+timepdfutils_Bd.buildConditionalPdf(..)=> Conditional observables:
+  1) 0x1f67bfc0 RooRealVar:: BeautyTime = 1.36406  L(0.4 - 12)  "BeautyTime"
+  2) 0x1f678b80 RooCategory::  BacCharge = h-(idx = -1)
+  "bachelor charge"
+  3) 0x1f680c70 RooCategory::   TagDecSS = Bbar_1(idx = -1)
+  "flavour tagging result"
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing dataset histData_sigMistagPdf_2
+timepdfutils_Bd.buildConditionalPdf(..)=> Done.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Build Gaussian constraints
+==========================================================
+
+  1) 0x23f509a0 RooGaussian:: deltaM_constraint[ x=deltaM mean=deltaM_mean sigma=deltaM_err ] = 1  "deltaM_constraint"
+  2) 0x23f81ab0 RooGaussian::  Gamma_constraint[ x=Gamma mean=Gamma_mean sigma=Gamma_err ] = 1  "Gamma_constraint"
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting weighted dataset
+[#1] INFO:Minization --  Including the following contraint terms in minimization: (deltaM_constraint,Gamma_constraint)
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#0] WARNING:Minization -- RooMinimizerFcn::RooMinimizerFcn: removing parameter dummyBlindState from list because it is not of type RooRealVar
+[#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_time_signal_TimePdf_dataSet_time_weighted_with_constr) Summation contains a RooNLLVar, using its error level
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 9500 convergence for edm < 1 strategy 2
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (sigMistagPdf_2)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF6) first = 210173 last = 245202 Likelihood offset now set to 37660.7
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF5) first = 175144 last = 210173 Likelihood offset now set to 37416.5
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF0) first = 0 last = 35028 Likelihood offset now set to 38058.9
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF7) first = 245202 last = 280231 Likelihood offset now set to 37849.9
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF1) first = 35028 last = 70057 Likelihood offset now set to 37774.3
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF2) first = 70057 last = 105086 Likelihood offset now set to 37945.5
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF4) first = 140115 last = 175144 Likelihood offset now set to 36978.2
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_dataSet_time_weighted_GOF3) first = 105086 last = 140115 Likelihood offset now set to 37343.9
+MnSeedGenerator: for initial parameters FCN = -10.58200194196
+MnSeedGenerator: Initial state:   - FCN =  -10.58200194196 Edm =      4686.04 NCalls =     77
+MnSeedGenerator: run Hesse - new state:   - FCN =  -10.58200194196 Edm =      59743.8 NCalls =    325
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -10.58200194196 Edm =      59743.8 NCalls =    325
+VariableMetric: Iteration #   0 - FCN =  -10.58200194196 Edm =      59743.8 NCalls =    325
+VariableMetric: Iteration #   1 - FCN =  -585.6798725242 Edm =        31850 NCalls =    406
+VariableMetric: Iteration #   2 - FCN =  -1687.222753734 Edm =      1763.09 NCalls =    450
+VariableMetric: Iteration #   3 - FCN =  -2267.112252189 Edm =      89.1808 NCalls =    509
+VariableMetric: Iteration #   4 - FCN =  -2411.530396988 Edm =       18.939 NCalls =    550
+VariableMetric: Iteration #   5 - FCN =  -2430.310050305 Edm =       3.7135 NCalls =    589
+VariableMetric: Iteration #   6 - FCN =  -2435.190123291 Edm =     0.841275 NCalls =    629
+VariableMetric: Iteration #   7 - FCN =  -2436.060769547 Edm =     0.107623 NCalls =    668
+VariableMetric: Iteration #   8 - FCN =  -2436.179248569 Edm =    0.0138176 NCalls =    708
+VariableMetric: Iteration #   9 - FCN =  -2436.194157688 Edm =   0.00125625 NCalls =    748
+VariableMetric: Iteration #  10 - FCN =  -2436.195443085 Edm =  3.48728e-05 NCalls =    788
+VariableMetric: After Hessian   - FCN =  -2436.195443085 Edm =  4.40092e-05 NCalls =   1038
+VariableMetric: Iteration #  11 - FCN =  -2436.195443085 Edm =  4.40092e-05 NCalls =   1038
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -2436.19544308488685
+Edm   = 4.40091676875270702e-05
+Nfcn  = 1038
+Acceptance_SplineAccCoeff0	  = 0.315524	 +/-  0.00703908	(limited)
+Acceptance_SplineAccCoeff1	  = 0.499558	 +/-  0.0121137	(limited)
+Acceptance_SplineAccCoeff2	  = 0.793029	 +/-  0.0190657	(limited)
+Acceptance_SplineAccCoeff3	  = 0.992491	 +/-  0.0226399	(limited)
+Acceptance_SplineAccCoeff4	  = 1.08314	 +/-  0.0245203	(limited)
+Acceptance_SplineAccCoeff5	  = 1.10006	 +/-  0.0244673	(limited)
+Acceptance_SplineAccCoeff6	  = 1.1372	 +/-  0.0249086	(limited)
+Acceptance_SplineAccCoeff7	  = 1.16479	 +/-  0.02256	(limited)
+Acceptance_SplineAccCoeff8	  = 1.14836	 +/-  0.0318115	(limited)
+DetAsymm	  = 0.00860231	 +/-  0.00239724	(limited)
+Gamma	  = 0.65874	 +/-  0.00173729	(limited)
+ProdAsymm	  = -0.0109613	 +/-  0.00355836	(limited)
+Sf	  = -0.364447	 +/-  0.0401457	(limited)
+Sfbar	  = -0.193205	 +/-  0.040363	(limited)
+deltaM	  = 0.505467	 +/-  0.00230777	(limited)
+dp_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101	  = -0.10231	 +/-  0.0753799	(limited)
+dp_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101	  = 0.0144489	 +/-  0.0412444	(limited)
+p_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101	  = -0.0227012	 +/-  0.0279168	(limited)
+p_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101	  = -0.0273478	 +/-  0.0271578	(limited)
+[#1] INFO:Minization -- Command timer: Real time 1:00:57, CP time 1.100
+[#1] INFO:Minization -- Session timer: Real time 1:00:57, CP time 1.100
+[#1] INFO:Minization -- Command timer: Real time 0:14:50, CP time 0.090
+[#1] INFO:Minization -- Session timer: Real time 1:15:48, CP time 1.190, 2 slices
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+[INFO Result] Matrix quality is 3
+[INFO Result] Status:  0
+[INFO Result] -------------- Constant parameters ------------- 
+[INFO Result] parameter Cf  set to be  1.0000
+[INFO Result] parameter Df  set to be  0.0000
+[INFO Result] parameter Dfbar  set to be  0.0000
+[INFO Result] parameter deltaGamma  set to be  0.0000
+[INFO Result] parameter resmodel00_sigma  set to be  0.0549
+[INFO Result] parameter tagasymm_SS  set to be  0.0000
+[INFO Result] parameter tageff_SS  set to be  1.0000
+[INFO Result] parameter timeerr_bias  set to be  0.0000
+[INFO Result] parameter timeerr_scalefactor  set to be  1.0000
+[INFO Result] -------------- Floated parameters ------------- 
+[INFO Result] parameter Acceptance_SplineAccCoeff0 = (0.3155 +/- 0.0070)
+[INFO Result] parameter Acceptance_SplineAccCoeff1 = (0.4996 +/- 0.0121)
+[INFO Result] parameter Acceptance_SplineAccCoeff2 = (0.7930 +/- 0.0190)
+[INFO Result] parameter Acceptance_SplineAccCoeff3 = (0.9925 +/- 0.0226)
+[INFO Result] parameter Acceptance_SplineAccCoeff4 = (1.0831 +/- 0.0244)
+[INFO Result] parameter Acceptance_SplineAccCoeff5 = (1.1001 +/- 0.0244)
+[INFO Result] parameter Acceptance_SplineAccCoeff6 = (1.1372 +/- 0.0248)
+[INFO Result] parameter Acceptance_SplineAccCoeff7 = (1.1648 +/- 0.0225)
+[INFO Result] parameter Acceptance_SplineAccCoeff8 = (1.1484 +/- 0.0318)
+[INFO Result] parameter DetAsymm = (0.0086 +/- 0.0024)
+[INFO Result] parameter Gamma = (0.6587 +/- 0.0017)
+[INFO Result] parameter ProdAsymm = (-0.0110 +/- 0.0036)
+[INFO Result] parameter Sf = (XXX +/- 0.0401)
+[INFO Result] parameter Sfbar = (XXX +/- 0.0403)
+[INFO Result] parameter deltaM = (0.5055 +/- 0.0023)
+[INFO Result] parameter dp_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101 = (-0.1023 +/- 0.0753)
+[INFO Result] parameter dp_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101 = (0.0144 +/- 0.0412)
+[INFO Result] parameter p_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101 = (-0.0227 +/- 0.0279)
+[INFO Result] parameter p_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101 = (-0.0273 +/- 0.0272)
+[INFO Result] -------------- Correlation matrix --------------
+
+19x19 matrix is as follows
+
+     |       0    |       1    |       2    |       3    |       4    |
+----------------------------------------------------------------------
+   0 |          1      0.8532      0.7418       0.828       0.775 
+   1 |     0.8532           1      0.5474      0.8307      0.6683 
+   2 |     0.7418      0.5474           1      0.5333       0.831 
+   3 |      0.828      0.8307      0.5333           1      0.5625 
+   4 |      0.775      0.6683       0.831      0.5625           1 
+   5 |      0.784      0.7376      0.6484      0.8094      0.5538 
+   6 |       0.79      0.7151      0.7436      0.7042      0.7962 
+   7 |     0.8145      0.7485      0.7318      0.7711      0.7277 
+   8 |     0.6328      0.5777        0.59      0.5929      0.6273 
+   9 |  -0.004132   -0.003936   -0.004471    -0.00544   -0.005856 
+  10 |    -0.6312     -0.5741     -0.5535     -0.5433     -0.5123 
+  11 |  -0.005233   -0.005058   -0.006049   -0.007819   -0.008788 
+  12 |    0.01616      0.0155     0.01801     0.02254     0.02476 
+  13 |    0.01635     0.01567     0.01818      0.0227     0.02491 
+  14 | -0.0001136  -0.0001144  -0.0001466  -0.0002051  -0.0002455 
+  15 |    0.01624     0.01557     0.01806     0.02257     0.02476 
+  16 |   0.007789    0.007467    0.008663     0.01082     0.01188 
+  17 | -6.992e-05  -6.561e-05  -6.762e-05  -7.461e-05  -7.187e-05 
+  18 | -0.0001551  -0.0001483    -0.00017  -0.0002102  -0.0002274 
+
+
+     |       5    |       6    |       7    |       8    |       9    |
+----------------------------------------------------------------------
+   0 |      0.784        0.79      0.8145      0.6328   -0.004132 
+   1 |     0.7376      0.7151      0.7485      0.5777   -0.003936 
+   2 |     0.6484      0.7436      0.7318        0.59   -0.004471 
+   3 |     0.8094      0.7042      0.7711      0.5929    -0.00544 
+   4 |     0.5538      0.7962      0.7277      0.6273   -0.005856 
+   5 |          1      0.5922      0.7911      0.5601   -0.006333 
+   6 |     0.5922           1      0.6541      0.7212   -0.006264 
+   7 |     0.7911      0.6541           1      0.4501   -0.007841 
+   8 |     0.5601      0.7212      0.4501           1   -0.002617 
+   9 |  -0.006333   -0.006264   -0.007841   -0.002617           1 
+  10 |    -0.4925     -0.4749      -0.483     -0.1888   3.836e-05 
+  11 |  -0.009765   -0.009942    -0.01278   -0.005961      0.5796 
+  12 |    0.02713     0.02723     0.03453     0.01385    -0.01841 
+  13 |    0.02728     0.02735     0.03466     0.01376    -0.07371 
+  14 | -0.0002735   -0.000308  -0.0003664  -0.0003684   -0.001288 
+  15 |    0.02711     0.02718     0.03445     0.01369    -0.00461 
+  16 |    0.01301     0.01304     0.01653     0.00657   -0.004749 
+  17 | -7.446e-05  -6.487e-05  -8.012e-05   2.699e-05     0.03367 
+  18 | -0.0002485  -0.0002458  -0.0003116  -0.0001045     0.00955 
+
+
+     |      10    |      11    |      12    |      13    |      14    |
+----------------------------------------------------------------------
+   0 |    -0.6312   -0.005233     0.01616     0.01635  -0.0001136 
+   1 |    -0.5741   -0.005058      0.0155     0.01567  -0.0001144 
+   2 |    -0.5535   -0.006049     0.01801     0.01818  -0.0001466 
+   3 |    -0.5433   -0.007819     0.02254      0.0227  -0.0002051 
+   4 |    -0.5123   -0.008788     0.02476     0.02491  -0.0002455 
+   5 |    -0.4925   -0.009765     0.02713     0.02728  -0.0002735 
+   6 |    -0.4749   -0.009942     0.02723     0.02735   -0.000308 
+   7 |     -0.483    -0.01278     0.03453     0.03466  -0.0003664 
+   8 |    -0.1888   -0.005961     0.01385     0.01376  -0.0003684 
+   9 |  3.836e-05      0.5796    -0.01841    -0.07371   -0.001288 
+  10 |          1   5.192e-05  -0.0001023  -0.0002306   2.996e-06 
+  11 |  5.192e-05           1    -0.07372    -0.08278    0.007168 
+  12 | -0.0001023    -0.07372           1      0.5519     -0.1821 
+  13 | -0.0002306    -0.08278      0.5519           1      0.1589 
+  14 |  2.996e-06    0.007168     -0.1821      0.1589           1 
+  15 | -0.0001695   -0.007767      0.7932      0.7822    -0.01296 
+  16 | -8.154e-05   -0.007468      0.3765      0.3777    -0.00415 
+  17 | -2.449e-06     0.01091      0.2369     -0.2369     -0.1232 
+  18 | -1.285e-06    0.002807     0.06241    -0.07586    -0.04003 
+
+
+     |      15    |      16    |      17    |      18    |
+----------------------------------------------------------------------
+   0 |    0.01624    0.007789  -6.992e-05  -0.0001551 
+   1 |    0.01557    0.007467  -6.561e-05  -0.0001483 
+   2 |    0.01806    0.008663  -6.762e-05    -0.00017 
+   3 |    0.02257     0.01082  -7.461e-05  -0.0002102 
+   4 |    0.02476     0.01188  -7.187e-05  -0.0002274 
+   5 |    0.02711     0.01301  -7.446e-05  -0.0002485 
+   6 |    0.02718     0.01304  -6.487e-05  -0.0002458 
+   7 |    0.03445     0.01653  -8.012e-05  -0.0003116 
+   8 |    0.01369     0.00657   2.699e-05  -0.0001045 
+   9 |   -0.00461   -0.004749     0.03367     0.00955 
+  10 | -0.0001695  -8.154e-05  -2.449e-06  -1.285e-06 
+  11 |  -0.007767   -0.007468     0.01091    0.002807 
+  12 |     0.7932      0.3765      0.2369     0.06241 
+  13 |     0.7822      0.3777     -0.2369    -0.07586 
+  14 |   -0.01296    -0.00415     -0.1232    -0.04003 
+  15 |          1      0.4036     0.03179     -0.0166 
+  16 |     0.4036           1    -0.02141     0.05978 
+  17 |    0.03179    -0.02141           1     0.08014 
+  18 |    -0.0166     0.05978     0.08014           1 
+
+[INFO Result] -------------- Covariance matrix --------------
+
+19x19 matrix is as follows
+
+     |       0    |       1    |       2    |       3    |       4    |
+----------------------------------------------------------------------
+   0 |  4.913e-05    7.22e-05    9.88e-05    0.000131   0.0001328 
+   1 |   7.22e-05   0.0001457   0.0001256   0.0002263   0.0001972 
+   2 |   9.88e-05   0.0001256   0.0003611   0.0002287   0.0003859 
+   3 |   0.000131   0.0002263   0.0002287   0.0005092   0.0003102 
+   4 |  0.0001328   0.0001972   0.0003859   0.0003102   0.0005973 
+   5 |   0.000134   0.0002172   0.0003005   0.0004455   0.0003301 
+   6 |  0.0001375   0.0002143   0.0003508   0.0003945   0.0004832 
+   7 |  0.0001284   0.0002032   0.0003127   0.0003912   0.0003999 
+   8 |  0.0001409   0.0002215    0.000356   0.0004249   0.0004869 
+   9 | -6.942e-08  -1.139e-07  -2.037e-07  -2.943e-07  -3.431e-07 
+  10 | -7.651e-06  -1.199e-05  -1.819e-05   -2.12e-05  -2.165e-05 
+  11 | -1.305e-07  -2.173e-07   -4.09e-07  -6.279e-07  -7.642e-07 
+  12 |  4.547e-06   7.511e-06   1.374e-05   2.042e-05    2.43e-05 
+  13 |  4.621e-06   7.628e-06   1.393e-05   2.066e-05   2.455e-05 
+  14 | -1.838e-09  -3.187e-09  -6.428e-09  -1.068e-08  -1.385e-08 
+  15 |  8.587e-06   1.418e-05   2.589e-05   3.841e-05   4.565e-05 
+  16 |  2.252e-06   3.718e-06    6.79e-06   1.007e-05   1.198e-05 
+  17 | -1.368e-08  -2.211e-08  -3.588e-08  -4.701e-08  -4.904e-08 
+  18 | -2.953e-08  -4.862e-08  -8.777e-08  -1.288e-07   -1.51e-07 
+
+
+     |       5    |       6    |       7    |       8    |       9    |
+----------------------------------------------------------------------
+   0 |   0.000134   0.0001375   0.0001284   0.0001409  -6.942e-08 
+   1 |  0.0002172   0.0002143   0.0002032   0.0002215  -1.139e-07 
+   2 |  0.0003005   0.0003508   0.0003127    0.000356  -2.037e-07 
+   3 |  0.0004455   0.0003945   0.0003912   0.0004249  -2.943e-07 
+   4 |  0.0003301   0.0004832   0.0003999   0.0004869  -3.431e-07 
+   5 |   0.000595   0.0003587   0.0004339   0.0004338  -3.703e-07 
+   6 |  0.0003587   0.0006165   0.0003652   0.0005686  -3.729e-07 
+   7 |  0.0004339   0.0003652   0.0005056   0.0003214  -4.226e-07 
+   8 |  0.0004338   0.0005686   0.0003214    0.001008  -1.992e-07 
+   9 | -3.703e-07  -3.729e-07  -4.226e-07  -1.992e-07   5.747e-06 
+  10 | -2.078e-05  -2.039e-05  -1.878e-05  -1.037e-05    1.59e-10 
+  11 | -8.476e-07  -8.784e-07  -1.022e-06  -6.736e-07   4.944e-06 
+  12 |  2.657e-05   2.714e-05   3.117e-05   1.766e-05  -1.772e-06 
+  13 |  2.683e-05   2.738e-05   3.143e-05   1.762e-05  -7.126e-06 
+  14 | -1.539e-08  -1.765e-08  -1.901e-08    -2.7e-08  -7.124e-09 
+  15 |  4.989e-05   5.091e-05   5.843e-05   3.279e-05  -8.335e-07 
+  16 |  1.309e-05   1.336e-05   1.533e-05   8.605e-06  -4.696e-07 
+  17 | -5.072e-08  -4.497e-08   -5.03e-08   2.393e-08   2.254e-06 
+  18 | -1.646e-07  -1.658e-07  -1.903e-07  -9.014e-08   6.219e-07 
+
+
+     |      10    |      11    |      12    |      13    |      14    |
+----------------------------------------------------------------------
+   0 | -7.651e-06  -1.305e-07   4.547e-06   4.621e-06  -1.838e-09 
+   1 | -1.199e-05  -2.173e-07   7.511e-06   7.628e-06  -3.187e-09 
+   2 | -1.819e-05   -4.09e-07   1.374e-05   1.393e-05  -6.428e-09 
+   3 |  -2.12e-05  -6.279e-07   2.042e-05   2.066e-05  -1.068e-08 
+   4 | -2.165e-05  -7.642e-07    2.43e-05   2.455e-05  -1.385e-08 
+   5 | -2.078e-05  -8.476e-07   2.657e-05   2.683e-05  -1.539e-08 
+   6 | -2.039e-05  -8.784e-07   2.714e-05   2.738e-05  -1.765e-08 
+   7 | -1.878e-05  -1.022e-06   3.117e-05   3.143e-05  -1.901e-08 
+   8 | -1.037e-05  -6.736e-07   1.766e-05   1.762e-05    -2.7e-08 
+   9 |   1.59e-10   4.944e-06  -1.772e-06  -7.126e-06  -7.124e-09 
+  10 |  2.991e-06   3.195e-10  -7.104e-09  -1.608e-08   1.196e-11 
+  11 |  3.195e-10   1.266e-05  -1.053e-05  -1.188e-05   5.886e-08 
+  12 | -7.104e-09  -1.053e-05    0.001612   0.0008936  -1.687e-05 
+  13 | -1.608e-08  -1.188e-05   0.0008936    0.001626   1.479e-05 
+  14 |  1.196e-11   5.886e-08  -1.687e-05   1.479e-05   5.325e-06 
+  15 | -2.211e-08  -2.085e-06    0.002402    0.002379  -2.255e-06 
+  16 | -5.816e-09  -1.096e-06   0.0006235   0.0006283   -3.95e-07 
+  17 | -1.183e-10   1.084e-06   0.0002656  -0.0002667  -7.939e-06 
+  18 | -6.035e-11   2.714e-07   6.807e-05   -8.31e-05  -2.509e-06 
+
+
+     |      15    |      16    |      17    |      18    |
+----------------------------------------------------------------------
+   0 |  8.587e-06   2.252e-06  -1.368e-08  -2.953e-08 
+   1 |  1.418e-05   3.718e-06  -2.211e-08  -4.862e-08 
+   2 |  2.589e-05    6.79e-06  -3.588e-08  -8.777e-08 
+   3 |  3.841e-05   1.007e-05  -4.701e-08  -1.288e-07 
+   4 |  4.565e-05   1.198e-05  -4.904e-08   -1.51e-07 
+   5 |  4.989e-05   1.309e-05  -5.072e-08  -1.646e-07 
+   6 |  5.091e-05   1.336e-05  -4.497e-08  -1.658e-07 
+   7 |  5.843e-05   1.533e-05   -5.03e-08  -1.903e-07 
+   8 |  3.279e-05   8.605e-06   2.393e-08  -9.014e-08 
+   9 | -8.335e-07  -4.696e-07   2.254e-06   6.219e-07 
+  10 | -2.211e-08  -5.816e-09  -1.183e-10  -6.035e-11 
+  11 | -2.085e-06  -1.096e-06   1.084e-06   2.714e-07 
+  12 |   0.002402   0.0006235   0.0002656   6.807e-05 
+  13 |   0.002379   0.0006283  -0.0002667   -8.31e-05 
+  14 | -2.255e-06   -3.95e-07  -7.939e-06  -2.509e-06 
+  15 |    0.00569    0.001256   6.694e-05    -3.4e-05 
+  16 |   0.001256    0.001701  -2.465e-05   6.698e-05 
+  17 |  6.694e-05  -2.465e-05   0.0007796   6.078e-05 
+  18 |   -3.4e-05   6.698e-05   6.078e-05   0.0007379 
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting covariance matrix
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting correlation matrix
+DataStore dataSet_time_weighted (dataSet_time)
+  Contains 280231 entries
+  Observables: 
+    1)  BeautyTime = 1.36406  L(0.4 - 12)  "BeautyTime"
+    2)   BacCharge = h-(idx = -1)
+  "bachelor charge"
+    3)    TagDecOS = Utagged_0(idx = 0)
+  "flavour tagging result"
+    4)    TagDecSS = Bbar_1(idx = -1)
+  "flavour tagging result"
+    5)    MistagOS = 0.5  L(0 - 0.5)  "MistagOS"
+    6)    MistagSS = 0.454196  L(0 - 0.5)  "MistagSS"
+  Dataset variable "sWeights" is interpreted as the event weight
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x23f3d4d0
+  Clients: 
+  Servers: 
+    (0x23f3ea60,V-) RooHistPdf::sigMistagPdf_2 "sigMistagPdf_2"
+    (0x23ebd0e0,V-) RooBDecay::time_signal_RawTimePdf "time_signal raw time pdf"
+  Proxies: 
+    !pdfs -> 
+      1)          sigMistagPdf_2
+      2)  time_signal_RawTimePdf
+--- RooAbsReal ---
+
+  Plot label is "time_signal_TimePdf"
+--- RooAbsPdf ---
+Cached value = 0
+
+=========================================
+Pretty-printing fit results
+=========================================
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Creating LaTeX style table with fitted parameters
+
+
+Parameter number & Parameter name & Fitted value & Initial value \\
+\hline
+$0$ & $v_{1}$ & $0.3155\pm0.0070$ & $0.1944\pm0$ \\
+$1$ & $v_{2}$ & $0.500\pm0.012$ & $0.33275\pm0$ \\
+$2$ & $v_{3}$ & $0.793\pm0.019$ & $0.61444\pm0$ \\
+$3$ & $v_{4}$ & $0.992\pm0.023$ & $0.86628\pm0$ \\
+$4$ & $v_{5}$ & $1.083\pm0.024$ & $0.996\pm0$ \\
+$5$ & $v_{6}$ & $1.100\pm0.024$ & $1.0745\pm0$ \\
+$6$ & $v_{7}$ & $1.137\pm0.025$ & $1.1083\pm0$ \\
+$7$ & $v_{8}$ & $1.165\pm0.022$ & $1.1565\pm0$ \\
+$8$ & $v_{9}$ & $1.148\pm0.032$ & $1.1946\pm0$ \\
+$9$ & $a_{det}$ & $0.0086\pm0.0024$ & $0.0086\pm0$ \\
+$10$ & $#Gamma$ & $0.6587\pm0.0017$ & $0.6588\pm0.0017$ \\
+$11$ & $a_{prod}$ & $-0.0110\pm0.0036$ & $-0.0124\pm0$ \\
+$12$ & $S_{f}$ & $-0.364\pm0.040$ & $-0.031\pm0$ \\
+$13$ & $S_{#bar f}$ & $-0.193\pm0.040$ & $-0.029\pm0$ \\
+$14$ & $#Delta m$ & $0.5055\pm0.0023$ & $0.5050\pm0.0023$ \\
+$15$ & $#Delta p_{0}RLogisticCalibration_Bd2JpsiKst_SS_20171101$ & $-0.102\pm0.075$ & $0.034012616316\pm0$ \\
+$16$ & $#Delta p_{1}RLogisticCalibration_Bd2JpsiKst_SS_20171101$ & $0.014\pm0.041$ & $0.032137878701\pm0$ \\
+$17$ & $p_{0}RLogisticCalibration_Bd2JpsiKst_SS_20171101$ & $-0.023\pm0.028$ & $-0.090904556334\pm0$ \\
+$18$ & $p_{1}RLogisticCalibration_Bd2JpsiKst_SS_20171101$ & $-0.027\pm0.027$ & $-0.0273158385759\pm0$ \\
+\hline
+
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset dataSet_time
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::MistagSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset dataSet_time_weighted
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset histData_sigMistagPdf_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooProdPdf::time_signal_TimePdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooHistPdf::sigMistagPdf_2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooBDecay::time_signal_RawTimePdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCubicSplineFun::Acceptance_SplineAcceptance
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::one
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooPolyVar::Acceptance_SplineAccCoeff10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::Acceptance_SplineAccCoeff10_coeff0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::Acceptance_SplineAccCoeff10_coeff1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::timeerr_bias
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::resmodel00_sigma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::timeerr_scalefactor
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing Inverse::GammaTau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Gamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltaGamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltaM
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_cosh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing Espresso::RooGLMFunction::b_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::p_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::p_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::dp_0_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::dp_1_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing Espresso::RooGLMFunction::bbar_RLogisticCalibration_Bd2JpsiKst_SS_20171101
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::tageff_SS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::tagasymm_SS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::ProdAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::DetAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_sinh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Df
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Dfbar
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_cos
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Cf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooFormulaVar::Cfbar
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_sin
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooUnblindUniform::Sf_blind
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::dummyBlindState
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Sf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooUnblindUniform::Sfbar_blind
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Sfbar
+
+RooFitResult object name:
+fitresult_time_signal_TimePdf_dataSet_time_weighted
+

@@ -1,0 +1,372 @@
+[?1034h
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+Config file name: Bd2DPiConfigForMassFit
+Directory: /afs/cern.ch/user/v/vibattis/cmtuser/UraniaDev_v6r2p1/PhysFit/B2DXFitters/data/Bd2DPi_3fbCPV/Bd2DPi/
+[#0] ERROR:InputArguments -- RooCategory::extrapolation:lookupType: no match for label WynnEpsilon
+/afs/cern.ch/user/v/vibattis/cmtuser/UraniaDev_v6r2p1/PhysFit/B2DXFitters/data/Bd2DPi_3fbCPV/Bd2DPi/Bd2DPiConfigForMassFit.py:3: SyntaxWarning: import * only allowed at module level
+  def getconfig() :
+==========================================================
+FITSHAPES IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+Decay  =  Bd2DPi
+pdfList  =  {'Bd2DK': {'Bd2DK': {'BeautyMass': {'Title': 'B_{d}#rightarrowDK', 'a1': [2.6, 0.1, 100.0], 'fb': [0.0], 'a2': [1000000000.0], 'PDF': 'Ipatia', 'zeta': [0.0], 'Bins': 80, 'Max': 5500.0, 'Min': 5100.0, 'l': [-3.6, -15.0, -0.01], 'n1': [0.95, 0.001, 55.0], 'n2': [0.0], 'sigma': [17.0, 5.0, 50.0], 'Unit': 'MeV/c^{2}', 'mean': [5280.0, 5100.0, 5500.0]}}, 'Bd2DPi': {'BeautyMass': {'Title': 'B_{d}#rightarrowDK', 'a1': [0.96, 0.01, 30.0], 'fb': [0.0], 'a2': [1.23, 0.01, 30.0], 'PDF': 'Ipatia', 'zeta': [0.0], 'Bins': 82, 'Max': 5500.0, 'Min': 5090.0, 'l': [-28.0, -55.0, -15.0], 'n1': [3.5, 0.01, 30.0], 'n2': [10.0, 0.01, 30.0], 'sigma': [26.3, 1.0, 50.0], 'Unit': 'MeV/c^{2}', 'mean': [5239.0, 5200.0, 5250.0]}}}, 'Signal': {'Bd2DK': {'BeautyMass': {'Title': 'B_{d}#rightarrowD#pi', 'a1': [3.0, 0.01, 10.0], 'fb': [0.0], 'a2': [3.0, 0.01, 10.0], 'PDF': 'Ipatia', 'zeta': [0.0], 'Bins': 100, 'Max': 5800.0, 'Min': 5200.0, 'l': [-3.0, -10.0, -0.01], 'n1': [3.0, 0.01, 10.0], 'n2': [3.0, 0.01, 10.0], 'sigma': [80.0, 10.0, 150.0], 'Unit': 'MeV/c^{2}', 'mean': [5400, 5200.0, 5600.0]}}, 'Bd2DPi': {'BeautyMass': {'tau': [1.0, -30.0, 30.0], 'sigmaI': [25.0, 1.0, 100.0], 'Title': 'B_{d}#rightarrowD#pi', 'Max': 5500.0, 'Min': 5150.0, 'fracI': [0.7, 0.001, 0.999], 'l': [-2.0, -5.0, 0.0], 'nu': [1.0, -30.0, 30.0], 'a1': [3.0, 0.01, 6.0], 'fb': [0.0], 'a2': [3.0, 0.01, 6.0], 'Unit': 'MeV/c^{2}', 'n1': [3.0, 0.01, 6.0], 'PDF': 'IpatiaPlusJohnsonSU', 'zeta': [0.0], 'sigmaJ': [25.0, 1.0, 100.0], 'n2': [3.0, 0.01, 6.0], 'Bins': 125, 'mean': [5280, 5200, 5350]}}}, 'Bs2DsPi': {'Bd2DK': {'BeautyMass': {'Title': 'B_{s}#rightarrowD_{s}#pi', 'a1': [3.0, 0.01, 10.0], 'fb': [0.0], 'a2': [3.0, 0.01, 10.0], 'PDF': 'Ipatia', 'zeta': [0.0], 'Bins': 50, 'Max': 5600.0, 'Min': 5090.0, 'l': [-2.0, -10.0, -0.01], 'n1': [3.0, 0.01, 10.0], 'n2': [3.0, 0.01, 10.0], 'sigma': [125.0, 1.0, 1000.0], 'Unit': 'MeV/c^{2}', 'mean': [5350.0, 5000.0, 6000.0]}}, 'Bd2DPi': {'BeautyMass': {'Title': 'B_{s}#rightarrowD_{s}#pi', 'a1': [3.0, 0.01, 10.0], 'fb': [0.0], 'a2': [3.0, 0.01, 10.0], 'PDF': 'Ipatia', 'zeta': [0.01, 0.0, 0.1], 'Bins': 100, 'Max': 5600.0, 'Min': 5090.0, 'l': [-2.0, -10.0, -0.01], 'n1': [3.0, 0.01, 10.0], 'n2': [3.0, 0.01, 10.0], 'sigma': [30.0, 1.0, 100.0], 'Unit': 'MeV/c^{2}', 'mean': [5310.0, 5200.0, 5400.0]}}}, 'Bd2DRho': {'Bd2DK': {'BeautyMass': {'frac': [0.690345, 0.1, 0.99], 'Title': 'B_{d}#rightarrowD#rho', 'sameMean': False, 'PDF': 'DoubleGaussian', 'sigma1': [117.54, 50.0, 200.0], 'Bins': 30, 'sigma2': [273.259, 10.0, 400.0], 'Max': 5450.0, 'Min': 5090.0, 'Unit': 'MeV/c^{2}', 'mean': [5100.0, 5000.0, 5500.0]}}, 'Bd2DPi': {'BeautyMass': {'tau': [1.3406, 0.7, 1.8], 'Max': 5250.0, 'Unit': 'MeV/c^{2}', 'Title': 'B_{d}#rightarrowD#rho', 'PDF': 'JohnsonSU', 'Min': 5090.0, 'sigma': [600, 400.0, 1000.0], 'nu': [-1.9084, -2.8, -1.3], 'Bins': 100, 'mean': [4893.04, 4700.0, 4910.0]}}}, 'Comb': {'Bd2DK': {'BeautyMass': {'Max': 6000.0, 'Unit': 'MeV/c^{2}', 'Title': 'Combinatorial', 'fracExpo': [0.8, 0.01, 0.99], 'PDF': 'ExponentialPlusConstant', 'Min': 5600.0, 'cB': [-0.0025, -5.0, -1e-06], 'Bins': 50}}, 'Bd2DPi': {'BeautyMass': {'Max': 6000.0, 'Unit': 'MeV/c^{2}', 'Title': 'Combinatorial', 'fracExpo': [0.8, 0.01, 0.99], 'PDF': 'ExponentialPlusConstant', 'Min': 5600.0, 'cB': [-0.0025, -5.0, -1e-06], 'Bins': 50}}}, 'Bd2DstPi': {'Bd2DK': {'BeautyMass': {'frac': [0.5, 0.1, 0.9], 'Title': 'B_{d}#rightarrowD#lower[-0.65]{#scale[0.6]{*}}#pi', 'sameMean': False, 'PDF': 'DoubleGaussian', 'sigma1': [26.59, 1.0, 100.0], 'Bins': 100, 'sigma2': [26.59, 1.0, 500.0], 'Max': 5600.0, 'Min': 5090.0, 'Unit': 'MeV/c^{2}', 'mean': [5150, 4900.0, 5500.0]}}, 'Bd2DPi': {'BeautyMass': {'fracG': [0.5, 0.1, 0.9], 'Title': 'B_{d}#rightarrowD#lower[-0.65]{#scale[0.6]{*}}#pi', 'PDF': 'CrystalBallPlusGaussian', 'alpha': [-2, -10.0, 10.0], 'Bins': 100, 'Max': 6000.0, 'sigmaG': [25, 1.0, 100.0], 'Min': 5090.0, 'n': [1, 0.0, 10.0], 'shiftMean': False, 'sigmaCB': [25, 1.0, 100.0], 'Unit': 'MeV/c^{2}', 'mean': [5100, 5000.0, 5200.0]}}}, 'Bd2DKst': {'Bd2DK': {'BeautyMass': {'Max': 5350.0, 'Unit': 'MeV/c^{2}', 'shiftMean': False, 'Title': 'B_{d}#rightarrowDK#lower[-0.65]{#scale[0.6]{*}}', 'PDF': 'Gaussian', 'Min': 5090.0, 'sigma': [26.59, 1.0, 100.0], 'Bins': 25, 'mean': [5090, 4900.0, 5500.0]}}, 'Bd2DPi': {'BeautyMass': {'Max': 5600.0, 'Unit': 'MeV/c^{2}', 'shiftMean': False, 'Title': 'B_{d}#rightarrowDK#lower[-0.65]{#scale[0.6]{*}}', 'PDF': 'Gaussian', 'Min': 5090.0, 'sigma': [26.59, 1.0, 100.0], 'Bins': 50, 'mean': [5100.92, 4000.0, 5200.0]}}}}
+DsChildrenPrefix  =  {'Child1': 'lab3', 'Child2': 'lab4', 'Child3': 'lab5'}
+BasicVariables  =  {'BacPIDK': {'Range': [-999.0, 999.0], 'InputName': 'lab1_PIDKcorr', 'Name': 'BacPIDK'}, 'BacPT': {'Range': [400.0, 45000.0], 'InputName': 'lab0_FitDaughtersConst_P0_PT_flat', 'Name': 'BacPT'}, 'nTracks': {'Range': [15.0, 1000.0], 'InputName': 'nTracks', 'Name': 'nTracks'}, 'BDTG': {'Range': [0.0, 1], 'InputName': 'BDT_classifier', 'Name': 'BDTG'}, 'BacP': {'Range': [2000.0, 650000.0], 'InputName': 'lab0_FitDaughtersConst_P0_P_flat', 'Name': 'BacP'}, 'BeautyTime': {'Range': [0.2, 12.0], 'InputName': 'lab0_FitDaughtersPVConst_ctau_flat', 'Name': 'BeautyTime', 'Bins': 40}, 'BeautyMass': {'Range': [5090, 6000], 'InputName': 'lab0_FitDaughtersConst_M_flat', 'Name': 'BeautyMass'}, 'CharmMass': {'Range': [1830, 1904], 'InputName': 'lab0_FitwithoutConst_Dplus_M_flat', 'Name': 'CharmMass'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'lab1_ID', 'Name': 'BacCharge'}}
+dataSetPrefix  =  {'Bd2DK': 'dataSetMC_Bd2DK_', 'Signal': 'dataSetMC_Bd2DPi_', 'Bs2DsPi': 'dataSetMC_Bs2DsPi_', 'Bd2DRho': 'dataSetMC_Bd2DRho_', 'Comb': 'dataSetCombPi_', 'Bd2DstPi': 'dataSetMC_Bd2DstPi_', 'Bd2DKst': 'dataSetMC_Bd2DKst_'}
+AxisTitle  =  {'BeautyMass': {'Bd2DK': 'DK mass (MeV/c^{2})', 'Bd2DPi': 'D#pi mass (MeV/c^{2})'}}
+==========================================================
+===================================================================
+MDFitterSettings(,)
+===================================================================
+-------------------------------------------------------------------
+	 Basic variables: 
+-------------------------------------------------------------------
+B(s) mass range: (5090,6000), input name: lab0_FitDaughtersConst_M_flat, output name: BeautyMass
+D(s) mass range: (1830,1904), input name: lab0_FitwithoutConst_Dplus_M_flat, output name: CharmMass
+PIDK range: (-999,999),  input name: lab1_PIDKcorr, output name: BacPIDK
+BDTG range: (0,1), input name: BDT_classifier, output name: BDTG
+Time range: (0.2,12), input name: lab0_FitDaughtersPVConst_ctau_flat, output name: BeautyTime
+Charge range: (-1000,1000), input name: lab1_ID, output name: BacCharge
+Momentum range: (2000,650000), intput name: lab0_FitDaughtersConst_P0_P_flat, output name: BacP
+Transverse momentum range: (400,45000),  variable name: lab0_FitDaughtersConst_P0_PT_flat, output name: BacPT
+nTracks range: (15,1000),  variable name: nTracks, output name: nTracks
+-------------------------------------------------------------------
+	 Tagging: 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+	 Additional cuts applied to data set: 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+	 Mass templates will be weighted using following settings: 
+-------------------------------------------------------------------
+ Shift for BeautyMass is: 0
+ Shift for CharmMass is: 0
+-------------------------------------------------------------------
+
+
+=========================================
+Get input workspace workspace from:
+/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forMassFits.root
+=========================================
+
+[INFO] => GeneralUtils.LoadWorkspace(/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forMassFits.root,workspace)
+Open file: /afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forMassFits.root
+Read workspace: workspace
+
+RooWorkspace(workspace) workspace contents
+
+variables
+---------
+(BDTG,BacCharge,BacEta,BacP,BacPIDK,BacPT,BeautyEta,BeautyMass,BeautyP,BeautyPT,BeautyPhi,BeautyTime,CharmMass,CharmTime,Hlt2Topo2BodyBBDTDecision_TOS,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,MistagOSCharm,MistagOSComb,MistagSSPionBDT,MistagSSProton,TagDecOSCharm,TagDecOSComb,TagDecSSPionBDT,TagDecSSProton,TriggerCategoryBroad,nPV,nTracks)
+
+datasets
+--------
+RooDataSet::dataSetMC_Bd2DK_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bs2DsPi_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Lb2LcPi_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DRho_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DstPi_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DKst_up_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DK_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bs2DsPi_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Lb2LcPi_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DRho_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DstPi_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DKst_down_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DK_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bs2DsPi_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Lb2LcPi_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DRho_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DstPi_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DKst_up_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DK_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bs2DsPi_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Lb2LcPi_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DRho_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DstPi_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DKst_down_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DKHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecSSPionBDT,TagDecOSCharm,TagDecSSProton,TagDecOSComb,MistagSSPionBDT,MistagSSProton,MistagOSCharm,MistagOSComb,BacEta)
+
+
+=========================================
+Get output workspace workOut from:
+/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_pdfs.root
+=========================================
+
+
+=========================================
+Get input observables from:
+workspace
+=========================================
+
+MDFitterSettings::GetObsSet(...) => Get set of observables
+  1) 0x1a1b67a0 RooRealVar:: BeautyMass = 5545  L(5090 - 6000)  "BeautyMass"
+  2) 0x1a1ba8e0 RooRealVar::  CharmMass = 1867  L(1830 - 1904)  "CharmMass"
+  3) 0x6fd4560 RooRealVar::    BacPIDK = 0  L(-999 - 999)  "BacPIDK"
+  4) 0x6fd3930 RooRealVar:: BeautyTime = 6.1  L(0.2 - 12)  "BeautyTime"
+  5) 0x1a1cd080 RooRealVar::       BDTG = 0.5  L(0 - 1)  "BDTG"
+  6) 0x1a1cd4a0 RooRealVar::       BacP = 10.4928  L(7.6009 - 13.3847)  "BacP"
+  7) 0x1a1b5770 RooRealVar::      BacPT = 8.35294  L(5.99146 - 10.7144)  "BacPT"
+  8) 0x1a1b5b90 RooRealVar::    nTracks = 4.8079  L(2.70805 - 6.90776)  "nTracks"
+  9) 0x1a1b29f0 RooCategory::  BacCharge = h+(idx = 1)
+  "bachelor charge"
+
+=========================================
+Get dataset from:
+workspace
+=========================================
+
+Component:
+Signal
+Dataset name prefix:
+dataSetMC_Bd2DPi_
+[INFO] GetDataSet(...)
+[INFO] Sample: both, Mode: kpipi, Year: 2012, Hypo: Bd2DK, Merge: pol
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year 2012. Hypo Bd2DK: Merge: 
+[INFO] Sample mode year hypo: up_kpipi_2012_Bd2DKHypo
+[INFO] Sample mode year hypo: down_kpipi_2012_Bd2DKHypo
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DKHypo)
+Read data set: dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DKHypo with number of entries: 8481 and the sum of entries: 8481
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DKHypo)
+Read data set: dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DKHypo with number of entries: 7572 and the sum of entries: 7572
+[INFO] Adding dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DKHypo dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DKHypo 16053
+[INFO] New data name: dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DKHypo
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year 2012. Hypo Bd2DK: Merge: pol
+[INFO] Sample mode year hypo: both_kpipi_2012_Bd2DKHypo
+In dataOut name: dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DKHypo with entries 16053
+[INFO] Adding: dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DKHypo to combData
+Dataset entries:
+16053.0
+Sample categories
+--- RooAbsArg ---
+  Value State: clean
+  Shape State: clean
+  Attributes: 
+  Address: 0x1a222090
+  Clients: 
+  Servers: 
+  Proxies: 
+--- RooAbsCategory ---
+  Value is "both_kpipi_2012_Bd2DKHypo" (0)
+  Has the following possible values:
+        both_kpipi_2012_Bd2DKHypo = 0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(combData_Signal_both_kpipi_2012_Bd2DKHypo): fit range of variable BeautyMass expanded to nearest bin boundaries: [5200,5800] --> [5200,5800]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workOut) importing dataset combData_Signal_both_kpipi_2012_Bd2DKHypo
+[#0] ERROR:InputArguments -- RooWorkspace::import(workOut) ERROR: unrecognized command: RecycleConflictNodes
+[#0] ERROR:InputArguments -- RooWorkspace::import(workOut) ERROR: unrecognized command: Silence
+
+=========================================
+Build PDF to fit dataset:
+combData_Signal_both_kpipi_2012_Bd2DKHypo
+=========================================
+
+[INFO] --------- build Ipatia -------- 
+[INFO] Read observable: Ipatia_BeautyMass_l_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_zeta_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_fb_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_mean_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_sigma_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_a1_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_n1_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_a2_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Read observable: Ipatia_BeautyMass_n2_combData_Signal_both_kpipi_2012_Bd2DKHypo
+[INFO] Create/Read Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo
+
+=========================================
+Fit PDF:
+Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo
+to dataset:
+combData_Signal_both_kpipi_2012_Bd2DKHypo
+=========================================
+
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'fit' created with bounds [5200,5800]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo) constructing test statistic for sub-range named fit
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'NormalizationRangeForfit' created with bounds [5200,5800]
+[#1] INFO:Eval -- RooRealVar::setRange(BeautyMass) new range named 'fit_nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo' created with bounds [5200,5800]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#0] WARNING:Optimization -- RooAbsOptTestStatistic::optimizeConstantTerms(nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo) WARNING Cache-and-track optimization (Optimize level 2) is only available for datasets implement in terms of RooVectorDataStore - ignoring this option for current dataset
+Minuit2Minimizer: Minimize with max-calls 3500 convergence for edm < 1 strategy 2
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo) first = 0 last = 100 Likelihood offset now set to 93512.8
+MnSeedGenerator: for initial parameters FCN = -1.455191522837e-11
+MnSeedGenerator: Initial state:   - FCN = -1.455191522837e-11 Edm =      6765.47 NCalls =     29
+MnSeedGenerator: Negative G2 found - new state:   - FCN =  -32.38113871224 Edm =      6909.52 NCalls =     62
+Info in <Minuit2>: MnHesse: 2nd derivative zero for Parameter  : name = Ipatia_BeautyMass_n1_combData_Signal_both_kpipi_2012_Bd2DKHypo
+Info in <Minuit2>: MnHesse fails and will return diagonal matrix 
+MnSeedGenerator: run Hesse - new state:   - FCN =  -32.38113871224 Edm =      6909.52 NCalls =     75
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -32.38113871224 Edm =      6909.52 NCalls =     75
+VariableMetric: Iteration #   0 - FCN =  -32.38113871224 Edm =      6909.52 NCalls =     75
+VariableMetric: Iteration #   1 - FCN =  -4646.984276445 Edm =      656.233 NCalls =    102
+VariableMetric: Iteration #   2 - FCN =  -5465.435322435 Edm =      10086.1 NCalls =    138
+VariableMetric: Iteration #   3 - FCN =   -6403.96066706 Edm =      1313.74 NCalls =    168
+VariableMetric: Iteration #   4 - FCN =  -7310.450826894 Edm =      2814.93 NCalls =    201
+VariableMetric: Iteration #   5 - FCN =  -9143.066240859 Edm =      143.322 NCalls =    243
+VariableMetric: Iteration #   6 - FCN =  -9145.954933464 Edm =      9.87497 NCalls =    268
+VariableMetric: Iteration #   7 - FCN =  -9150.046206329 Edm =      6.97126 NCalls =    292
+VariableMetric: Iteration #   8 - FCN =   -9152.45575995 Edm =     0.527841 NCalls =    316
+VariableMetric: Iteration #   9 - FCN =  -9154.243312651 Edm =     0.315312 NCalls =    342
+VariableMetric: Iteration #  10 - FCN =  -9158.150632109 Edm =     0.394321 NCalls =    378
+VariableMetric: Iteration #  11 - FCN =  -9158.799797114 Edm =       2.6331 NCalls =    403
+VariableMetric: Iteration #  12 - FCN =   -9159.65598537 Edm =     0.803842 NCalls =    428
+VariableMetric: Iteration #  13 - FCN =  -9166.186215396 Edm =      26.0943 NCalls =    463
+VariableMetric: Iteration #  14 - FCN =  -9166.924459896 Edm =      62.1318 NCalls =    484
+VariableMetric: Iteration #  15 - FCN =  -9170.606165926 Edm =      2.57235 NCalls =    504
+VariableMetric: Iteration #  16 - FCN =  -9172.633476524 Edm =     0.797695 NCalls =    525
+VariableMetric: Iteration #  17 - FCN =  -9173.767204645 Edm =      1.00414 NCalls =    545
+VariableMetric: Iteration #  18 - FCN =  -9176.625733895 Edm =      1.44107 NCalls =    563
+VariableMetric: Iteration #  19 - FCN =  -9179.595525402 Edm =        1.507 NCalls =    585
+VariableMetric: Iteration #  20 - FCN =  -9182.389747732 Edm =       2.6275 NCalls =    609
+VariableMetric: Iteration #  21 - FCN =  -9183.977975899 Edm =      11.5427 NCalls =    630
+VariableMetric: Iteration #  22 - FCN =    -9186.0418505 Edm =     0.963314 NCalls =    656
+VariableMetric: Iteration #  23 - FCN =  -9187.157908885 Edm =      2.32771 NCalls =    677
+VariableMetric: Iteration #  24 - FCN =  -9189.059416982 Edm =      1.51134 NCalls =    702
+VariableMetric: Iteration #  25 - FCN =  -9189.782144932 Edm =      1.04011 NCalls =    724
+VariableMetric: Iteration #  26 - FCN =  -9191.487650696 Edm =      1.27204 NCalls =    746
+VariableMetric: Iteration #  27 - FCN =  -9192.614457226 Edm =     0.401383 NCalls =    761
+VariableMetric: Iteration #  28 - FCN =  -9193.645415401 Edm =     0.191415 NCalls =    781
+VariableMetric: Iteration #  29 - FCN =  -9194.103475985 Edm =    0.0891169 NCalls =    800
+VariableMetric: Iteration #  30 - FCN =  -9194.324437103 Edm =     0.589715 NCalls =    831
+VariableMetric: Iteration #  31 - FCN =  -9194.435882048 Edm =     0.269005 NCalls =    854
+VariableMetric: Iteration #  32 - FCN =    -9195.0348922 Edm =     0.228432 NCalls =    877
+VariableMetric: Iteration #  33 - FCN =  -9195.343026022 Edm =     0.109274 NCalls =    895
+VariableMetric: Iteration #  34 - FCN =  -9195.467544816 Edm =    0.0386233 NCalls =    913
+VariableMetric: Iteration #  35 - FCN =  -9195.503235337 Edm =   0.00539991 NCalls =    930
+VariableMetric: Iteration #  36 - FCN =  -9195.510176404 Edm =    0.0017618 NCalls =    947
+VariableMetric: Iteration #  37 - FCN =  -9195.519228979 Edm =   0.00248094 NCalls =    967
+VariableMetric: Iteration #  38 - FCN =  -9195.525204483 Edm =   0.00492752 NCalls =    986
+VariableMetric: Iteration #  39 - FCN =  -9195.531872715 Edm =    0.0114107 NCalls =   1002
+VariableMetric: Iteration #  40 - FCN =  -9195.556590047 Edm =    0.0112337 NCalls =   1023
+VariableMetric: Iteration #  41 - FCN =  -9195.574298035 Edm =   0.00673951 NCalls =   1040
+VariableMetric: Iteration #  42 - FCN =  -9195.577402004 Edm =   0.00123765 NCalls =   1056
+VariableMetric: Iteration #  43 - FCN =  -9195.578638785 Edm =  8.56896e-05 NCalls =   1072
+VariableMetric: After Hessian   - FCN =  -9195.578638785 Edm =  0.000116139 NCalls =   1124
+VariableMetric: Iteration #  44 - FCN =  -9195.578638785 Edm =  0.000116139 NCalls =   1124
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -9195.57863878480566
+Edm   = 0.000116138806435943948
+Nfcn  = 1124
+Ipatia_BeautyMass_a1_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 3.14361	 +/-  0.135542	(limited)
+Ipatia_BeautyMass_a2_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 0.56856	 +/-  0.0398307	(limited)
+Ipatia_BeautyMass_l_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = -3.77037	 +/-  0.587938	(limited)
+Ipatia_BeautyMass_mean_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 5324.37	 +/-  0.438746	(limited)
+Ipatia_BeautyMass_n1_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 0.047325	 +/-  0.100934	(limited)
+Ipatia_BeautyMass_n2_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 2.80959	 +/-  0.120532	(limited)
+Ipatia_BeautyMass_sigma_combData_Signal_both_kpipi_2012_Bd2DKHypo	  = 23.9723	 +/-  0.458608	(limited)
+[#1] INFO:Minization -- Command timer: Real time 0:00:00, CP time 0.170
+[#1] INFO:Minization -- Session timer: Real time 0:00:00, CP time 0.170
+Info in <Minuit2>: Minuit2Minimizer::Hesse : Hesse is valid - matrix is accurate
+[#1] INFO:Minization -- Command timer: Real time 0:00:00, CP time 0.010
+[#1] INFO:Minization -- Session timer: Real time 0:00:00, CP time 0.180, 2 slices
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+=========================================
+Fit done. Summarizing results:
+=========================================
+
+
+  RooFitResult: minimized FCN value: -9195.58, estimated distance to minimum: 0.000121258
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+  Ipatia_BeautyMass_fb_combData_Signal_both_kpipi_2012_Bd2DKHypo    0.0000e+00
+  Ipatia_BeautyMass_zeta_combData_Signal_both_kpipi_2012_Bd2DKHypo    0.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Ipatia_BeautyMass_a1_combData_Signal_both_kpipi_2012_Bd2DKHypo    3.0000e+00    3.1436e+00 +/-  1.42e-01  <none>
+  Ipatia_BeautyMass_a2_combData_Signal_both_kpipi_2012_Bd2DKHypo    3.0000e+00    5.6856e-01 +/-  3.91e-02  <none>
+  Ipatia_BeautyMass_l_combData_Signal_both_kpipi_2012_Bd2DKHypo   -3.0000e+00   -3.7704e+00 +/-  5.73e-01  <none>
+  Ipatia_BeautyMass_mean_combData_Signal_both_kpipi_2012_Bd2DKHypo    5.4000e+03    5.3244e+03 +/-  4.37e-01  <none>
+  Ipatia_BeautyMass_n1_combData_Signal_both_kpipi_2012_Bd2DKHypo    3.0000e+00    4.7325e-02 +/-  1.05e-01  <none>
+  Ipatia_BeautyMass_n2_combData_Signal_both_kpipi_2012_Bd2DKHypo    3.0000e+00    2.8096e+00 +/-  1.21e-01  <none>
+  Ipatia_BeautyMass_sigma_combData_Signal_both_kpipi_2012_Bd2DKHypo    8.0000e+01    2.3972e+01 +/-  4.57e-01  <none>
+
+
+7x7 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |    0.02005    0.001098    -0.02525   -0.000228    -0.01392 
+   1 |   0.001098    0.001527    -0.01907     0.01102   -0.001118 
+   2 |   -0.02525    -0.01907      0.3304    -0.08732     0.02366 
+   3 |  -0.000228     0.01102    -0.08732      0.1909   -0.001945 
+   4 |   -0.01392   -0.001118     0.02366   -0.001945     0.01119 
+   5 |  -0.000485   -0.002966     0.01553     -0.0258   0.0005501 
+   6 |   -0.02513    -0.00454      0.1589     0.06365     0.01915 
+
+
+     |      5    |      6    |
+----------------------------------------------------------------------
+   0 |  -0.000485    -0.02513 
+   1 |  -0.002966    -0.00454 
+   2 |    0.01553      0.1589 
+   3 |    -0.0258     0.06365 
+   4 |  0.0005501     0.01915 
+   5 |    0.01455   -0.004729 
+   6 |  -0.004729      0.2091 
+
+
+7x7 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1      0.1985     -0.3103   -0.003686      -0.929 
+   1 |     0.1985           1      -0.849      0.6453     -0.2704 
+   2 |    -0.3103      -0.849           1     -0.3477       0.389 
+   3 |  -0.003686      0.6453     -0.3477           1    -0.04208 
+   4 |     -0.929     -0.2704       0.389    -0.04208           1 
+   5 |    -0.0284     -0.6293       0.224     -0.4896     0.04311 
+   6 |    -0.3882     -0.2541      0.6045      0.3186      0.3957 
+
+
+     |      5    |      6    |
+----------------------------------------------------------------------
+   0 |    -0.0284     -0.3882 
+   1 |    -0.6293     -0.2541 
+   2 |      0.224      0.6045 
+   3 |    -0.4896      0.3186 
+   4 |    0.04311      0.3957 
+   5 |          1    -0.08574 
+   6 |   -0.08574           1 
+
+
+=========================================
+Saving plot
+=========================================
+
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo) p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo) only plotting range 'fit_nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo) p.d.f. curve is normalized using explicit choice of ranges 'fit_nll_Ipatia_BeautyMass_ipatia_combData_Signal_both_kpipi_2012_Bd2DKHypo_combData_Signal_both_kpipi_2012_Bd2DKHypo'
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/TemplateFitPlots/Template_combData_Signal_both_kpipi_2012_Bd2DKHypo_BeautyMass_binned.pdf has been created
+
+=========================================
+Pretty-print fit results
+=========================================
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Creating LaTeX style table with fitted parameters
+
+
+Parameter number & Parameter name & Fitted value & Initial value \\
+\hline
+$0$ & $Ipatia_BeautyMass_a1_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $3.14\pm0.14$ & $3.0\pm0$ \\
+$1$ & $Ipatia_BeautyMass_a2_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $0.569\pm0.039$ & $3.0\pm0$ \\
+$2$ & $Ipatia_BeautyMass_l_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $-3.77\pm0.57$ & $-3.0\pm0$ \\
+$3$ & $Ipatia_BeautyMass_mean_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $5324.37\pm0.44$ & $(5.4\pm0)e+03$ \\
+$4$ & $Ipatia_BeautyMass_n1_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $0.05\pm0.11$ & $3.0\pm0$ \\
+$5$ & $Ipatia_BeautyMass_n2_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $2.81\pm0.12$ & $3.0\pm0$ \\
+$6$ & $Ipatia_BeautyMass_sigma_combData_Signal_both_kpipi_2012_Bd2DKHypo$ & $23.97\pm0.46$ & $80.0\pm0$ \\
+\hline
+
+

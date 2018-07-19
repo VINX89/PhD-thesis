@@ -1,0 +1,168 @@
+%!TEX root = main.tex
+% THis file contains all the default packages and modifications for
+% LHCb formatting
+
+%% %%%%%%%%%%%%%%%%%%
+%%  Page formatting
+%% %%%%%%%%%%%%%%%%%%
+\textheight=230mm
+\textwidth=160mm
+\oddsidemargin=7mm
+\evensidemargin=-10mm
+\topmargin=-10mm
+\headsep=20mm
+\columnsep=5mm
+\addtolength{\belowcaptionskip}{0.5em}
+
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+
+
+\setlength{\hoffset}{-2cm}
+\setlength{\voffset}{-2cm}
+% Page defaults ...
+\topmargin=0.5cm
+\oddsidemargin=2.5cm
+\textwidth=16cm
+\textheight=22cm
+% Allow the page size to vary a bit ...
+\raggedbottom
+% To avoid Latex to be too fussy with line breaking ...
+\sloppy
+
+%% %%%%%%%%%%%%%%%%%%%%%%%
+%% Packages to be used
+%% %%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{microtype}
+\usepackage{lineno}  % for line numbering during review
+\usepackage{xspace} % To avoid problems with missing or double spaces after
+                    % predefined symbold
+\usepackage{caption} %these three command get the figure and table captions automatically small
+\renewcommand{\captionfont}{\small}
+\renewcommand{\captionlabelfont}{\small}
+
+%% Graphics
+\usepackage{graphicx}  % to include figures (can also use other packages)
+\usepackage{color}
+\usepackage{subcaption}
+\usepackage{colortbl}
+\graphicspath{{./figs/}} % Make Latex search fig subdir for figures
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+%% Math
+\usepackage{amsmath} % Adds a large collection of math symbols
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{upgreek} % Adds in support for greek letters in roman typeset
+
+%% fix to allow peaceful coexistence of line numbering and
+%% mathematical objects
+%% http://www.latex-community.org/forum/viewtopic.php?f=5&t=163
+%%
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+\expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+\expandafter\let\csname oldend#1\expandafter\endcsname\csname
+end#1\endcsname
+ \renewenvironment{#1}%
+   {\linenomath\csname old#1\endcsname}%
+   {\csname oldend#1\endcsname\endlinenomath}%
+}
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+  \patchAmsMathEnvironmentForLineno{#1}%
+  \patchAmsMathEnvironmentForLineno{#1*}%
+}
+\AtBeginDocument{%
+\patchBothAmsMathEnvironmentsForLineno{equation}%
+\patchBothAmsMathEnvironmentsForLineno{align}%
+\patchBothAmsMathEnvironmentsForLineno{flalign}%
+\patchBothAmsMathEnvironmentsForLineno{alignat}%
+\patchBothAmsMathEnvironmentsForLineno{gather}%
+\patchBothAmsMathEnvironmentsForLineno{multline}%
+\patchBothAmsMathEnvironmentsForLineno{eqnarray}%
+}
+
+%% packages added by Julian and Alex, tbd
+% Unit typesetting
+\usepackage[
+  separate-uncertainty  = true,
+  uncertainty-separator = {\,},
+  range-units           = single,
+  exponent-product      = {\cdot}
+]{siunitx}
+%===============================================================================
+% SIUnits (siunitx)
+\DeclareSIUnit\clight{\ensuremath{\mathit{c}}}
+%\DeclareSIUnit\electronvolt{e\kern-.1em V}
+
+\DeclareSIUnit\rad{\radian}
+\DeclareSIUnit\mrad{\milli\rad} 
+
+\DeclareSIUnit\micron{\micro\metre} 
+
+\DeclareSIUnit\nanobarn{\nano\barn} 
+\DeclareSIUnit\picobarn{\pico\barn} 
+\DeclareSIUnit\femtobarn{\femto\barn} 
+\DeclareSIUnit\attobarn{\atto\barn}
+\DeclareSIUnit\nb{\nano\barn} 
+\DeclareSIUnit\pb{\pico\barn} 
+\DeclareSIUnit\fb{\femto\barn} 
+\DeclareSIUnit\ab{\atto\barn} 
+\DeclareSIUnit\zb{\zepto\barn} 
+\DeclareSIUnit\yb{\yocto\barn}
+
+\DeclareSIUnit[per-mode=symbol]\eVc{\eV\per\clight}
+\DeclareSIUnit[per-mode=symbol]\keVc{\kilo\eV\per\clight}
+\DeclareSIUnit[per-mode=symbol]\MeVc{\mega\eV\per\clight}
+\DeclareSIUnit[per-mode=symbol]\GeVc{\giga\eV\per\clight}
+\DeclareSIUnit[per-mode=symbol]\TeVc{\tera\eV\per\clight}
+
+\DeclareSIUnit[per-mode=symbol]\eVcc{\eV\per\square\clight}
+\DeclareSIUnit[per-mode=symbol]\keVcc{\kilo\eV\per\square\clight}
+\DeclareSIUnit[per-mode=symbol]\MeVcc{\mega\eV\per\square\clight}
+\DeclareSIUnit[per-mode=symbol]\GeVcc{\giga\eV\per\square\clight}
+\DeclareSIUnit[per-mode=symbol]\TeVcc{\tera\eV\per\square\clight}
+
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{placeins}
+%\newcommand{\todo}[1]{\textcolor{red}{#1}} %alternative if todonotes does not work
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{marginnote}
+\makeatletter
+\renewcommand{\@todonotes@drawMarginNoteWithLine}{%
+\begin{tikzpicture}[remember picture, overlay, baseline=-0.75ex]%
+    \node [coordinate] (inText) {};%
+\end{tikzpicture}%
+\marginnote[{% Draw note in left margin
+    \@todonotes@drawMarginNote%
+    \@todonotes@drawLineToLeftMargin%
+}]{% Draw note in right margin
+    \@todonotes@drawMarginNote%
+    \@todonotes@drawLineToRightMargin%
+}%
+}
+
+% Get hyperlinks to captions and in references.
+% These do not work with revtex. Use "hypertext" as class option instead.
+\usepackage{hyperref}    % Hyperlinks in references
+\usepackage[all]{hypcap} % Internal hyperlinks to floats.
+\usepackage{cleveref} % has to be loaded after hyperred
+%\crefname{chapter}{Ch.\@}{Chs.\@}
+\crefname{section}{Sec.\@}{Secs.\@}
+\crefname{subsection}{Sec.\@}{Secs.\@}
+\crefname{subsubsection}{Sec.\@}{Secs.\@}
+\crefname{figure}{Fig.\@}{Figs.\@}
+\crefname{table}{Tab.\@}{Tabs.\@}
+\crefname{equation}{Eq.\@}{Eqs.\@}
+
+
+\input{lhcb-symbols-def} % Add in the predefined LHCb symbols
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-3.5mu#1\mkern-0.5mu}\mkern 1.5mu} % Define nice bar
+
+% Make this the last packages you include before the \begin{document}
+\usepackage{cite} % Allows for ranges in citations
+\usepackage{mciteplus}
+

@@ -1,0 +1,190 @@
+READING CONFIGURATION FROM EPM_Apply_Bu2D0Pi_2016_DevTaggers.py
+ *** String property RootFile_1                             changed to /eos/lhcb/wg/FlavourTagging/tuples/development/data/B2OC/TaggingOptSummer2017/sWeights/Bu2D0Pi/DTT_2016_Reco16Strip28_BHADRONCOMPLETEEVENT_merged_sW.root
+ *** String property TupleName                              changed to DecayTree
+ *** String property Selection                              changed to eventNumber%8==7
+ *** Numeric property DoCalibrations                        changed to 1
+ *** String property CalibrationModel                       changed to NSPLINE
+ *** String property CalibrationLink                        changed to LOGIT
+ *** Numeric property UseNewtonRaphson                      changed to 0
+ *** Numeric property SaveCalibrationsToXML                 changed to 1
+ *** String property WeightFormula                          changed to nSig_both_kpi_2016_Bu2D0PiHypo_Evts_sw
+ *** String property BranchID                               changed to lab0_ID
+ *** Numeric property UseWeight                             changed to 1
+ *** String property PlotLabel                              changed to LHCb
+ *** String property PlotExtension                          changed to .pdf
+ *** Numeric property PlotTitle                             changed to 0
+ *** Numeric property PlotStatBox                           changed to 0
+ *** String property OS_Muon_BranchDec                      changed to lab0_OSMuonLatestB2OC_TAGDEC
+ *** String property OS_Muon_BranchProb                     changed to lab0_OSMuonLatestB2OC_TAGETA
+ *** String property OS_Muon_CalibrationArchive             changed to ../calib/OS_Muon_Calibration.xml
+ *** Numeric property OS_Muon_InOSComb                      changed to 1
+ *** Numeric property OS_Electron_Use                       changed to 1
+ *** String property OS_Electron_BranchDec                  changed to lab0_OSElectronLatestB2OC_TAGDEC
+ *** String property OS_Electron_BranchProb                 changed to lab0_OSElectronLatestB2OC_TAGETA
+ *** String property OS_Electron_CalibrationArchive         changed to ../calib/OS_Electron_Calibration.xml
+ *** Numeric property OS_Electron_InOSComb                  changed to 1
+ *** String property OS_Kaon_BranchDec                      changed to lab0_OSKaonLatestB2OC_TAGDEC
+ *** String property OS_Kaon_BranchProb                     changed to lab0_OSKaonLatestB2OC_TAGETA
+ *** String property OS_Kaon_CalibrationArchive             changed to ../calib/OS_Kaon_Calibration.xml
+ *** Numeric property OS_Kaon_InOSComb                      changed to 1
+ *** String property VtxCharge_BranchDec                    changed to lab0_OSVtxCh_TAGDEC
+ *** String property VtxCharge_BranchProb                   changed to lab0_OSVtxCh_TAGETA
+ *** String property VtxCharge_CalibrationArchive           changed to ../calib/VtxCharge_Calibration.xml
+ *** Numeric property VtxCharge_InOSComb                    changed to 1
+ *** String property OS_Charm_BranchDec                     changed to lab0_OSCharm_TAGDEC
+ *** String property OS_Charm_BranchProb                    changed to lab0_OSCharm_TAGETA
+ *** String property OS_Charm_CalibrationArchive            changed to ../calib/OS_Charm_Calibration.xml
+ *** Numeric property OS_Charm_InOSComb                     changed to 1
+
+------------------------------
+----- BEGINNING ANALYSIS -----
+------------------------------
+
+Reading file /eos/lhcb/wg/FlavourTagging/tuples/development/data/B2OC/TaggingOptSummer2017/sWeights/Bu2D0Pi/DTT_2016_Reco16Strip28_BHADRONCOMPLETEEVENT_merged_sW.root
+
+Cut eventNumber%8==7 keeps 91822.2 out of 735564 events (weighted).
+Corresponding efficiency: 0.1248 (+ 0.000399, -0.0003968).
+SETING EXPECTED NUMBER OF EVENTS = 100183
+Loading ID branch
+Loading Weight branch
+Loading OS_Electron branches
+ON EVENT 0
+ON EVENT 10000
+ON EVENT 20000
+ON EVENT 30000
+ON EVENT 40000
+ON EVENT 50000
+ON EVENT 60000
+ON EVENT 70000
+ON EVENT 80000
+ON EVENT 90000
+ON EVENT 100000
+[1m--------------------------------------------------
+----- ESPRESSO PERFORMANCE MONITOR STATISTICS ----
+--------------------------------------------------
+[m9.181e+04 events selected.
+
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger Fire Correlations [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Electron    [m
+[1mOS_Electron    [m100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Electron    [m
+[1mOS_Electron    [m100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations (dilution weighted) [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Electron    [m
+[1mOS_Electron    [m100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+
+
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+Tagger decision Correlations (when both fire) [%]
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+               OS_Electron    [m
+[1mOS_Electron    [m100.0000%      
+[1m//////////////////////////////////////////////////////////////////////////////////////////
+[m
+
+[1m--------------------------------------------------
+-------------- TAGGING PERFORMANCES --------------
+--------------------------------------------------
+[m
+[1m[32m         Tagger            Tagging Rate              Raw Mistag                                 Eff Mistag                              Tagging Power[m[2m
+[1m[32m    OS_Electron[m[2m      (3.6402 ± 0.0638)%     (35.3994 ± 0.8272)%    (32.7302 ± 0.1483(stat) ± 0.7907(cal))%     (0.4343 ± 0.0107(stat) ± 0.0398(cal))%
+
+[1m--------------------------------------------------
+----------------- ETA PERCENTILES ----------------
+--------------------------------------------------
+[m
+[1m[32m         Tagger             0%            18%            50%            82%           100%[m[2m
+[1m[32m    OS_Electron[m[2m          0.227          0.290          0.348          0.427          0.500
+
+
+[1m-----------------------------------------------------------
+--------------- TAGGER CALIBRATION METRICS ----------------
+-----------------------------------------------------------
+[m[1m[94m-------------------
+--- OS_Electron ---
+-------------------[m
+
+-- INPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 3922.43
+Brier Score     = 1056.07
+PEARSON X2 test = 0.5011
+DEVIANCE G2 test = 0.5327
+CRESSIE-READ test = 0.5104
+lCvHCH S test   = 0.5566
+
+-- OUTPUT CALIBRATION --- 
+SOLVING VIA MINUIT MAXIMIZATION... 
+1.25 seconds elapsed.
+
+
+ -- LOGIT BASIS --
+
+ -- N-SPLINE BASIS -- 
+ NODES LOCATIONS:0.000418, 0.629, 1.23
+
+ BASIS ROTATION: 
+P_0(x) = 1
+P_1(x) = x -0.5868
+P_2(x) = n2(x) -0.838x +0.2293
+
+ -- PARAMETER VALUES -- 
+p0 = 0.0079875 +-0.038853
+p1 = 0.50209 +-0.13991
+p2 = 0.47653 +-0.41229
+
+ -- PARAMETER DELTA VALUES -- 
+Δp0 = -0.020228 +-0.077706
+Δp1 = -0.1423 +-0.27982
+Δp2 = -0.35122 +-0.82458
+
+ -- CORRELATION MATRIX -- 
+        p0              p1              p2             Δp0             Δp1             Δp2
+   p0    1        0.064977        0.081097       -0.012963       0.0093626       -0.042959
+   p1  ---               1         0.10116       0.0093626         -0.0517       0.0069293
+   p2  ---             ---               1       -0.042959       0.0069293       -0.030311
+  Δp0  ---             ---             ---               1        0.064977        0.081097
+  Δp1  ---             ---             ---             ---               1         0.10116
+  Δp2  ---             ---             ---             ---             ---               1
+
+
+-- OUTPUT CALIBRATION G.O.F. -- 
+DEVIANCE        = 3902.56
+AIC             = 3908.56
+BIC             = 3936.65
+Brier Score     = 1061.41
+PEARSON X2 test = -1.228
+DEVIANCE G2 test is inapplicable to the logit link
+CRESSIE-READ test = -1.2568
+lCvHCH S test   = 1.3486
+
+
+[1m--------------------------------------------------
+-------- CALIBRATED TAGGING PERFORMANCES ---------
+--------------------------------------------------
+[m
+[1m[32m         Tagger            Tagging Rate              Raw Mistag                                 Eff Mistag                              Tagging Power[m[2m
+[1m[32m    OS_Electron[m[2m      (3.3266 ± 0.0611)%     (33.3748 ± 0.8533)%    (31.6710 ± 0.1434(stat) ± 0.8402(cal))%     (0.4470 ± 0.0108(stat) ± 0.0410(cal))%
+
+
+[1m--------------------------------------------------------
+-------------- COMPUTING FINAL HISTOGRAMS --------------
+--------------------------------------------------------
+[m[1m[94m-------------------
+--- OS_Electron ---
+-------------------[m

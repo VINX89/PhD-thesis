@@ -1,0 +1,1020 @@
+[?1034h
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+==========================================================
+FITTER IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+{'treeName': 'merged', 'truetime': False, 'UniformBlinding': False, 'workMC': 'workspace', 'scan': False, 'toys': False, 'pol': 'both', 'tagfromdata': False, 'fileNameFitresult': 'FitResult.root', 'year': 'run1', 'outputdir': '/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/MCAcceptance/MCAcceptanceFromTimeFit/', 'truetag': True, 'wsname': '/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/MCAcceptance/MCAcceptanceFromTimeFit/workResults.root', 'randomise': False, 'noweight': True, 'blindingString': 'TD_Dpi_3fb', 'fixtagging': False, 'singletagger': '', 'plotsWeights': False, 'inputdata': '', 'extended': False, 'sampleConstr': False, 'pereventmistag': False, 'fileName': '/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forTimeFits.root', 'binned': False, 'unblind': False, 'superimpose': False, 'pereventterr': False, 'configName': '/afs/cern.ch/user/v/vibattis/cmtuser/UraniaDev_v6r2p1/PhysFit/B2DXFitters/data/Bd2DPi_3fbCPV/Bd2DPi/Bd2DPiConfigForMCAcceptanceFit.py', 'noftcalib': False, 'fileNamePull': 'PullTree.root', 'MC': True, 'NumCPU': 8, 'HFAG': False, 'cat': False, 'merge': 'both', 'hypo': 'Bd2DPi', 'seed': 4534209875, 'mode': 'kpipi', 'preselection': '', 'debug': True}
+==========================================================
+==========================================================
+FITTER IS RUNNING WITH THE FOLLOWING CONFIGURATION OPTIONS
+UseProtoData  =  True
+ParameteriseIntegral  =  True
+ResolutionAcceptance  =  {'Signal': {'Resolution': {'ScaleFactor': [1.0], 'Bias': [0.0], 'Type': 'AverageModel', 'Parameters': {'fractions': [], 'sigmas': [0.05491]}}, 'TimeErrorPDF': None, 'Acceptance': {'KnotCoefficients': [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946], 'Extrapolate': True, 'Float': True, 'Type': 'Spline', 'KnotPositions': [0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0]}}}
+Decay  =  Bd2DPi
+NBinsAcceptance  =  0
+BasicVariables  =  {'BeautyTime': {'Range': [0.4, 12.0], 'InputName': 'obsTime', 'Name': 'BeautyTime', 'Bins': 40}, 'TagDecTrue': {'Range': [-1.0, 1.0], 'InputName': 'TagDecTrue', 'Name': 'TagDecTrue'}, 'TagDecSS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecSS', 'Name': 'TagDecSS'}, 'TagDecOS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecTrue', 'Name': 'TagDecTrue'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'BacCharge', 'Name': 'BacCharge'}}
+Debug  =  True
+ACP  =  {'Signal': {'C': [0.0], 'D': [0.0], 'S': [0.0], 'DeltaM': [0.51], 'Gamma': [0.658298377689478], 'DeltaGamma': [0.0], 'ParameteriseIntegral': True, 'Sbar': [0.0], 'NBinsAcceptance': 0, 'CPlimit': {'upper': 2.0, 'lower': -2.0}, 'Dbar': [0.0]}}
+Context  =  FIT
+Cf is constant in the fit
+Cfbar is constant in the fit
+Sf is constant in the fit
+Sfbar is constant in the fit
+Df is constant in the fit
+Dfbar is constant in the fit
+.*scalefactor is constant in the fit
+resmodel00_sigma is constant in the fit
+DetectionAsymmetry  =  {'Signal': [0.0]}
+ProductionAsymmetry  =  {'Signal': [0.0]}
+==========================================================
+===================================================================
+MDFitterSettings(,)
+===================================================================
+-------------------------------------------------------------------
+	 Basic variables: 
+-------------------------------------------------------------------
+Time range: (0.4,12), input name: obsTime, output name: BeautyTime
+Charge range: (-1000,1000), input name: BacCharge, output name: BacCharge
+-------------------------------------------------------------------
+	 Tagging: 
+-------------------------------------------------------------------
+Tagging decision variables
+Range: (-1,1), input name: TagDecTrue, output name: TagDecOS
+Range: (-1,1), input name: TagDecSS, output name: TagDecSS
+Range: (-1,1), input name: TagDecTrue, output name: TagDecTrue
+Tagging calibration:
+	 OS: p0: 1, p1: 1, average: 1 use: 1
+	 SS: p0: 1, p1: 1, average: 1 use: 1
+	 True: p0: 1, p1: 1, average: 1 use: 1
+-------------------------------------------------------------------
+	 Additional cuts applied to data set: 
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+	 Mass templates will be weighted using following settings: 
+-------------------------------------------------------------------
+ Shift for  is: 0
+ Shift for  is: 0
+-------------------------------------------------------------------
+
+
+=========================================
+Get input workspace workspace from:
+/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forTimeFits.root
+=========================================
+
+[INFO] => GeneralUtils.LoadWorkspace(/afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forTimeFits.root,workspace)
+Open file: /afs/cern.ch/work/v/vibattis/public/B2DX/Bd2DPi/Workspace/Nominal/work_dpi_mcfiltered_forTimeFits.root
+Read workspace: workspace
+
+RooWorkspace(workspace) workspace contents
+
+variables
+---------
+(BDTG,BacCharge,BacEta,BacP,BacPIDK,BacPT,BeautyEta,BeautyMass,BeautyP,BeautyPT,BeautyPhi,BeautyTime,CharmMass,CharmTime,Hlt2Topo2BodyBBDTDecision_TOS,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,MistagOS,MistagSS,TagDecOS,TagDecSS,TagDecTrue,TriggerCategoryBroad,nPV,nTracks)
+
+datasets
+--------
+RooDataSet::dataSetMC_Bd2DPi_up_kpipi_2011_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOS,TagDecSS,TagDecTrue,MistagOS,MistagSS,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_down_kpipi_2011_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOS,TagDecSS,TagDecTrue,MistagOS,MistagSS,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOS,TagDecSS,TagDecTrue,MistagOS,MistagSS,BacEta)
+RooDataSet::dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DPiHypo(BeautyMass,CharmMass,BacPIDK,BeautyTime,BDTG,BacP,BacPT,nTracks,BacCharge,TriggerCategoryBroad,CharmTime,BeautyPhi,BeautyPT,Hlt2Topo3BodyBBDTDecision_TOS,Hlt2Topo4BodyBBDTDecision_TOS,BeautyP,Hlt2Topo2BodyBBDTDecision_TOS,BeautyEta,nPV,TagDecOS,TagDecSS,TagDecTrue,MistagOS,MistagSS,BacEta)
+
+
+=========================================
+Get dataset from:
+workspace
+=========================================
+
+Dataset name prefix:
+dataSetMC_Bd2DPi_
+MDFitterSettings::GetObsSet(...) => Get set of observables
+  1) 0x1dcacca0 RooRealVar:: BeautyTime = 6.2  L(0.4 - 12)  "BeautyTime"
+  2) 0x1dc35260 RooCategory::  BacCharge = h+(idx = 1)
+  "bachelor charge"
+  3) 0x1dd021f0 RooCategory::   TagDecOS = B_0(idx = 1)
+  "flavour tagging result"
+  4) 0x1dc92d80 RooCategory::   TagDecSS = B_1(idx = 1)
+  "flavour tagging result"
+  5) 0x1dcfa450 RooCategory:: TagDecTrue = B_2(idx = 1)
+  "flavour tagging result"
+[INFO] GetDataSet(...)
+[INFO] Sample: both, Mode: kpipi, Year: run1, Hypo: Bd2DPi, Merge: both
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi: Merge: 
+[INFO] Sample mode year hypo: up_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: up_kpipi_2012_Bd2DPiHypo
+[INFO] Sample mode year hypo: down_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: down_kpipi_2012_Bd2DPiHypo
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_up_kpipi_2011_Bd2DPiHypo)
+Read data set: dataSetMC_Bd2DPi_up_kpipi_2011_Bd2DPiHypo with number of entries: 210833 and the sum of entries: 210833
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DPiHypo)
+Read data set: dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DPiHypo with number of entries: 384312 and the sum of entries: 384312
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_down_kpipi_2011_Bd2DPiHypo)
+Read data set: dataSetMC_Bd2DPi_down_kpipi_2011_Bd2DPiHypo with number of entries: 221703 and the sum of entries: 221703
+[INFO] ==> GetDataSet(...): start to collect datasets from workspace
+[INFO] ==> GeneralUtils::GetDataSet(workspace,dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DPiHypo)
+Read data set: dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DPiHypo with number of entries: 390135 and the sum of entries: 390135
+[INFO] Adding dataSetMC_Bd2DPi_up_kpipi_2011_Bd2DPiHypo dataSetMC_Bd2DPi_down_kpipi_2011_Bd2DPiHypo 432536
+[INFO] New data name: dataSetMC_Bd2DPi_both_kpipi_2011_Bd2DPiHypo
+[INFO] Adding dataSetMC_Bd2DPi_up_kpipi_2012_Bd2DPiHypo dataSetMC_Bd2DPi_down_kpipi_2012_Bd2DPiHypo 774447
+[INFO] New data name: dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DPiHypo
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi: Merge: pol
+[INFO] Sample mode year hypo: both_kpipi_2011_Bd2DPiHypo
+[INFO] Sample mode year hypo: both_kpipi_2012_Bd2DPiHypo
+[INFO] In dataOutTmp name: dataSetMC_Bd2DPi_both_kpipi_2011_Bd2DPiHypo with entries 432536
+[INFO] In dataOutTmp name: dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DPiHypo with entries 774447
+[INFO] Adding dataSetMC_Bd2DPi_both_kpipi_2011_Bd2DPiHypo dataSetMC_Bd2DPi_both_kpipi_2012_Bd2DPiHypo 1206983
+[INFO] New data name: dataSetMC_Bd2DPi_both_kpipi_run1_Bd2DPiHypo
+[INFO] ==> GeneralUtils::GetSampleModeYearHypo(...)
+[INFO] Sample both. Mode kpipi. Year run1. Hypo Bd2DPi: Merge: both
+[INFO] Sample mode year hypo: both_kpipi_run1_Bd2DPiHypo
+In dataOut name: dataSetMC_Bd2DPi_both_kpipi_run1_Bd2DPiHypo with entries 1206983
+[INFO] Adding: dataSetMC_Bd2DPi_both_kpipi_run1_Bd2DPiHypo to combData
+No additional preselection
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing dataset combData
+[#0] ERROR:InputArguments -- RooWorkspace::import(intWork) ERROR: unrecognized command: RecycleConflictNodes
+[#0] ERROR:InputArguments -- RooWorkspace::import(intWork) ERROR: unrecognized command: Silence
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooCategory::TagDecTrue
+Dataset entries:
+1206983.0
+Tag decision(s):
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>]
+Mistag(s):
+[<ROOT.RooConstVar object ("zero") at 0x48a8f9d0>]
+
+==========================================================
+Define some physical parameters
+==========================================================
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::Gamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::deltaGamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::deltaM
+
+==========================================================
+Build decay time resolution/error and acceptance
+==========================================================
+
+DEBUG: Spline knots: [0.4, 0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0, 12.0]
+DEBUG: Spline Coeffs: [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946, 1.0, 0.9351333333333333]
+Acceptance function:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x48c2a840
+  Clients: 
+  Servers: 
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48bb4bf0,V-) RooRealVar::Acceptance_SplineAccCoeff0 "v_{1}"
+    (0x48bb5df0,V-) RooRealVar::Acceptance_SplineAccCoeff1 "v_{2}"
+    (0x48bc4910,V-) RooRealVar::Acceptance_SplineAccCoeff2 "v_{3}"
+    (0x48bacb30,V-) RooRealVar::Acceptance_SplineAccCoeff3 "v_{4}"
+    (0x48bc4030,V-) RooRealVar::Acceptance_SplineAccCoeff4 "v_{5}"
+    (0x48ba6520,V-) RooRealVar::Acceptance_SplineAccCoeff5 "v_{6}"
+    (0x48bc0c90,V-) RooRealVar::Acceptance_SplineAccCoeff6 "v_{7}"
+    (0x48bb1a60,V-) RooRealVar::Acceptance_SplineAccCoeff7 "v_{8}"
+    (0x48bb5460,V-) RooRealVar::Acceptance_SplineAccCoeff8 "v_{9}"
+    (0x48b7fd80,V-) RooConstVar::one "1"
+    (0x48c094d0,V-) RooPolyVar::Acceptance_SplineAccCoeff10 "v_{11}"
+  Proxies: 
+    x -> BeautyTime
+    coefList -> 
+      1)   Acceptance_SplineAccCoeff0
+      2)   Acceptance_SplineAccCoeff1
+      3)   Acceptance_SplineAccCoeff2
+      4)   Acceptance_SplineAccCoeff3
+      5)   Acceptance_SplineAccCoeff4
+      6)   Acceptance_SplineAccCoeff5
+      7)   Acceptance_SplineAccCoeff6
+      8)   Acceptance_SplineAccCoeff7
+      9)   Acceptance_SplineAccCoeff8
+     10)                          one
+     11)  Acceptance_SplineAccCoeff10
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance"
+[INFO] Using mean resolution
+=>resmodelutils.getResolutionModel(): using list/tuple/dict to build resolution.
+=>resmodelutils.getResolutionModel(): multiplying resolution by spline acceptance
+=>resmodelutils.getResolutionModel(): using spline acceptance in fitting stage. Returning null acceptance (already included in resolution.)
+Resolution model:
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x48ce9cc0
+  Clients: 
+  Servers: 
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48ccbb80,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00 "Acceptance_SplineAcceptance_resmodel00"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = <none>
+
+==========================================================
+Build tagging
+==========================================================
+
+
+==========================================================
+Build CP parameters
+==========================================================
+
+[INFO] Building CP parameters directly from their values
+[INFO] Parameter: Cf set to be constant with value 0.000000
+[INFO] Parameter: Sf set to be constant with value 0.000000
+[INFO] Parameter: Df set to be constant with value 0.000000
+[INFO] Parameter: Sfbar set to be constant with value 0.000000
+[INFO] Parameter: Dfbar set to be constant with value 0.000000
+
+==========================================================
+Build production/detection asymmetries
+==========================================================
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::ProdAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(intWork) importing RooRealVar::DetAsymm
+
+==========================================================
+Build total time PDF
+==========================================================
+
+########################################################################
+buildBDecayTimePdf(
+	GLM = [None]
+	Dbar = <ROOT.RooRealVar object ("Dfbar") at 0x698c1d0>
+	mistagpdf = None
+	mistagobs = [<ROOT.RooConstVar object ("zero") at 0x48a8f9d0>]
+	DeltaGamma = <ROOT.RooRealVar object ("deltaGamma") at 0x48a9e200>
+	acceptance = None
+	mistagcalib = [[<ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>]]
+	fixtagging = False
+	config = {'UseProtoData': True, 'ParameteriseIntegral': True, 'ResolutionAcceptance': {'Signal': {'Resolution': {'ScaleFactor': [1.0], 'Bias': [0.0], 'Type': 'AverageModel', 'Parameters': {'fractions': [], 'sigmas': [0.05491]}}, 'TimeErrorPDF': None, 'Acceptance': {'KnotCoefficients': [0.1944, 0.33275, 0.61444, 0.86628, 0.996, 1.0745, 1.1083, 1.1565, 1.1946], 'Extrapolate': True, 'Float': True, 'Type': 'Spline', 'KnotPositions': [0.5, 1.0, 1.5, 2.0, 2.3, 2.6, 3.0, 4.0, 10.0]}}}, 'Decay': 'Bd2DPi', 'AcceptanceFunction': 'Spline', 'NBinsAcceptance': 0, 'DecayTimeResolutionModel': {'fractions': [], 'sigmas': [0.05491]}, 'BasicVariables': {'BeautyTime': {'Range': [0.4, 12.0], 'InputName': 'obsTime', 'Name': 'BeautyTime', 'Bins': 40}, 'TagDecTrue': {'Range': [-1.0, 1.0], 'InputName': 'TagDecTrue', 'Name': 'TagDecTrue'}, 'TagDecSS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecSS', 'Name': 'TagDecSS'}, 'TagDecOS': {'Range': [-1.0, 1.0], 'InputName': 'TagDecTrue', 'Name': 'TagDecTrue'}, 'BacCharge': {'Range': [-1000.0, 1000.0], 'InputName': 'BacCharge', 'Name': 'BacCharge'}}, 'DecayTimeResolutionBias': 0.0, 'Debug': True, 'ACP': {'Signal': {'C': [0.0], 'D': [0.0], 'S': [0.0], 'DeltaM': [0.51], 'Gamma': [0.658298377689478], 'DeltaGamma': [0.0], 'ParameteriseIntegral': True, 'Sbar': [0.0], 'NBinsAcceptance': 0, 'CPlimit': {'upper': 2.0, 'lower': -2.0}, 'Dbar': [0.0]}}, 'Context': 'FIT', 'constParams': ['Cf', 'Cfbar', 'Sf', 'Sfbar', 'Df', 'Dfbar', '.*scalefactor', 'resmodel00_sigma'], 'DetectionAsymmetry': {'Signal': [0.0]}, 'ProductionAsymmetry': {'Signal': [0.0]}, 'DecayTimeResolutionScaleFactor': 1.0}
+	C = <ROOT.RooRealVar object ("Cf") at 0x48dac100>
+	D = <ROOT.RooRealVar object ("Df") at 0x48dc6910>
+	aprod = <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>
+	timeerrpdf = None
+	S = <ROOT.RooRealVar object ("Sf") at 0x48cb0d40>
+	ws = <ROOT.RooWorkspace object ("intWork") at 0x837f600>
+	DeltaM = <ROOT.RooRealVar object ("deltaM") at 0x48a98110>
+	Gamma = <ROOT.RooRealVar object ("Gamma") at 0x48aa45b0>
+	qt = [<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>]
+	adet = <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>
+	name = time_signal
+	Sbar = <ROOT.RooRealVar object ("Sfbar") at 0x48d5e8d0>
+	timeerr = None
+	timeresmodel = <ROOT.RooAddModel object ("Acceptance_SplineAcceptance_resmodel") at 0x48ce9cc0>
+	HFAG = False
+	time = <ROOT.RooRealVar object ("BeautyTime") at 0x489d87c0>
+	qf = <ROOT.RooCategory object ("BacCharge") at 0x489d9130>
+	)
+########################################################################
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including resolution
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning resolution
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including acceptance
+timepdfutils_Bd.applyBinnedAcceptance(..)=> Returning resolution without acceptance.
+timepdfutils_Bd.parameteriseResModelIntegrals(..)=> Not doing parameterisation.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including tagging
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building linear calibration
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Including asymmetries
+Production: 0.0
+Detection: 0.0
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Additional arguments of DecRateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Eval -- RooAbsTestStatistic::initMPMode: started 8 remote server process.
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+Minuit2Minimizer: Minimize with max-calls 4500 convergence for edm < 1 strategy 2
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF6) first = 905237 last = 1056110 Likelihood offset now set to 456032
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF7) first = 1056110 last = 1206983 Likelihood offset now set to 455633
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF4) first = 603491 last = 754364 Likelihood offset now set to 455651
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF3) first = 452618 last = 603491 Likelihood offset now set to 455525
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF5) first = 754364 last = 905237 Likelihood offset now set to 455731
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF2) first = 301745 last = 452618 Likelihood offset now set to 453583
+ateCoeff_Bd:
+[<ROOT.RooCategory object ("TagDecTrue") at 0x489db250>, <ROOT.RooConstVar object ("zero") at 0x48a8f9d0>, <ROOT.RooRealVar object ("p0_true") at 0x48d66840>, <ROOT.RooRealVar object ("p1_true") at 0x48ce3dd0>, <ROOT.RooRealVar object ("deltap0_true") at 0x48ce1750>, <ROOT.RooRealVar object ("deltap1_true") at 0x698c940>, <ROOT.RooRealVar object ("avgeta_true") at 0x48ce8c10>, <ROOT.RooRealVar object ("tageff_true") at 0x48cf1f60>, <ROOT.RooRealVar object ("tagasymm_true") at 0x48d6f830>, <ROOT.RooRealVar object ("ProdAsymm") at 0x48d7f000>, <ROOT.RooRealVar object ("DetAsymm") at 0x48d6b800>]
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Number of arguments:
+11
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Defining CP coefficients
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Building time pdf
+timepdfutils_Bd.buildConditionalPdf(..)=> No time error/mistag pdf applied.
+timepdfutils_Bd.applyUnbinnedAcceptance(..)=> Returning pdf without acceptance.
+timepdfutils_Bd.buildBDecayTimePdf(..)=> Returning decay time pdf
+
+==========================================================
+Perfom maximum likelihood fit
+==========================================================
+
+[INFO] Fitting unbinned dataset
+[INFO] Fitting unweighted dataset
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (time_signal_cosh,time_signal_sinh,time_signal_cos,time_signal_sin)
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF1) first = 150872 last = 301745 Likelihood offset now set to 453176
+[#1] INFO:Minization -- RooNLLVar::evaluatePartition(nll_time_signal_TimePdf_combData_GOF0) first = 0 last = 150872 Likelihood offset now set to 452702
+MnSeedGenerator: for initial parameters FCN = 5.820766091347e-11
+MnSeedGenerator: Initial state:   - FCN = 5.820766091347e-11 Edm =      3.83907 NCalls =     37
+MnSeedGenerator: run Hesse - new state:   - FCN = 5.820766091347e-11 Edm =      3.01791 NCalls =    110
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN = 5.820766091347e-11 Edm =      3.01791 NCalls =    110
+VariableMetric: Iteration #   0 - FCN = 5.820766091347e-11 Edm =      3.01791 NCalls =    110
+VariableMetric: Iteration #   1 - FCN =  -3.024072532076 Edm =  0.000292368 NCalls =    129
+VariableMetric: After Hessian   - FCN =  -3.024072532076 Edm =  0.000305129 NCalls =    202
+VariableMetric: Iteration #   2 - FCN =  -3.024072532076 Edm =  0.000305129 NCalls =    202
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -3.0240725320763886
+Edm   = 0.000305128568685046207
+Nfcn  = 202
+Acceptance_SplineAccCoeff0	  = 0.196136	 +/-  0.00160761	(limited)
+Acceptance_SplineAccCoeff1	  = 0.334762	 +/-  0.00324442	(limited)
+Acceptance_SplineAccCoeff2	  = 0.615888	 +/-  0.00579122	(limited)
+Acceptance_SplineAccCoeff3	  = 0.866687	 +/-  0.00752313	(limited)
+Acceptance_SplineAccCoeff4	  = 0.998204	 +/-  0.00875405	(limited)
+Acceptance_SplineAccCoeff5	  = 1.07467	 +/-  0.00918829	(limited)
+Acceptance_SplineAccCoeff6	  = 1.10511	 +/-  0.00968951	(limited)
+Acceptance_SplineAccCoeff7	  = 1.15898	 +/-  0.00874716	(limited)
+Acceptance_SplineAccCoeff8	  = 1.18795	 +/-  0.0141541	(limited)
+[#1] INFO:Minization -- Command timer: Real time 0:02:51, CP time 0.320
+[#1] INFO:Minization -- Session timer: Real time 0:02:51, CP time 0.320
+[#1] INFO:Minization -- Command timer: Real time 0:01:16, CP time 0.120
+[#1] INFO:Minization -- Session timer: Real time 0:04:08, CP time 0.440, 2 slices
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+
+  RooFitResult: minimized FCN value: -3.02407, estimated distance to minimum: 0.000290716
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Constant Parameter    Value     
+  --------------------  ------------
+                    Cf    0.0000e+00
+              DetAsymm    0.0000e+00
+                    Df    0.0000e+00
+                 Dfbar    0.0000e+00
+                 Gamma    6.5830e-01
+             ProdAsymm    0.0000e+00
+                    Sf    0.0000e+00
+                 Sfbar    0.0000e+00
+           avgeta_true    0.0000e+00
+            deltaGamma    0.0000e+00
+                deltaM    5.1000e-01
+          deltap0_true    0.0000e+00
+          deltap1_true    0.0000e+00
+               p0_true    0.0000e+00
+               p1_true    1.0000e+00
+      resmodel00_sigma    5.4910e-02
+         tagasymm_true    0.0000e+00
+           tageff_true    1.0000e+00
+          timeerr_bias    0.0000e+00
+   timeerr_scalefactor    1.0000e+00
+
+    Floating Parameter  InitialValue    FinalValue +/-  Error     GblCorr.
+  --------------------  ------------  --------------------------  --------
+  Acceptance_SplineAccCoeff0    1.9440e-01    1.9614e-01 +/-  1.58e-03  <none>
+  Acceptance_SplineAccCoeff1    3.3275e-01    3.3476e-01 +/-  3.20e-03  <none>
+  Acceptance_SplineAccCoeff2    6.1444e-01    6.1589e-01 +/-  5.72e-03  <none>
+  Acceptance_SplineAccCoeff3    8.6628e-01    8.6669e-01 +/-  7.30e-03  <none>
+  Acceptance_SplineAccCoeff4    9.9600e-01    9.9820e-01 +/-  8.63e-03  <none>
+  Acceptance_SplineAccCoeff5    1.0745e+00    1.0747e+00 +/-  9.07e-03  <none>
+  Acceptance_SplineAccCoeff6    1.1083e+00    1.1051e+00 +/-  9.38e-03  <none>
+  Acceptance_SplineAccCoeff7    1.1565e+00    1.1590e+00 +/-  8.59e-03  <none>
+  Acceptance_SplineAccCoeff8    1.1946e+00    1.1879e+00 +/-  1.39e-02  <none>
+
+
+9x9 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |          1      0.7246      0.5016      0.7069      0.6201 
+   1 |     0.7246           1      0.2048      0.7058      0.4603 
+   2 |     0.5016      0.2048           1       0.261      0.7388 
+   3 |     0.7069      0.7058       0.261           1      0.3648 
+   4 |     0.6201      0.4603      0.7388      0.3648           1 
+   5 |     0.6613      0.5824      0.4828      0.7274      0.3916 
+   6 |     0.6682      0.5487      0.6214      0.5834      0.7224 
+   7 |     0.7047      0.5944      0.6025      0.6755      0.6305 
+   8 |     0.6376      0.5311      0.5681      0.5851      0.6275 
+
+
+     |      5    |      6    |      7    |      8    |
+----------------------------------------------------------------------
+   0 |     0.6613      0.6682      0.7047      0.6376 
+   1 |     0.5824      0.5487      0.5944      0.5311 
+   2 |     0.4828      0.6214      0.6025      0.5681 
+   3 |     0.7274      0.5834      0.6755      0.5851 
+   4 |     0.3916      0.7224      0.6305      0.6275 
+   5 |          1      0.4578      0.7221      0.5486 
+   6 |     0.4578           1      0.5413      0.7309 
+   7 |     0.7221      0.5413           1      0.4224 
+   8 |     0.5486      0.7309      0.4224           1 
+
+
+9x9 matrix is as follows
+
+     |      0    |      1    |      2    |      3    |      4    |
+----------------------------------------------------------------------
+   0 |   2.51e-06   3.671e-06   4.548e-06   8.175e-06   8.475e-06 
+   1 |  3.671e-06   1.023e-05   3.748e-06   1.648e-05    1.27e-05 
+   2 |  4.548e-06   3.748e-06   3.276e-05   1.091e-05   3.648e-05 
+   3 |  8.175e-06   1.648e-05   1.091e-05   5.328e-05   2.297e-05 
+   4 |  8.475e-06    1.27e-05   3.648e-05   2.297e-05   7.443e-05 
+   5 |  9.505e-06    1.69e-05   2.507e-05   4.817e-05   3.065e-05 
+   6 |  9.924e-06   1.645e-05   3.335e-05   3.992e-05   5.843e-05 
+   7 |  9.594e-06   1.634e-05   2.964e-05   4.237e-05   4.675e-05 
+   8 |  1.403e-05   2.358e-05   4.515e-05    5.93e-05   7.517e-05 
+
+
+     |      5    |      6    |      7    |      8    |
+----------------------------------------------------------------------
+   0 |  9.505e-06   9.924e-06   9.594e-06   1.403e-05 
+   1 |   1.69e-05   1.645e-05   1.634e-05   2.358e-05 
+   2 |  2.507e-05   3.335e-05   2.964e-05   4.515e-05 
+   3 |  4.817e-05   3.992e-05   4.237e-05    5.93e-05 
+   4 |  3.065e-05   5.843e-05   4.675e-05   7.517e-05 
+   5 |  8.231e-05   3.894e-05    5.63e-05   6.912e-05 
+   6 |  3.894e-05    8.79e-05   4.362e-05   9.514e-05 
+   7 |   5.63e-05   4.362e-05   7.386e-05   5.041e-05 
+   8 |  6.912e-05   9.514e-05   5.041e-05   0.0001928 
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting covariance matrix
+FitResultGrabberUtils.PrintLatexTable(...)==> Plotting correlation matrix
+
+==========================================================
+Save tree with fit result for pull plots
+==========================================================
+
+FitResultGrabberUtils.CreateToyPullTree(...)==> Creating TTree to store fit results.
+Setting Acceptance_SplineAccCoeff0 fitted value branch...
+...value  0.196135774255
+Setting Acceptance_SplineAccCoeff0 fitted error branch...
+...value  0.00158423813991
+Setting Acceptance_SplineAccCoeff0 generated value branch...
+...value  0.194399997592
+Setting Acceptance_SplineAccCoeff1 fitted value branch...
+...value  0.334762394428
+Setting Acceptance_SplineAccCoeff1 fitted error branch...
+...value  0.00319808651693
+Setting Acceptance_SplineAccCoeff1 generated value branch...
+...value  0.332749992609
+Setting Acceptance_SplineAccCoeff2 fitted value branch...
+...value  0.615887701511
+Setting Acceptance_SplineAccCoeff2 fitted error branch...
+...value  0.00572391878814
+Setting Acceptance_SplineAccCoeff2 generated value branch...
+...value  0.614440023899
+Setting Acceptance_SplineAccCoeff3 fitted value branch...
+...value  0.866687178612
+Setting Acceptance_SplineAccCoeff3 fitted error branch...
+...value  0.0072992159985
+Setting Acceptance_SplineAccCoeff3 generated value branch...
+...value  0.866280019283
+Setting Acceptance_SplineAccCoeff4 fitted value branch...
+...value  0.998203754425
+Setting Acceptance_SplineAccCoeff4 fitted error branch...
+...value  0.00862711854279
+Setting Acceptance_SplineAccCoeff4 generated value branch...
+...value  0.995999991894
+Setting Acceptance_SplineAccCoeff5 fitted value branch...
+...value  1.07466614246
+Setting Acceptance_SplineAccCoeff5 fitted error branch...
+...value  0.0090726679191
+Setting Acceptance_SplineAccCoeff5 generated value branch...
+...value  1.07449996471
+Setting Acceptance_SplineAccCoeff6 fitted value branch...
+...value  1.10510861874
+Setting Acceptance_SplineAccCoeff6 fitted error branch...
+...value  0.00937543157488
+Setting Acceptance_SplineAccCoeff6 generated value branch...
+...value  1.10829997063
+Setting Acceptance_SplineAccCoeff7 fitted value branch...
+...value  1.15898144245
+Setting Acceptance_SplineAccCoeff7 fitted error branch...
+...value  0.00859410595149
+Setting Acceptance_SplineAccCoeff7 generated value branch...
+...value  1.15649998188
+Setting Acceptance_SplineAccCoeff8 fitted value branch...
+...value  1.18794608116
+Setting Acceptance_SplineAccCoeff8 fitted error branch...
+...value  0.0138850696385
+Setting Acceptance_SplineAccCoeff8 generated value branch...
+...value  1.19459998608
+Setting fit quality branches
+TFile**		PullTree.root	
+ TFile*		PullTree.root	
+  OBJ: TTree	PullTree	PullTree : 0 at: 0x49467c60
+  KEY: TTree	PullTree;1	PullTree
+******************************************************************************
+*Tree    :PullTree  : PullTree                                               *
+*Entries :        1 : Total =           20757 bytes  File  Size =       4441 *
+*        :          : Tree compression factor =   1.00                       *
+******************************************************************************
+*Br    0 :Acceptance_SplineAccCoeff0_fit : Acceptance_SplineAccCoeff0_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    1 :Acceptance_SplineAccCoeff0_err : Acceptance_SplineAccCoeff0_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    2 :Acceptance_SplineAccCoeff0_gen : Acceptance_SplineAccCoeff0_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    3 :Acceptance_SplineAccCoeff1_fit : Acceptance_SplineAccCoeff1_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    4 :Acceptance_SplineAccCoeff1_err : Acceptance_SplineAccCoeff1_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    5 :Acceptance_SplineAccCoeff1_gen : Acceptance_SplineAccCoeff1_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    6 :Acceptance_SplineAccCoeff2_fit : Acceptance_SplineAccCoeff2_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    7 :Acceptance_SplineAccCoeff2_err : Acceptance_SplineAccCoeff2_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    8 :Acceptance_SplineAccCoeff2_gen : Acceptance_SplineAccCoeff2_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br    9 :Acceptance_SplineAccCoeff3_fit : Acceptance_SplineAccCoeff3_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   10 :Acceptance_SplineAccCoeff3_err : Acceptance_SplineAccCoeff3_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   11 :Acceptance_SplineAccCoeff3_gen : Acceptance_SplineAccCoeff3_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   12 :Acceptance_SplineAccCoeff4_fit : Acceptance_SplineAccCoeff4_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   13 :Acceptance_SplineAccCoeff4_err : Acceptance_SplineAccCoeff4_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   14 :Acceptance_SplineAccCoeff4_gen : Acceptance_SplineAccCoeff4_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   15 :Acceptance_SplineAccCoeff5_fit : Acceptance_SplineAccCoeff5_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   16 :Acceptance_SplineAccCoeff5_err : Acceptance_SplineAccCoeff5_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   17 :Acceptance_SplineAccCoeff5_gen : Acceptance_SplineAccCoeff5_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   18 :Acceptance_SplineAccCoeff6_fit : Acceptance_SplineAccCoeff6_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   19 :Acceptance_SplineAccCoeff6_err : Acceptance_SplineAccCoeff6_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   20 :Acceptance_SplineAccCoeff6_gen : Acceptance_SplineAccCoeff6_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   21 :Acceptance_SplineAccCoeff7_fit : Acceptance_SplineAccCoeff7_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   22 :Acceptance_SplineAccCoeff7_err : Acceptance_SplineAccCoeff7_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   23 :Acceptance_SplineAccCoeff7_gen : Acceptance_SplineAccCoeff7_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   24 :Acceptance_SplineAccCoeff8_fit : Acceptance_SplineAccCoeff8_fit/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   25 :Acceptance_SplineAccCoeff8_err : Acceptance_SplineAccCoeff8_err/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   26 :Acceptance_SplineAccCoeff8_gen : Acceptance_SplineAccCoeff8_gen/F  *
+*Entries :        1 : Total  Size=        687 bytes  File Size  =        105 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   27 :CovQual   : CovQual/F                                              *
+*Entries :        1 : Total  Size=        572 bytes  File Size  =         82 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   28 :MINUITStatus : MINUITStatus/F                                      *
+*Entries :        1 : Total  Size=        597 bytes  File Size  =         87 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+*Br   29 :edm       : edm/F                                                  *
+*Entries :        1 : Total  Size=        552 bytes  File Size  =         78 *
+*Baskets :        1 : Basket Size=      32000 bytes  Compression=   1.00     *
+*............................................................................*
+DataStore combData (dataSetMC_Bd2DPi_up_kpipi_2011_Bd2DPiHypo)
+  Contains 1206983 entries
+  Observables: 
+    1)      sample = both_kpipi_run1_Bd2DPiHypo(idx = 0)
+  "sample"
+    2)  BeautyTime = 3.14932  L(0.4 - 12)  "BeautyTime"
+    3)   BacCharge = h-(idx = -1)
+  "bachelor charge"
+    4)    TagDecOS = Bbar_0(idx = -1)
+  "flavour tagging result"
+    5)    TagDecSS = Utagged_1(idx = 0)
+  "flavour tagging result"
+    6)  TagDecTrue = Bbar_2(idx = -1)
+  "flavour tagging result"
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes: 
+  Address: 0x48f54880
+  Clients: 
+  Servers: 
+    (0x48f83650,V-) RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel convoluted with basis function exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma"
+    (0x48f88290,V-) RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel convoluted with basis function exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma"
+    (0x48f8ce70,V-) RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel convoluted with basis function exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM"
+    (0x48f91a50,V-) RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel convoluted with basis function exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM"
+    (0x48ce9cc0,--) RooAddModel::Acceptance_SplineAcceptance_resmodel "Acceptance_SplineAcceptance_resmodel"
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48e567a0,V-) Inverse::GammaTau "Gamma #tau"
+    (0x48a9e200,V-) RooRealVar::deltaGamma "#Delta#Gamma"
+    (0x48e50f80,V-) DecRateCoeff_Bd::time_signal_cosh "time_signal_cosh"
+    (0x48e43f10,V-) DecRateCoeff_Bd::time_signal_sinh "time_signal_sinh"
+    (0x48e5ff00,V-) DecRateCoeff_Bd::time_signal_cos "time_signal_cos"
+    (0x48e72c80,V-) DecRateCoeff_Bd::time_signal_sin "time_signal_sin"
+    (0x48a98110,V-) RooRealVar::deltaM "#Delta m"
+  Proxies: 
+    !model -> Acceptance_SplineAcceptance_resmodel
+    !convVar -> BeautyTime
+    !convSet -> 
+      1)  Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+      2)  Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+      3)         Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+      4)         Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+    t -> BeautyTime
+    tau -> GammaTau
+    dgamma -> deltaGamma
+    f0 -> time_signal_cosh
+    f1 -> time_signal_sinh
+    f2 -> time_signal_cos
+    f3 -> time_signal_sin
+    dm -> deltaM
+--- RooAbsReal ---
+
+  Plot label is "time_signal_TimePdf"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooAbsAnaConvPdf ---
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes:  [NOCacheAndTrack,SnapShot_ExtRefClone] 
+  Address: 0x48f83650
+  Clients: 
+    (0x48f54880,V-) RooBDecay::time_signal_TimePdf "time_signal full time pdf"
+  Servers: 
+    (0x48f865a0,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel00 convoluted with basis function exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma"
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48e567a0,V-) Inverse::GammaTau "Gamma #tau"
+    (0x48a9e200,V-) RooRealVar::deltaGamma "#Delta#Gamma"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = 0x48f84bb0 exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma "exp(-@0/@1)*cosh(@0*@2/2)"
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes:  [NOCacheAndTrack,SnapShot_ExtRefClone] 
+  Address: 0x48f88290
+  Clients: 
+    (0x48f54880,V-) RooBDecay::time_signal_TimePdf "time_signal full time pdf"
+  Servers: 
+    (0x48f8b1e0,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel00 convoluted with basis function exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma"
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48e567a0,V-) Inverse::GammaTau "Gamma #tau"
+    (0x48a9e200,V-) RooRealVar::deltaGamma "#Delta#Gamma"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = 0x48f897f0 exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma "exp(-@0/@1)*sinh(@0*@2/2)"
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes:  [NOCacheAndTrack,SnapShot_ExtRefClone] 
+  Address: 0x48f8ce70
+  Clients: 
+    (0x48f54880,V-) RooBDecay::time_signal_TimePdf "time_signal full time pdf"
+  Servers: 
+    (0x48f8fdc0,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel00 convoluted with basis function exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM"
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48e567a0,V-) Inverse::GammaTau "Gamma #tau"
+    (0x48a98110,V-) RooRealVar::deltaM "#Delta m"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = 0x48f8e3d0 exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM "exp(-@0/@1)*cos(@0*@2)"
+--- RooAbsArg ---
+  Value State: DIRTY
+  Shape State: DIRTY
+  Attributes:  [NOCacheAndTrack,SnapShot_ExtRefClone] 
+  Address: 0x48f91a50
+  Clients: 
+    (0x48f54880,V-) RooBDecay::time_signal_TimePdf "time_signal full time pdf"
+  Servers: 
+    (0x48f949a0,V-) RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf] "Acceptance_SplineAcceptance_resmodel00 convoluted with basis function exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM"
+    (0x489d87c0,V-) RooRealVar::BeautyTime "BeautyTime"
+    (0x48e567a0,V-) Inverse::GammaTau "Gamma #tau"
+    (0x48a98110,V-) RooRealVar::deltaM "#Delta m"
+  Proxies: 
+    x -> BeautyTime
+    !refCoefNorm -> 
+    !pdfs -> 
+      1)  Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+    !coefficients -> 
+--- RooAbsReal ---
+
+  Plot label is "Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]"
+--- RooAbsPdf ---
+Cached value = 0
+--- RooResolutionModel ---
+basis function = 0x48f92fb0 exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM "exp(-@0/@1)*sin(@0*@2)"
+
+=========================================
+Pretty-printing fit results
+=========================================
+
+FitResultGrabberUtils.PrintLatexTable(...)==> Creating LaTeX style table with fitted parameters
+
+
+Parameter number & Parameter name & Fitted value & Initial value \\
+\hline
+$0$ & $v_{1}$ & $0.1961\pm0.0016$ & $0.1944\pm0$ \\
+$1$ & $v_{2}$ & $0.3348\pm0.0032$ & $0.33275\pm0$ \\
+$2$ & $v_{3}$ & $0.6159\pm0.0057$ & $0.61444\pm0$ \\
+$3$ & $v_{4}$ & $0.8667\pm0.0073$ & $0.86628\pm0$ \\
+$4$ & $v_{5}$ & $0.9982\pm0.0086$ & $0.996\pm0$ \\
+$5$ & $v_{6}$ & $1.0747\pm0.0091$ & $1.0745\pm0$ \\
+$6$ & $v_{7}$ & $1.1051\pm0.0094$ & $1.1083\pm0$ \\
+$7$ & $v_{8}$ & $1.1590\pm0.0086$ & $1.1565\pm0$ \\
+$8$ & $v_{9}$ & $1.188\pm0.014$ & $1.1946\pm0$ \\
+\hline
+
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset combData
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::sample
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::BeautyTime
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::BacCharge
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecOS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecSS
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCategory::TagDecTrue
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing dataset combData
+[#0] ERROR:ObjectHandling -- RooWorkspace::import(workspace) ERROR dataset with name combData already exists in workspace, import aborted
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooBDecay::time_signal_TimePdf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cosh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooCubicSplineFun::Acceptance_SplineAcceptance
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff7
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Acceptance_SplineAccCoeff8
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::one
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooPolyVar::Acceptance_SplineAccCoeff10
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::Acceptance_SplineAccCoeff10_coeff0
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::Acceptance_SplineAccCoeff10_coeff1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::timeerr_bias
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::resmodel00_sigma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::timeerr_scalefactor
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing Inverse::GammaTau
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Gamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltaGamma
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sinh(@0*@2/2)_BeautyTime_GammaTau_deltaGamma_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*cos(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltaM
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00_conv_exp(-@0/@1)*sin(@0*@2)_BeautyTime_GammaTau_deltaM_[time_signal_RawTimePdf]
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooAddModel::Acceptance_SplineAcceptance_resmodel
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooGaussEfficiencyModel::Acceptance_SplineAcceptance_resmodel00
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_cosh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooConstVar::zero
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::avgeta_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::p0_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::p1_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltap0_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::deltap1_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::tageff_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::tagasymm_true
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::ProdAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::DetAsymm
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_sinh
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Df
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Dfbar
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_cos
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Cf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing DecRateCoeff_Bd::time_signal_sin
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Sf
+[#1] INFO:ObjectHandling -- RooWorkspace::import(workspace) importing RooRealVar::Sfbar
+
+RooFitResult object name:
+fitresult_time_signal_TimePdf_combData
+
