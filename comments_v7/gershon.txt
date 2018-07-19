@@ -4,11 +4,15 @@ general notation
 - write B+ -> D0bar pi+, when you mean the Cabibbo-favoured mode 
 (always, I believe), not B+ -> D0pi+
 
+> Prefer as it is
+
 page 21 you state "The measured value of J is too small by several 
 orders of magnitude to explain the observed matter-antimatter asymmetry 
 in the universe" however even if J was its maximum possible value, it 
 would still not be possible to explain the BAU through SM CP violation. 
 So the wording is not quite right.
+
+> "measured" removed
 
 on page 50 you state "many final states, such as D-+pi+-, are not CP 
 eigenstates. This means that both B and B̄ mesons can decay to the same 
@@ -16,17 +20,27 @@ final state particles, ..."  But that's not what "not CP eigenstates
 means" -- in fact, if a state *is* a CP eigenstate then both B and Bbar 
 can decay to it.  the point is just that the wording has got a bit confused
 
+> Rephrased
+
 around Eq.3.13 (page 55), I think it would be helpful to explain clearly 
 what the sum runs over (the use of the same index i in Eq.3.15 could 
 confuse someone into thinking it is over different taggers, as happened 
 for me)
 
+> Prefer as it is (it is specfied already that "N" is the order of the GLM model)
+
 page 65, sec 3.3.1, there is a "to" that should be "\to"
+
+> Fixed
 
 page 66 & Fig.3.8 -- comment in the text that many more cycles have been 
 tested with no further improvement found
+
+> Prefer as it is
 
 Figs.3.9-3.11 since it is hard to see any differences in the 1D 
 distributions, it would be good to add some explanation of where the 
 discrimination power comes from.  if there are 2D distributions that 
 show this more clearly, consider adding them.
+
+> Prefer as it is (importance and partial dependence plots give already enough information)
