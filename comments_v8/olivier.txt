@@ -1,0 +1,242 @@
+- replace “D-+pi-+” with "D-+pi+-“ in the title of the thesis (this error must absolutely be corrected, otherwise electric charge is violated)
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the title of Sec. 1.4 on page 12
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the first line of Sec. 1.4 on page 12
+>Done
+
+- replace "D-+pi-“ with "D-+pi+-“ (or with “D+pi-“ ?) in lines 3 and 4 from the bottom of page 14
+>Done
+
+- replace “D(*)+-pi-+” with “D(*)-+pi+-“ in the last line of page 14
+>Done
+
+- replace “B -> D-+pi+-“ with "B0 -> D-+pi+-“ on line 4 from the bottom of page 27
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in line 3 of page 34
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in line 4 from the bottom of Sec 3.1 on page 40
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the title of Sec. 3.2 on page 40
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 5 from the bottom of page 41
+>Done
+
+- replace  “D0(-> K-pi+) pi+” with “D0bar(-> K+pi-) pi+” in line 3 of page 42
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 6 of page 42
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 16 of page 42
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in line 16 of page 42
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 9 from the bottom of page 42
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 7 from the bottom of page 42
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Table 3.1 on page 43
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Table 3.2 on page 43
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. 3.4 on page 44
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 2 of page 44
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 6 of page 44
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 9 of page 44
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. 3.5 on page 45
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Table 3.3 on page 45
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in Table 3.3 on page 45
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in line 8 of page 46
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 4 of Sec. 3.3.1 on page 49
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 11 of Sec. 3.3.1 on page 49
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. 3.11 on page 55
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the first line of Sec. 3.3.4 on page 57
+>Done
+
+- replace “D0” with D in line 2 from the bottom of Sec. 4.1.1 on page 69
+>Done
+
+- replace “D+-“ with “D”-+” in line 6 of Sec 4.1.3 on page 70
+>Done
+
+- replace “D0” with D in line 1 on page 72
+>Done
+
+- replace “D0” with D in line 2 on page 72
+>Done
+
+- replace "D*+K+” with “D*-K+” on line 3 from the bottom of page 81 (otherwise electric charge is violated)
+>Done
+
+- replace “K-+pi+-pi+-“ with “K+-pi-+pi-+” in the caption of Fig. 4.17 on page 91
+>Done
+
+- replace “D+pi-, D-pi+” with “D-pi+, D+pi-“ in line 3 of Sec. 4.3.4 on page 91
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the caption of Fig. 5.1 on page 96
+>Done
+
+- replace “D+- + track” with “D-+ + track” in the caption of Fig. 5.1 on page 96
+>Done
+
+- replace “D+-“ with “D-+” in line 2 of Sec. 5.1 on page 96
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 3 of Sec. 5.1 on page 96
+>Done
+
+- replace “D+-“ with “D-+” in line 6 of Sec. 5.1 on page 96
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 8 of Sec. 5.1 on page 96
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 2 of Sec. 5.2 on page 96
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in  line 3 of Sec. 5.2 on page 96
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 2 of Sec. 5.1.2 on page 97
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 5 of Sec. 5.1.2 on page 97
+>Done
+
+- replace “D+- + track” with “D-+ + track” in line 20 of Sec. 5.1.2 on page 97
+>Done
+
+- replace “D+- + track” with “D-+ + track” in the caption of Table 5.1 on page 98
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in line 1 of page 122
+>Done
+
+- replace “Ds-pi+” with “Ds+pi-“ in line 6 of page 123
+>Done
+
+- replace “Ds-pi+” with “Ds+pi-“ in Eq. (6.5) on page 123
+>Done
+
+- replace “Ds-pi+” with “Ds+pi-“ in line 9 of page 123
+>Done
+
+- in Eq. (6.5) on pag 123 and the following line, replace “fDs-” with “fDs+”; actually, here I think it would be better to drop the charge in the subscripts, and write “fD” and “fDs” (consistent with notation of Eq. (6.6))
+>Done
+
+- replace “Ds-pi+” with “Ds+pi-“ in line 5 of page 127
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the titles of Appendices A.1 on page 130
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 6 of page 130
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 10 of page 130
+>Done
+
+- replace “D0” with “D0bar” in all bullets of page 130
+>Done
+
+- replace “pi+-pi-+” with “pi+pi-“ in the 3rd bullet of page 130
+>Done
+
+- replace “+-“ with “+” in the 4th bullet (twice) and in the 8th bullet (twice) of page 130
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the titles of Appendices A.2 on page 130
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Table A.1 on page 131
+>Done
+
+- replace “B+- -> D0pi+-” with “B+ -> D0bar pi+” in the caption of Table A.2 on page 131
+>Done
+
+- I would replace “D0” with “D” (and “D*0” with “D*") in all subscript decays of Tables A.1 and A.2 on page 131
+>Done
+
+- replace “D0pi+-“ with “D0bar pi+” in the caption of Fig. A.1 (twice) on page 132
+>Done
+
+- replace “D-+pi+-“ with “D0bar pi+” in the caption of Fig. A.1 on page 132
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in line 6 of page 132
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the titles of Appendices A.3 on page 133
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Table A.3 on page 133
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. A.2 on page 134
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. A.3 on page 135
+>Done
+
+- replace “B+- -> D0 pi+-” with “B+ -> D0bar pi+” in the caption of Fig. A.4 on page 136
+>Done
+
+- replace "D-+pi-“ with "D-+pi+-“ in the title of Appendix C on page 142
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. J.3 on page 164
+>Done
+
+- replace “D0pi+” with "D0bar pi+” in the caption of Fig. J.4 on page 165
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the title of Appendix M on page 171
+>Done
+
+- replace "D+-pi-+” with "D-+pi+-“ in the caption of Table M.1 on page 171
+>Done
+
+- in the 4th bullet of page 86, put all subscript decays in math mode (i.e. italic font)
+>Done
+
+- in the caption of Fig. 4.19 on page 91, replace “superimposed.The” with “superimposed. The”, "belowthe” with “below the”, and “the normalized” with “the normalized” (missing spaces)
+>Fixed
+
+- Reference [39] has been published, replace “to appear in JHEP (2018)” with “JHEP 06 (2018) 084”
+>Fixed

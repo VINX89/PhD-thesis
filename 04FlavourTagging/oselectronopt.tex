@@ -22,9 +22,9 @@ A similar approach is followed for the development of the \OSK~and \OSmu~taggers
 
 \subsection{Sample definition}
 
-The \OSe~algorithm is developed in a data-driven fashion by using \emph{sWeighted} samples of $B^+\to J/\psi K^+$ decays. The full Run 1 dataset (2011+2012) is used to optimise the algorithm on Run 1 conditions, whereas the 2016 dataset is exploited to optimise the tagger on Run 2 conditions. An alternative optimisation on \emph{sWeighted} 2016 $B^+\to D^0 \pi^+$ data is performed in parallel. The motivation for this is to cross-check the Run 2 implementation with an independent decay mode, which is characterised by different kinematics than that of $B^+\to J/\psi K^+$.
+The \OSe~algorithm is developed in a data-driven fashion by using \emph{sWeighted} samples of $B^+\to J/\psi K^+$ decays. The full Run 1 dataset (2011+2012) is used to optimise the algorithm on Run 1 conditions, whereas the 2016 dataset is exploited to optimise the tagger on Run 2 conditions. An alternative optimisation on \emph{sWeighted} 2016 $B^+\to \Dzb \pi^+$ data is performed in parallel. The motivation for this is to cross-check the Run 2 implementation with an independent decay mode, which is characterised by different kinematics than that of $B^+\to J/\psi K^+$.
 Hereafter, the \OSe~tagger optimised on Run 1 $B^+\to J/\psi K^+$ data will be indicated as ``Run 1 new'' version, in order to distinguish it from the previous ``Run 1 old'' version introduced in Ref.~\cite{LHCb-PAPER-2011-027}, which was based on simple selection criteria and a neural network for the mistag estimation.  
-The \OSe~tagger optimised on Run 2 $B^+\to J/\psi K^+$ and $B^+\to D^0 \pi^+$ data will be denoted as ``Run 2 B2CC'' and ``Run 2 B2OC'' versions, respectively.
+The \OSe~tagger optimised on Run 2 $B^+\to J/\psi K^+$ and $B^+\to \Dzb \pi^+$ data will be denoted as ``Run 2 B2CC'' and ``Run 2 B2OC'' versions, respectively.
 Moreover, it is understood that the tunings of all the PROBNN features mentioned in this section are \texttt{MC12TuneV2} for Run 1 data and \texttt{MC15TuneV1} for Run 2 data.
 
 Each dataset is divided in four subsamples:
@@ -175,7 +175,7 @@ The BDT classifier is trained to identify $B$ candidates as correctly or incorre
         \includegraphics[width=0.8\textwidth]{04Flavourtagging/figs/OSelectronOpt/2018-04-07-vibattis-OSElectron-bdt-calibration-sWeights_Run2_Bu2D0pi/FeaturesDistribution_RunIIcuts.pdf}
         \end{center}
         \vspace{-2mm}
-        \caption{Distributions (for the \emph{sWeighted}, Run 2 $B^+\to D^0 \pi^+$ sample) of the input features of the BDT classifier, for candidates with a right (red) and wrong (blue) decision from the \OSe~tagger.}
+        \caption{Distributions (for the \emph{sWeighted}, Run 2 $B^+\to \Dzb \pi^+$ sample) of the input features of the BDT classifier, for candidates with a right (red) and wrong (blue) decision from the \OSe~tagger.}
          \label{fig:OSefeaturesRunIIB2OC}
 \end{figure}
 
@@ -250,7 +250,7 @@ The distributions of $\eta$ for training and test samples, splitted per target v
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsubsection[Performance on $B^+\to J/\psi K^+$ and $B^+\to D^0 \pi^+$ data]{Performance on \boldmath{$B^+\to J/\psi K^+$} and \boldmath{$B^+\to D^0 \pi^+$} data}
+\subsubsection[Performance on $B^+\to J/\psi K^+$ and $B^+\to \Dzb \pi^+$ data]{Performance on \boldmath{$B^+\to J/\psi K^+$} and \boldmath{$B^+\to \Dzb \pi^+$} data}
 \label{sec:tagging:OSePerf1}
 
 Once the BDT is trained on the training ssample, the mistag $\eta$ is predicted for each candidate using the evaluation samples. Then, a two-fold evaluation is applied:

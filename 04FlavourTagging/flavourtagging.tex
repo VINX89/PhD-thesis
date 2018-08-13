@@ -4,7 +4,7 @@
 
 In this chapter, a description of the \emph{flavour tagging} techniques at LHCb is reported.
 After a brief introduction to the methods,
-the calibration of the \emph{Opposite Side} (OS) and \emph{Same Side} (SS) algorithms for the $\Bz\to\Dpm\pimp$ 
+the calibration of the \emph{Opposite Side} (OS) and \emph{Same Side} (SS) algorithms for the $\Bz\to\Dmp\pipm$ 
 time-dependent analysis are 
 described. Finally, a reoptimisation of the OS \emph{electron} (\OSe) tagger on both Run 1 and Run 2 data is reported. 
 This work was made in collaboration with the University of Dortmund. During my PhD work
@@ -251,13 +251,13 @@ $\eta = 1-P(\bquarkbar)$. Otherwise if $P(\bquark)>P(\bquarkbar)$ the combined t
 probability are $d=-1$ and $\eta=1-P(\bquark)$. 
 
 Equation~\ref{eq:FTcombination1} is valid under the assumption that all taggers in the combination are independent.
-In the $\Bz\to\Dpm\pimp$ analysis presented in this thesis, the OS taggers are combined in a single OS combination, and
+In the $\Bz\to\Dmp\pipm$ analysis presented in this thesis, the OS taggers are combined in a single OS combination, and
 the same is done for the SS taggers. Effects due to correlations among taggers within a combination are corrected for by calibrating
 the combined predicted mistag.
 
 %-------------------------------------------------------------------------------
 
-\section[Flavour tagging strategy for the $\Bz\to\Dpm\pimp$ time-dependent analysis]{Flavour tagging strategy for the \boldmath{$\Bz\to\Dpm\pimp$} time-dependent analysis}
+\section[Flavour tagging strategy for the $\Bz\to\Dmp\pipm$ time-dependent analysis]{Flavour tagging strategy for the \boldmath{$\Bz\to\Dmp\pipm$} time-dependent analysis}
 \label{sec:tagging:strategy}
 In the $\Bz\to\Dpm\pimp$ analysis presented in this thesis, the OS combination (including the OS charm tagger) and the SS
 combination are used. The implementation of the OS algorithms used in the combination are the same as described
@@ -311,7 +311,7 @@ serve the purpose of: i) determining the best functional form of the calibration
 the signal; ii) having some reference values for the calibration parameters for a comparison with those extracted
 from the signal.
 
-The calibration for the OS combination are determined using $\Bp\to \Dz\pip$ decays, as
+The calibration for the OS combination are determined using $\Bp\to \Dzb\pip$ decays, as
 described in Sec.~\ref{sec:tagging:OScalib}. The SS pion and the SS proton taggers were developed
 using $\Bz\to\Dmp\pipm$ data and assuming negligible $\CP$ violation.
 The use of these algorithms in this analysis could bias the measurement.
@@ -327,11 +327,11 @@ combination is described in Sec.~\ref{sec:tagging:SScalib}.
 
 The calibration parameters of the OS tagger combination (namely the combination of
 the OS electron, muon, kaon, vertex charge, and charm algorithms) are determined using $\Bp\to
-\Dz(\to \Km\pip)\pip$ candidates reconstructed in $3\invfb$ of data.
+\Dzb(\to \Kp\pim)\pip$ candidates reconstructed in $3\invfb$ of data.
 Such a control decay mode provides very high statistics (more than 300k OS-tagged signal candidates) and
 is very similar to the signal decay $\Bz\to\Dm\pip$.
 
-Candidate $\Bp\to\Dz\pip$ decays are selected through the \spverb!B2D0PiD2HHBeauty2CharmLine! stripping line,
+Candidate $\Bp\to\Dzb\pip$ decays are selected through the \spverb!B2D0PiD2HHBeauty2CharmLine! stripping line,
 versions \spverb!S21r1! (2011 data) and \spverb!S21! (2012 data), of the \spverb!BhadronCompleteEvent! stream.
 The $\Bp$ candidates are required to be TOS, \ie~to trigger on \\
 \spverb!Hlt1TrackAllL0Decision! at the HLT1 stage,
@@ -346,7 +346,7 @@ A fit to the mass distribution of $\Bp$ candidates is done to calculate \emph{sW
 used in the subsequent steps of the analysis to subtract the backgrounds surviving the selection.
 This fit is described in details in Appendix~\ref{app:OSmassFit}.
 
-Event-by-event weights are calculated to equalise the $\Bp\to\Dz\pip$ and $\Bz\to\Dpm\pimp$ distributions of the variables on which
+Event-by-event weights are calculated to equalise the $\Bp\to\Dzb\pip$ and $\Bz\to\Dmp\pipm$ distributions of the variables on which
 the tagging calibration can depend. The procedure and the results of this reweighting are reported in
 Appendix~\ref{app:ReweightingOSTagging}. Additionally, the number of \Bp and \Bm candidates are made equal in the sample to avoid any spoil of the calibration
 parameters due to a \Bp/\Bm production asymmetry or a detection asymmetry.
@@ -355,7 +355,7 @@ the calibration procedure.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Selection requirements for the $\Bp\to\Dz\pip$ candidates.}
+	\caption{Selection requirements for the $\Bp\to\Dzb\pip$ candidates.}
 	\begin{tabular}{ccc}
 		\toprule
 		Description & Variable & Requirement \\
@@ -387,21 +387,21 @@ the calibration procedure.
 
 \subsubsection{Calibration}
 \label{sec:tagging:OScalib:calibration}
-The calibration of the estimated mistag $\eta$ is performed on the fully reweighted $\Bp\to\Dz\pip$ dataset. 
+The calibration of the estimated mistag $\eta$ is performed on the fully reweighted $\Bp\to\Dzb\pip$ dataset. 
 A GLM model with NSpline basis function~\cite{EPM} is adopted.
-The projection of the fitted calibration function over the $\Bp\to\Dz\pip$ dataset is shown in Fig.~\ref{fig:oscalibplot},
+The projection of the fitted calibration function over the $\Bp\to\Dzb\pip$ dataset is shown in Fig.~\ref{fig:oscalibplot},
 whereas the fitted calibration parameters are listed in Table~\ref{tab:oscalibparams}.
 \begin{figure}[htbp]
         \begin{center}
                 \includegraphics[width=0.80\textwidth]{04Flavourtagging/figs/OS_Combination_Calibration_Data.png}
         \end{center}
         \vspace{-5mm}
-        \caption{Mistag $\omega$ measured in bins of predicted mistag $\eta$ for reweighted $\Bp\to\Dz\pip$ candidates (data points) and fitted calibration function. The green (yellow) band indicates the $68\%$ ($95\%$) confidence interval on the calibration function.}
+        \caption{Mistag $\omega$ measured in bins of predicted mistag $\eta$ for reweighted $\Bp\to\Dzb\pip$ candidates (data points) and fitted calibration function. The green (yellow) band indicates the $68\%$ ($95\%$) confidence interval on the calibration function.}
         \label{fig:oscalibplot}
 \end{figure}
 \begin{table}[htbp]
         \centering
-        \caption{Fitted OS calibration parameters on the $\Bp\to\Dz\pip$ reweighted dataset.}
+        \caption{Fitted OS calibration parameters on the $\Bp\to\Dzb\pip$ reweighted dataset.}
         \begin{tabular}{cc}
                 \toprule
                 Parameter & Fitted value \\
@@ -429,15 +429,15 @@ satisfactory goodness-of-fit (GOF) metrics (details in Appendix~\ref{app:chooseO
 The aim of the calibration is to return a mistag $\omega$ as close as possible to the \emph{true} mistag, which would
 be given by a \emph{true calibration}. The latter is not defined for $\Bz\to\Dm\pip$ decays in data, but it is possible to estimate it 
 for $\Bz\to\Dm\pip$ decays on MC. In fact, since the true flavour of the $\Bz$ meson
-is known in MC, this true MC calibration can be done in the same way as $\Bp\to\Dz\pip$, where the true flavour is given by the $B$ charge.
+is known in MC, this true MC calibration can be done in the same way as $\Bp\to\Dzb\pip$, where the true flavour is given by the $B$ charge.
 
 This $\Bz\to\Dm\pip$ calibration is performed after equalising the number of $\Bz$ and $\bar\Bz$ in the sample, in order to disentangle
 tagging asymmetries from \CP~violation and production asymmetries.
 
-The $\Bp\to\Dz\pip$ MC calibration is performed in exactly the same way as described in Sec.~\ref{sec:tagging:OScalib:calibration}, except that no
+The $\Bp\to\Dzb\pip$ MC calibration is performed in exactly the same way as described in Sec.~\ref{sec:tagging:OScalib:calibration}, except that no
 \emph{sWeights} are considered, since only true MC signal decays are used.
 
-The two calibrations using the $\Bz\to\Dm\pip$ and $\Bp\to\Dz\pip$ MC samples are shown in Fig.~\ref{fig:os_calib_portability_mc} and compared in Table~\ref{tab:os_calib_portability_mc}. A more robust comparison is obtained from a $\chi^2$ function describing the discrepancy between the two calibrations by taking the covariance matrices into account. The overall discrepancy (corresponding to the $\chi^2$ minimum) is around $2~\sigma$.
+The two calibrations using the $\Bz\to\Dm\pip$ and $\Bp\to\Dzb\pip$ MC samples are shown in Fig.~\ref{fig:os_calib_portability_mc} and compared in Table~\ref{tab:os_calib_portability_mc}. A more robust comparison is obtained from a $\chi^2$ function describing the discrepancy between the two calibrations by taking the covariance matrices into account. The overall discrepancy (corresponding to the $\chi^2$ minimum) is around $2~\sigma$.
 
 \begin{figure}[t!]
         \begin{center}
@@ -445,13 +445,13 @@ The two calibrations using the $\Bz\to\Dm\pip$ and $\Bp\to\Dz\pip$ MC samples ar
                 \includegraphics[width=0.45\textwidth]{04Flavourtagging/figs/OS_Combination_Calibration_Bd_MC.png}
         \end{center}
         \vspace{-5mm}
-        \caption{Mistag $\omega$ measured in bins of predicted mistag $\eta$ for reweighted $\Bp\to\Dz\pip$ (left) and $\Bz\to\Dm\pip$ (right) candidates (data points) and fitted calibration functions. The green (yellow) band indicates the $68\%$ ($95\%$) confidence interval on the calibration functions.}
+        \caption{Mistag $\omega$ measured in bins of predicted mistag $\eta$ for reweighted $\Bp\to\Dzb\pip$ (left) and $\Bz\to\Dm\pip$ (right) candidates (data points) and fitted calibration functions. The green (yellow) band indicates the $68\%$ ($95\%$) confidence interval on the calibration functions.}
         \label{fig:os_calib_portability_mc}
 \end{figure}
 
 \begin{table}[t!]
         \centering
-        \caption{Comparison between the fitted OS tagging calibration parameters using truth-matched $\Bp\to\Dz\pip$ and $\Bz\to\Dm\pip$ MC decays. The discrepancy in each parameter is computed assuming independent datasets.}
+        \caption{Comparison between the fitted OS tagging calibration parameters using truth-matched $\Bp\to\Dzb\pip$ and $\Bz\to\Dm\pip$ MC decays. The discrepancy in each parameter is computed assuming independent datasets.}
         \begin{tabular}{cccc}
           \toprule
           Parameter   &  $\Bp\to\Dz\pip$   &  $\Bz\to\Dm\pip$  &   Discrepancy ($\sigma$) \\
@@ -494,7 +494,7 @@ The calibration is performed on a $\Bz\to\jpsi\Kstarz$ data subsample that is no
 A GLM model having a first order polynomial is chosen as basis function and a
 modified logistic function (Eq.~\ref{eq:rlogit}) is used as link. The number of free parameters in this model (4) is tuned in order to have
 satisfactory goodness-of-fit (GOF) metrics. Together with the \emph{sWeights},
-additional weights to correct the $\Bz\to\jpsi\Kstarz$ data to resemble the $\Bz\to\Dpm\pimp$ data are applied during the calibration. The
+additional weights to correct the $\Bz\to\jpsi\Kstarz$ data to resemble the $\Bz\to\Dmp\pipm$ data are applied during the calibration. The
 resulting calibration parameters are listed in Table~\ref{tab:calibrationSScombination} and a graphical representation of the calibration 
 is presented in Fig.~\ref{fig:calibrationSScombination}.
 \begin{table}[tbp]
