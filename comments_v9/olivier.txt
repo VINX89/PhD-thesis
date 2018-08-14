@@ -1,0 +1,29 @@
+> - replace "D+-pi-+” with "D-+pi+-“ in the title of Sec. 1.4 on page 12
+Done
+
+> - replace “D(*)+-pi-+” with “D(*)-+pi+-“ in the last line of page 14
+Done
+
+> - replace “D0pi+” with "D0bar pi+” in Table 3.3 on page 45
+Done
+
+> - replace “D0” with “D0bar” in all bullets of page 130
+Done
+
+> - replace “D0pi+” with "D0bar pi+” in the caption of Table A.1 on page 131
+Done
+
+> - replace “D0pi+-“ with “D0bar pi+” in the caption of Fig. A.1 (twice) on page 132
+Done
+
+> - replace “D-+pi+-“ with “D0bar pi+” in the caption of Fig. A.1 on page 132
+Done
+
+> - replace “B+- -> D0 pi+-” with “B+ -> D0bar pi+” in the caption of Fig. A.4 on page 136
+Done
+
+> - in the 4th bullet of page 86, put all subscript decays in math mode (i.e. italic font)
+Done
+
+> - in the caption of Fig. 4.19 on page 93, replace “superimposed.The” with “superimposed. The" (missing space)
+Done
